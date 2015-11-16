@@ -1,14 +1,14 @@
 <?php
 //该文件放置在你要调取的博客的主目录
 define('WP_USE_THEMES', false);
-require('./wp-load.php');
+require('../../../../wp-load.php');
 //这里是调用最新文章，如果是热门文章的话则改为get_most_viewed("post",10);当然这得是你的主题安装了热门文章插件，而且这里可以接受几乎wp-kit-cn所有代码。非常方便
 ?>
 	
 <?php 
 global $post; 
 $postid = $post->ID; 
-$args = array( 'orderby' => 'rand', 'post__not_in' => array($post->ID), 'showposts' => 10); 
+$args = array( 'orderby' => 'rand', 'post__not_in' => array($post->ID), 'showposts' => 12); 
 $query_posts = new WP_Query(); 
 $query_posts->query($args); 
 ?> 
@@ -41,6 +41,10 @@ $query_posts->query($args);
                             </div>
                         <?php }?>
                     </div>
+                    <div class="tags">
+                        <i class="fa fa-tags"></i>
+                        <?php the_tags('' , ''); ?>
+                    </div>
     				<div class="info">
                         <span class="info_date info_ico"><?php the_time('m-d')?></span>
                     	<span class="info_views info_ico"><?php echo getPostViews(get_the_ID());?></span>
@@ -51,3 +55,9 @@ $query_posts->query($args);
     		</li>
 	    </ul>
 <?php endwhile; ?>
+
+            <div class="clear"></div>
+<script type="text/javascript">$("#loadbar").animate({width:"100%"},function(){
+$("#loadbar").fadeOut(1000,function(){$("#loadbar").css("width","0");});
+}
+);</script>
