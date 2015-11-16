@@ -6,17 +6,17 @@ if(!isset($_POST["id"])||empty($_POST["id"])){
 	$id=$_POST["id"];
 	switch ($id) {
 		case '1':
-			$url='http://no16street.com/getnewlist.php';
+			$url='http://www.no16street.com/wp-content/themes/Loostrive/includes/getnewlist.php';
 			$html = file_get_contents($url);
 			echo $html; 
 			break;
 		case '2':
-			$url='http://no16street.com/gethotlist.php';
+			$url='http://www.no16street.com/wp-content/themes/Loostrive/includes/gethotlist.php';
 			$html = file_get_contents($url);
 			echo $html; 
 			break;
 		case '3':
-			$url='http://no16street.com/getrandomlist.php';
+			$url='http://www.no16street.com/wp-content/themes/Loostrive/includes/getrandomlist.php';
 			$html = file_get_contents($url);
 			echo $html; 
 			break;
