@@ -740,7 +740,7 @@ a.car-toggler { line-height: 30px; font-size: 14px; color: #c30 }
 .fourfifth{width:100%;}
 /*Responsive Structure*/
 @media only screen and (max-width: 640px) {
-.container { max-width:360px !important;}
+/*.container { max-width:360px !important;}*/
 .mainmenus { margin-bottom: 1.5em; }
 #sidebar, .slider, #rss, .banner, .article_related,.single-ad { display: none !important; }
 .mainleft { margin: 0 auto; overflow:visible}
@@ -749,10 +749,10 @@ a.car-toggler { line-height: 30px; font-size: 14px; color: #c30 }
 #comment-author-info input { width: 70.5%; margin-bottom: 5px; }
 .search_phone { display: block }
 #post_container{ margin-left:0}
-#post_container li{ width:100%; margin-left:0; max-width:100%;-webkit-animation:none;-moz-animation:none}
-#post_container li .thumbnail{float: left;width: 40%;height:auto !important}
+#post_container li{ /*width:100%;*/ margin-left:0; max-width:100%;-webkit-animation:none;-moz-animation:none}
+/*#post_container li .thumbnail{float: left;width: 40%;height:auto !important}*/
 #post_container li .article h2 a{white-space:normal}
-#post_container li .article .entry_post{display: none;}
+/*#post_container li .article .entry_post{display: none;}*/
 #post_container li .info{clear: both;}
 #post_container li .sticky{right: 0;}
 #post_container li .zoomOverlay{ display:none !important}
@@ -774,6 +774,9 @@ a.car-toggler { line-height: 30px; font-size: 14px; color: #c30 }
 .mainleft .post-nav a {
     margin-right: 0px;
 }
+#titleinfo{left:150px;}
+.mainleft .post-nav a {
+    padding: 0 4px;}
 }
 @media only screen and (min-width:640px) and (max-width:980px) {
 .container { max-width: 640px !important; }
