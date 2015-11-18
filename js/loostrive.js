@@ -70,10 +70,51 @@ function b(){
 		$('#gotop').hide();
 	}
 }
+/**
+* JavaScript脚本实现回到页面顶部示例
+* @param acceleration 速度
+* @param stime 时间间隔 (毫秒)
+**/
+function gotoTop(acceleration,stime) {
+   acceleration = acceleration || 0.1;
+   stime = stime || 10;
+   var x1 = 0;
+   var y1 = 0;
+   var x2 = 0;
+   var y2 = 0;
+   var x3 = 0;
+   var y3 = 0; 
+   if (document.documentElement) {
+       x1 = document.documentElement.scrollLeft || 0;
+       y1 = document.documentElement.scrollTop || 0;
+   }
+   if (document.body) {
+       x2 = document.body.scrollLeft || 0;
+       y2 = document.body.scrollTop || 0;
+   }
+   var x3 = window.scrollX || 0;
+   var y3 = window.scrollY || 0;
+ 
+   // 滚动条到页面顶部的水平距离
+   var x = Math.max(x1, Math.max(x2, x3));
+   // 滚动条到页面顶部的垂直距离
+   var y = Math.max(y1, Math.max(y2, y3));
+ 
+   // 滚动距离 = 目前距离 / 速度, 因为距离原来越小, 速度是大于 1 的数, 所以滚动距离会越来越小
+   var speeding = 1 + acceleration;
+   window.scrollTo(Math.floor(x / speeding), Math.floor(y / speeding));
+ 
+   // 如果距离不为零, 继续调用函数
+   if(x > 0 || y > 0) {
+       var run = "gotoTop(" + acceleration + ", " + stime + ")";
+       window.setTimeout(run, stime);
+   }
+}
 $(document).ready(function(e) {
 	b();
 	$('#gotop').click(function(){
-		$(document).scrollTop(0);	
+		// $(document).scrollTop(0);	
+		gotoTop();
 	})
 });
 
@@ -352,7 +393,7 @@ jQuery.fn.myWords=function(options){
 		
 	});
 }
- $(function(){
+$(function(){
    //插件
    $(".comt-box").myWords({   //输入框字数
         obj_opts:"textarea",
@@ -360,3 +401,85 @@ jQuery.fn.myWords=function(options){
         obj_Lnum:".comt-num"
     });
 })
+//全站ajax加载开始
+	//全局变量
+var ajaxBinded = false;
+jQuery(document).ready(function(){
+       //下面三行你可以插入到你的jQuery(document).ready(function()里面，html5的历史记录API
+	if( history && history.pushState){
+       //为真就执行Ajaxopt函数
+		Ajaxopt();
+	}
+})
+//Ajaxopt函数
+function Ajaxopt(){
+         //所有不为新窗口打开的链接
+	$('a[target!=_blank]').live('click',function(event){
+		gotoTop();
+        $("#loadbar").hide();$("#loadbar").show();$("#loadbar").animate({width:"25%"});
+		var link = event.currentTarget;
+		var url = link.href;
+		if ( event.which > 1 || event.metaKey || event.ctrlKey )
+		return
+		if ( location.protocol !== link.protocol || location.host !== link.host ){
+			return;
+		}
+		if (link.hash && link.href.replace(link.hash, '') === location.href.replace(location.hash, ''))
+		return
+		if (url.indexOf("respond")>0||url.indexOf("/wp-admin/")>0||url.indexOf("wp-login.php")>0||url.indexOf("sitemap.xml")>0)
+		return
+                //以上条件语句均为判断链接时候需要ajax加载，下面2句为执行loadDate函数进行ajax操作。
+		loadData(url,true);
+		event.preventDefault();
+        $("#loadbar").animate({width:"100%"},function(){
+            $("#loadbar").fadeOut(1000,function(){$("#loadbar").css("width","0");});
+        })
+	});
+}
+ 
+        //loadDate函数
+	function loadData(url,toPush){
+               //进行AJAX操作
+		$.ajax({
+			url:url,
+			data: "soz=ajax",  //这个可以参考ajax全站加载系列文章第二篇。
+			dataType: "html",
+			type: "post",
+			beforeSend:function(jqXHR, settings){    //加载前操作 #content的DIV变化
+				$('#content').fadeTo(500,0.3);
+			}
+			,
+			complete:function(){                     //加载后操作 #content的DIV变化
+				$('#content').fadeTo(200,1);
+			}
+			,
+			success:function(message){               //加载成功的操作
+				var msger = message;
+				var titl1 = $(message).find("h1:first").text();
+				var titl2 = $(message).find("h2:first").text();
+				if (titl1 == "") {
+					window.document.title = titl2 + " \u2502 小众网站";
+				}
+				else {
+					window.document.title = titl1 + " \u2502 小众网站";
+				}
+                                //以上几句为组合新页面的标题。下面一句为插入ajax回来的内容到"#content"的DIV容器内。
+				$("#content").html(msger);
+				if(toPush){//使用html5的特有API 来改变历史记录数据。
+					window.history.pushState(null, titl1, url);
+				}
+				if(!ajaxBinded){//ajax后重新绑定新加载页面的ajax事件。
+					ajaxBinded = true;
+					$(window).bind('popstate', function(e){
+						loadData(location.href,false);
+						return false;
+					});
+				}
+			}
+			,
+			error: function() {//如果加载失败 报错内容
+				$("#content").html("<div style='0margin-bottom: 800px;'><h2>AJAX Error...</h2></div>"); 
+			}, 
+		}); 
+	}
+//全站ajax加载结束

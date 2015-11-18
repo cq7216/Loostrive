@@ -94,7 +94,6 @@ $("#loadbar").animate({width:"100%"},function(){
   <?php } ?>
   <a id="gotop" href="javascript:void(0)"></a> </div>
 <?php wp_footer(); ?>
-
 <?php if (get_option('strive_bdshare') == 'Display'&&is_home()) { ?>
 	<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];</script>
 <?php }?>

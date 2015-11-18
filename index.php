@@ -1,5 +1,5 @@
-<?php get_header();?>
-<div class="container">
+<?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
+<div class="container" id="content">
 	<?php if (get_option('strive_gg') == 'Display') { ?>
 	<div class="subsidiary row box">
 		<div class="bulletin fourfifth">
@@ -87,4 +87,4 @@
     })
 });
 </script>
-<?php get_footer()?>
+<?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>

@@ -3,7 +3,7 @@
 Template Name: 文章归档
 */
 ?>
-<?php get_header(); ?>
+<?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
 <?php
 //文章归档函数
 class hacklog_archives
@@ -137,7 +137,7 @@ $hacklog_archives=new hacklog_archives();
 			});
 		/* ]]> */
 	</script>
-<div class="container">
+<div class="container" id="content">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<?php if (get_option('strive_breadcrumb') == 'Display') { ?>
                 <div class="subsidiary box">
@@ -160,4 +160,5 @@ $hacklog_archives=new hacklog_archives();
 	</div>
 </div>
 
-<?php get_footer(); ?>
+
+<?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>

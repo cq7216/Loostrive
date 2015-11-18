@@ -3,8 +3,8 @@
 Template Name: 友情链接
 */
 ?>
-<?php get_header(); ?>
-<div class="container">
+<?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
+<div class="container" id="content">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <script type="text/javascript">
 jQuery(document).ready(function($){
@@ -42,4 +42,4 @@ $(".flink a").each(function(e){
 	<?php endwhile;endif; ?>
     </div>
 </div>
-<?php get_footer(); ?>
+<?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>

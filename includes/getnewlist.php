@@ -10,7 +10,7 @@ query_posts('showposts=12');
 			<li class="post box row <?php if (get_option('strive_waterfall') == 'Hide') { ?>fixed-hight<?php } else {}?>">
                 	<?php if ( is_home() ){ ?><?php if(is_sticky())echo '<div class="sticky">HOT</div>'?><?php }?>
                     <div class="thumbnail">
-                        <a href="<?php the_permalink()?>" class="zoom" rel="bookmark" target="_blank" title="<?php the_title_attribute();?>">
+                        <a href="<?php the_permalink()?>" class="zoom" rel="bookmark" title="<?php the_title_attribute();?>">
                          <?php if (get_option('strive_waterfall') == 'Display') { ?>   
 								<?php echo post_thumbnail_list()?>
                              <?php } else {?>
@@ -21,7 +21,7 @@ query_posts('showposts=12');
                         </a>
                     </div>
                     <div class="article">
-                        <h2><a href="<?php the_permalink();?>" rel="bookmark" target="_blank" title="<?php the_title_attribute();?>"><?php echo the_title();?></a></h2>
+                        <h2><a href="<?php the_permalink();?>" rel="bookmark" title="<?php the_title_attribute();?>"><?php echo the_title();?></a></h2>
                          <?php if (get_option('strive_summary') == 'Display') { ?>
                             <div class="entry_post">
                                 <p>

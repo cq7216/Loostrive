@@ -3,8 +3,8 @@
 Template Name: 留言板
 */
 ?>
-<?php get_header(); ?>
-<div class="container">
+<?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
+<div class="container" id="content">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<?php if (get_option('strive_breadcrumb') == 'Display') { ?>
                 <div class="subsidiary box">
@@ -54,4 +54,4 @@ Template Name: 留言板
 </div>
 	<?php endwhile;endif; ?></div></div>
 
-<?php get_footer(); ?>
+<?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>

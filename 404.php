@@ -1,5 +1,5 @@
-<?php get_header();?>
-<div class="container">
+<?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
+<div class="container" id="content">
     <div class="subsidiary row box">
 		<div class="bulletin fourfifth">
         	当前位置：<a href="<?php bloginfo('siteurl');?>/" title="返回首页">首页</a> > 未知页面
@@ -17,4 +17,4 @@
 	</div>
 </div>
 </body>
-<?php get_footer();?>
+<?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>
