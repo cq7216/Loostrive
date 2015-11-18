@@ -17,7 +17,7 @@ if ( $posttags ) {
 	query_posts($args);
 	while( have_posts() ) { the_post(); ?>
 		<li class="related_box"  >
-			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" target="_blank">
+			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 			<div class="r_pic">
                  <?php echo post_thumbnail_img(140,$relatedhigh)?>
 			</div>
@@ -42,7 +42,7 @@ if ( $i < $post_num ) {
 	query_posts($args);
 	while( have_posts() ) { the_post(); ?>
 		<li class="related_box"  >
-			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" target="_blank">
+			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 			<div class="r_pic">
                     <?php echo post_thumbnail_img(140,$relatedhigh)?>
 			</div>

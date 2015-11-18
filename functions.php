@@ -110,7 +110,7 @@ $sql = "SELECT ID , post_title , comment_count
 $posts = $wpdb->get_results($sql);
 $output = '';
 foreach ($posts as $post){
-$output .= "\n<li><a href= \"".get_permalink($post->ID)."\" target=\"_blank\" rel=\"bookmark\" title=\"".$post->post_title.' ('.$post->comment_count."条评论)\" >".$post->post_title.'</a></li>';
+$output .= "\n<li><a href= \"".get_permalink($post->ID)."\" rel=\"bookmark\" title=\"".$post->post_title.' ('.$post->comment_count."条评论)\" >".$post->post_title.'</a></li>';
 }
 echo $output;
 }
@@ -637,4 +637,5 @@ if ( !get_option( 'use_smilies' ) )
 smilies_reset();
 
 //Loostrive主题函数结束
+
 ?>
