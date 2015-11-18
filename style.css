@@ -461,6 +461,7 @@ input#searchsubmit:hover{background:#4285f4;border-color:#4285f4;}
 #post_content img {
     display: block;
     margin: 0 auto;
+    height:auto;
 }
 .context, .context p, .context a, .context pre { line-height: 2em; font-size: 14px; }
 .context ol, .context ul { margin-left: 40px; }
@@ -740,11 +741,11 @@ a.car-toggler { line-height: 30px; font-size: 14px; color: #c30 }
 .fourfifth{width:100%;}
 /*Responsive Structure*/
 @media only screen and (max-width: 640px) {
-/*.container { max-width:360px !important;}*/
+.container { max-width:306px !important;}
 .mainmenus { margin-bottom: 1.5em; }
 #sidebar, .slider, #rss, .banner, .article_related,.single-ad { display: none !important; }
 .mainleft { margin: 0 auto; overflow:visible}
-#post_container li { max-width: 316px; }
+#post_container li { max-width: 306px; }
 #comment-author-info { height: auto; }
 #comment-author-info input { width: 70.5%; margin-bottom: 5px; }
 .search_phone { display: block }
@@ -768,15 +769,10 @@ a.car-toggler { line-height: 30px; font-size: 14px; color: #c30 }
 .adphone,.single-adphone{display:block;}
 #search{display: none !important;}
 #navfenlei{width:100%;}
-.col-xs-4 {
-    float: none;width:100%;
-}
-.mainleft .post-nav a {
-    margin-right: 0px;
-}
+.col-xs-4 {float: none;width:100%; }
+.mainleft .post-nav a {margin-right: 0px; }
 #titleinfo{left:150px;}
-.mainleft .post-nav a {
-    padding: 0 4px;}
+.mainleft .post-nav a {padding: 0 4px;} 
 }
 @media only screen and (min-width:640px) and (max-width:980px) {
 .container { max-width: 640px !important; }
