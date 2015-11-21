@@ -90,14 +90,10 @@ $("#loadbar").animate({width:"100%"},function(){
   <a id="home" href="<?php bloginfo('url');?>"></a>
   <?php } ?>
   <?php if( is_single() || is_page() && comments_open() ){ ?>
-  <a id="pinglun" href="#comments_box"></a>
+  <a id="pinglun" href="#comments_box" target="_blank"></a>
   <?php } ?>
   <a id="gotop" href="javascript:void(0)"></a> </div>
 <?php wp_footer(); ?>
-<?php if (get_option('strive_bdshare') == 'Display'&&is_home()) { ?>
-	<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];</script>
-<?php }?>
-<?php if (get_option('strive_bdshare') == 'Display'&&is_single()) { ?>
-	<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];</script>
-<?php }?>
+<!-- 百度分享代码 -->
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"5","bdPos":"left","bdTop":"200"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 </body></html>

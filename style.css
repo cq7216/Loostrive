@@ -391,6 +391,9 @@ span.ua{
 #ds-thread #ds-reset li.ds-post {
     overflow: visible !important;
 }
+#ds-recent-visitors .ds-avatar {
+    display: inline-block !important;
+}
 /*多说UA结束*/
 /*登录*/
 #loginform p { line-height: 26px; margin-bottom: 5px; }

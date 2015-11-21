@@ -49,23 +49,6 @@
                     	标签：<?php the_tags('',' ','');?>
                     </div>
                 </div>
-                <?php if (get_option('strive_bdshare') == 'Display') { ?>
-                <div class="baishare">
-                <!-- Baidu Button BEGIN -->
-                    <div class="bdsharebuttonbox">
-                    	<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-                    	<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-                    	<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
-                    	<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
-                    	<a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
-                    	<a href="#" class="bds_mail" data-cmd="mail" title="分享到邮件分享"></a>
-                    	<a href="#" class="bds_huaban" data-cmd="huaban" title="分享到花瓣"></a>
-                    	<a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
-                    	<a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
-                    	<a href="#" class="bds_more" data-cmd="more"></a>                    	
-                    </div>
-                </div>
-                <?php } ?>
              </div>
 		</div>
     	<?php if (get_option('strive_adccode') == true) { ?>
