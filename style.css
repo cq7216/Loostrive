@@ -250,6 +250,7 @@ input#searchsubmit:hover{background:#4285f4;border-color:#4285f4;}
 .r_comment li { line-height: 22px !important; clear: both; height: 48px; margin-bottom: 5px; overflow: hidden; border-bottom: dashed 1px #f3f3f3; }
 .r_comment li:hover { border-right: #ff7d00 solid 3px; background: #f8f8f8; }
 .r_comment ul li img.avatar { height: 35px; width: 35px; float: left; margin: 4px 8px 0 0; background: #fff; border: 1px solid #ddd; border-radius: 5px; }
+#ds-thread .ds-powered-by{display:none!important;}
 /*登录*/
 #loginform p { line-height: 26px; margin-bottom: 5px; }
 #loginform input.login { width: 140px; padding: 2px; color: #444; border: 1px solid #dfdfdf; box-shadow: inset 2px 3px 5px #eee; }
