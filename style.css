@@ -391,8 +391,25 @@ span.ua{
 #ds-thread #ds-reset li.ds-post {
     overflow: visible !important;
 }
-#ds-recent-visitors .ds-avatar {
+#sidebar #ds-recent-visitors .ds-avatar {
     display: inline-block !important;
+    margin: 2px !important;
+}
+.ds-avatar img {
+	vertical-align:middle;
+	-moz-opacity:0.8;
+	border-radius:6px;
+	padding:0px;
+	-webkit-box-shadow:2px 2px 6px #999;
+	-moz-box-shadow:2px 2px 6px #999;
+	-webkit-transition:.5s !important;
+	-moz-transition:.5s !important;
+}
+.ds-avatar img:hover {
+	box-shadow:0 0 10px #5F9FCB;
+	opacity:1.0;
+	-webkit-transform:rotate(360deg) scale(1.2) !important;
+	-moz-transform:rotate(360deg) scale(0.8) !important；
 }
 /*多说UA结束*/
 /*登录*/
