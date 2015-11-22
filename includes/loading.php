@@ -1,11 +1,13 @@
 <!---加载进度条---->
 <script type="text/javascript">
 jQuery(function(){
-jQuery('#loading-one').empty().append('页面载入完毕.').parent().fadeOut('slow');
+jQuery('#loading-one').empty().append('').parent().fadeOut('fast');
 });
 </script>
 <div id="main_loading"  onclick="javascript:turnoff('loading')">
-<p id="loading-one" onclick="javascript:turnoff('loading')">页面载入中...</p>
+<p id="loading-one" onclick="javascript:turnoff('loading')">
+<!-- 页面载入中... -->
+</p>
 </div>
 <script type="text/javascript">
 //<![CDATA[

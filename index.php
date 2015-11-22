@@ -74,6 +74,14 @@
             data: {
                 id: a
             },
+            beforeSend:function(){    //加载前操作 #content的DIV变化
+                $('#content').fadeTo(500,0.3);
+                $('#main_loading').show();
+            },
+            complete:function(){                     //加载后操作 #content的DIV变化
+                $('#content').fadeTo(200,1);
+                $('#main_loading').hide();
+            },
             success: function(b) {
                 $("#post-list" + a).html(b), $("#post-list .post-nav .loading").css("display", "none"), $("#post-list .post-list").hide(300), $("#post-list" + a).show(500)
             },

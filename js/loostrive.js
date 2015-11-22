@@ -447,10 +447,12 @@ function Ajaxopt(){
 			type: "post",
 			beforeSend:function(jqXHR, settings){    //加载前操作 #content的DIV变化
 				$('#content').fadeTo(500,0.3);
+				$('#main_loading').show();
 			}
 			,
 			complete:function(){                     //加载后操作 #content的DIV变化
 				$('#content').fadeTo(200,1);
+				$('#main_loading').hide();
 			}
 			,
 			success:function(message){               //加载成功的操作

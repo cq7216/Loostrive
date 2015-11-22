@@ -97,9 +97,9 @@ a.mnext{display:none}
 a.mpause{display:none}
 .search_phone { display: none }
 /*loading*/
-#main_loading { position: fixed !important; position: absolute; top: 0; left: 0; height: 100px; width: 200px; z-index: 999; background: #000 url(images/loading.gif) no-repeat center; opacity: 0.6; filter: alpha(opacity=60); font-size: 14px; line-height: 20px; top: 50%; left: 50%; margin-top: -50px; margin-left: -100px; border-radius: 5px; }
+#main_loading { position: fixed !important; position: absolute; top: 0; left: 0; height: 100px; width: 200px; z-index: 999; background: url(images/loading.gif) no-repeat center; opacity: 1; font-size: 14px; line-height: 20px; top: 50%; left: 50%; margin-top: -50px; margin-left: -100px; border-radius: 5px; }
 #loading-one { color: #fff; position: absolute; top: 50%; left: 50%; margin: 50px 0 0 -50px; padding: 3px 10px; }
-/*导航进度条*/
+	/*导航进度条*/
 #navOne {
 z-index: 20;
 position: relative;
