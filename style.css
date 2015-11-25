@@ -15,7 +15,7 @@ a:hover { color: #FF7D00; }
 .clear { clear: both; }
 .box { /*background: #fff;*/ border: solid 1px #e3e3e3 \9; border-bottom: solid 1px #ccc \9;  /*-webkit-box-shadow: 0 2px 4px 0 #999;-moz-box-shadow: 0 2px 4px 0 #999;box-shadow: 0 2px 4px 0 #999;*/}
 h2 { font-size: 16px; font-weight: bold; line-height: 1.5em; padding-bottom: 10px; }
-h3 { font-size: 15px; line-height: 36px; height: 36px; }
+h3 { font-size: 15px; line-height: 36px; height: 36px; font-weight:bold;}
 .container { max-width: 980px; margin: 0 auto; }
 strong { font-weight: bold; }
 blockquote, pre { padding: 5px 10px 5px 40px; margin: 10px 0; background: #F7F7F7 url(images/quotebg.gif) no-repeat 10px 10px; border: 1px solid #EBEBEB; color: #ff7d00; font-size: 12px; }
@@ -629,8 +629,8 @@ span.ua{
 #post_content a{ font-size: 12px;
     line-height: 17px;
     display: inline-block;
-    padding: 1px 8px 1px 22px;
-    margin: 0 5px;
+    padding: 1px 8px 1px 0px;
+    margin: 5px;
     border: 1px solid #CCC;
     border-radius: 4px;
     background: #FFF url('images/entry_link.png') 5px 2px no-repeat;}
