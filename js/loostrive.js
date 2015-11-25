@@ -441,6 +441,11 @@ function loadData(url,toPush){
 				return false;
 			});
 		}
+		//tabs
+		jQuery('#tabnav li').click(function() {
+			jQuery(this).addClass("selected").siblings().removeClass();
+			jQuery("#tab-content > ul").eq(jQuery('#tabnav li').index(this)).fadeIn(800).siblings().hide()
+		})
 	}
 	,
 	error: function() {//如果加载失败 报错内容
