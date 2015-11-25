@@ -23,4 +23,4 @@
 </div>
 </div>
 <div class="clear"></div>
-<?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>
+<?php get_footer();?>

@@ -2,7 +2,7 @@
 function sskadmin(e) {
     var ssk = '';
     if(e.user_id==962813){
-        ssk = '<div style="position: absolute;margin-left:300px;filter: alpha(opacity=25); opacity:0.25; "><img src="wp-content/themes/Loostrive/images/zhanzhanghuifu.png" width="196" height="89"></div>'
+        ssk = '<div class="zhanzhanghuifu" style="position: absolute;margin-left:300px;filter: alpha(opacity=25); opacity:0.25; "><img src="wp-content/themes/Loostrive/images/zhanzhanghuifu.png" ></div>'
     }
     return ssk;
 }

@@ -97,8 +97,12 @@ var _hmt = _hmt || [];
 			<!-- <div class="row"></div> -->
 		<?php }?>
 				<div class="container head">
+                <div id="musictitle">
+    <div id="musicload"></div>
+    <div class="musiclist"></div>
+    </div>
             <span class="titleone">
-						    <h1>
+			    <h1>
                     <a href="<?php bloginfo('url');?>/" title="<?php bloginfo('name');?>"><span style="left:0;position:absolute;">小众</span><span style="right:0;position:absolute;">网站</span></a>
                 </h1>
                 <div id="yuan">
@@ -114,7 +118,7 @@ var _hmt = _hmt || [];
                 <div id="titleinfo">
                     <span>精品小众网站推荐分享平台</span>
                 </div>
-					</span>
+			</span>
                  	<?php if (get_option('strive_logoadc') == 'Display') { ?>
                  	<div class="banner push-right">
                  	<?php echo stripslashes(get_option('strive_logoadccode')); ?>
