@@ -558,8 +558,12 @@ window.onload = function() {
 };
 var playlist = [
 {
-    url: "http://fmcdn.duole.com/group1/37/21/a5405496568b8055f6c58d3d557c.mp3",
-    title: "\u65e0\u6b62\u5883\u7684\u9ed1"
+    url: "http://yinyueshiting.baidu.com/data2/music/123196492/85699650237600128.mp3?xcode=890b09174c5b6f8996a2d3f13bf86a03",
+    title: "\u4e0d\u518d\u8bf4\u6c38\u8fdc"
+},
+{
+    url: "http://qzone.haoduoge.com/music/2386bK9I0Ceca041ff6c7b9f059c1b6944880.mp3",
+    title: "\u504f\u504f\u559c\u6b22\u4f60"
 },
 {
     url: "http://fmcdn.duole.com/group1/0b/17/46ef2d388f4c28da0e934aec4037.mp3",
