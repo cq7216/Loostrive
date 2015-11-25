@@ -548,8 +548,8 @@ span.ua{
 .entry_post { line-height: 22px; color: #999; word-break: break-all;font-family: Tahoma,Arial,sans-serif; }
 .sticky { background: #ff7d00; height: 25px; width: 45px; position: absolute; z-index: 20; top: -1px; right: -1px; color: #fff; font-weight: bold; text-align: center; line-height: 25px;border-radius: 0 0 0 5px; }
 .zoom { width: auto; height: auto; display: block; position: relative; overflow: hidden; background: none; }
-.zoomOverlay {opacity: 0; position: absolute; top: 0; left: 0; bottom: 0; right: 0; display: none; /*margin: 7px 7px 0 7px;*/ background-image: url(images/zoom.png); background-repeat: no-repeat; background-position: center; }
-.zoom:hover .zoomOverlay{filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;display: block; background-color:#000;}
+.zoomOverlay {*display:none; position:absolute; left:-250px; top:0; width:300px; height:180px; background-image:linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,0.7),rgba(255,255,255,0)); background-image:-moz-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,0.7),rgba(255,255,255,0)); background-image:-webkit-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,0.7),rgba(255,255,255,0)); background-image:-o-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,0.7),rgba(255,255,255,0)); background-image:-ms-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,0.7),rgba(255,255,255,0)); transform:skewx(-25deg); -o-transform:skewx(-25deg); -moz-transform:skewx(-25deg); -webkit-transform:skewx(-25deg); -moz-transition:0s; -o-transition:0s; -webkit-transition:0s; transition:0s; cursor:pointer }
+.zoom:hover .zoomOverlay{left:245px; transition:.7s; -moz-transition:.7s; -o-transition:.7s; -webkit-transition:.7s }
 #post_container .fixed-hight h2 a{ display:block;/*white-space: nowrap;*/text-overflow:ellipsis; overflow:hidden;/*height:45px;*/}
 #post_container .fixed-hight .entry_post{overflow: hidden;height: 40px;}
 #post_container .fixed-hight .info{ overflow:hidden; height:30px;}
