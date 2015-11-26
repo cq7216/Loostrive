@@ -36,7 +36,7 @@ $(".flink a").each(function(e){
                 <li>做好本站链接后请在这下面，我们会在24小时之内添加上你的链接</li></ul>
 			</div>
 		</div>
-        <div id="comments_box">
+        <div id="comments_box setanimate visible">
 			<?php comments_template(); ?>
          </div>   
 	<?php endwhile;endif; ?>

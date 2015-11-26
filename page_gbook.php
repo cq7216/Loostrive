@@ -49,7 +49,7 @@ Template Name: 留言板
     echo $output ;
  
 ?></div></div>
-	<div id="comments_box">
+	<div id="comments_box setanimate visible">
 		<?php comments_template();?>
 </div>
 	<?php endwhile;endif; ?></div></div>

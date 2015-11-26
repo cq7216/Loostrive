@@ -454,6 +454,19 @@ function loadData(url,toPush){
 }); 
 }
 //全站ajax加载结束
+//滚动上浮特效
+var init_animate_scroll = function () {
+		$(window).on('load scroll', function () {
+			$('.setanimate').each(function() {
+				this.getBoundingClientRect().top < $(window).height()
+					? $(this).addClass('visible')
+					: $(this).removeClass('visible');
+			});
+		});
+	};
+$(function () {
+	init_animate_scroll();
+});
 // logo播放器开始
 function p() {
     var a = $(".aud").get(0);

@@ -8,7 +8,7 @@ if (function_exists('register_sidebar'))
     register_sidebar(array(
 	'name'=>'侧边栏',
 	'description'   => '以下小工具在页面右边显示',
-	'before_widget'=>'<div class="widget box row">',
+	'before_widget'=>'<div class="widget box row setanimate visible">',
 	'after_widget'=>'</div>',
 	'before_title'=>'<h3>',
 	'after_title'=>'</h3>',
@@ -16,7 +16,7 @@ if (function_exists('register_sidebar'))
     register_sidebar(array(
 	'name'=>'滚动边栏',
 	'description'   => '以下小工具在页面右边显示，可跟随滚动',
-	'before_widget'=>'<div class="widget box row">',
+	'before_widget'=>'<div class="widget box row setanimate visible">',
 	'after_widget'=>'</div>',
 	'before_title'=>'<h3>',
 	'after_title'=>'</h3>',

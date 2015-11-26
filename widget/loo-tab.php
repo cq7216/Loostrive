@@ -14,7 +14,7 @@ class loo_tab extends WP_Widget {
     function widget($args, $instance) {   
         extract( $args );
         ?>
-		  <div class="widget box row">
+		  <div class="widget box row setanimate visible">
 		  	<div id="tab-title">
 				<div class="tab">
 					<ul id="tabnav">

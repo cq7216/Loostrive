@@ -106,7 +106,7 @@ class loo_comment extends WP_Widget {
 
 		$user_id = !empty( $instance['user_id'] ) ? 0 : '';
 
-		echo '<div class="widget box row">';
+		echo '<div class="widget box row setanimate visible">';
 
 		if( $title ) echo $before_title . $title . $after_title;
 

@@ -93,7 +93,7 @@ class loo_tags extends WP_Widget {
 		
 		$all_tags_url = empty($instance['all_tags_url']) ? '' : $instance['all_tags_url'];
 	
-		echo '<div class="widget box row">';
+		echo '<div class="widget box row setanimate visible">';
 
 		if( $title ) echo $before_title . $title . $after_title;
 

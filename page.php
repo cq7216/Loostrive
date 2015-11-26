@@ -17,7 +17,7 @@
         	   <?php custom_wp_link_pages();?>
          </div>       
 	</div>
-    <div id="comments_box">
+    <div id="comments_box setanimate visible">
 		<?php comments_template();?>
     </div>    
 	<?php endwhile;else: ;endif;?>

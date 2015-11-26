@@ -16,7 +16,7 @@ class loo_search extends WP_Widget {
         ?>
          <?php
 echo '
-<div class="search box row">
+<div class="search box row setanimate visible">
 <div class="search_site">
 <form id="searchform" method="get" action="';bloginfo('home');;echo '">
 		<input type="submit" value="" id="searchsubmit" class="button"/>

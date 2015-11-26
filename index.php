@@ -1,7 +1,7 @@
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
 <div class="container" id="content">
 	<?php if (get_option('strive_gg') == 'Display') { ?>
-	<div class="subsidiary row box">
+	<div class="subsidiary row box setanimate visible">
 		<div class="bulletin fourfifth">
 			<span class="sixth">站点公告：</span>
             <marquee class="fivesixth" direction=left onmouseout=start(); onmouseover=stop(); scrollAmount=2 scrollDelay=15;>

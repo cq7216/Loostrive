@@ -59,7 +59,7 @@
 		<?php }?>
 			
     <?php if (get_option('strive_aboutme') == 'Display') { ?>    
-		<div class="row box">
+		<div class="row box setanimate visible">
 			<div id="authorarea">
 				<?php if (function_exists('get_avatar')) { echo get_avatar( get_the_author_email(), '100' ); }?>
                 <i class="author_arrow"></i>
@@ -71,7 +71,7 @@
 		</div>
     <?php } ?>
 	<div>
-		<ul class="post-navigation row">
+		<ul class="post-navigation row setanimate visible">
 			<div class="post-previous twofifth">
 				<?php previous_post_link('上一篇 <br> %link', '%title', TRUE); ?>
             </div>
@@ -88,7 +88,7 @@
 	</div>
      <?php } ?>
     	<div class="clear"></div>
-	<div id="comments_box">
+	<div id="comments_box setanimate visible">
 		<?php comments_template('', true); ?>
     </div>
 	<?php endwhile;endif;?>
