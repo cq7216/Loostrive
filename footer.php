@@ -83,7 +83,7 @@
 			<!-- 纯代码实现数据库查询次数及加载时间 -->
           	<?php printf('数据库查询%2$s次 - 加载用时%1$s秒', timer_stop(0,3), get_num_queries()); ?>
           	<audio class="aud">
-				<p>Oops, looks like your browser doesn't support HTML 5 audio.</p>
+				<p style="display:none;">Oops, looks like your browser doesn't support HTML 5 audio.</p>
 			</audio>
           </p>
           <ul id="links"> 
