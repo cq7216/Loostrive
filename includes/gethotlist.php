@@ -30,6 +30,7 @@ while( $query_posts->have_posts() ) { $query_posts->the_post(); ?>
                          <?php  } ?>
                          <div class="zoomOverlay"></div>
                         </a>
+                        <span class="angle"></span>
                     </div>
                     <div class="article">
                         <h2><a href="<?php the_permalink();?>" rel="bookmark" title="<?php the_title_attribute();?>"><?php echo the_title();?></a></h2>
