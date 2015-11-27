@@ -63,7 +63,7 @@ var _hmt = _hmt || [];
 	</div>
 </div>
 <!-- 导航进度条结束 -->
-		<div id="headwrapper" class="row">
+		<div id="headwrapper">
         <?php if (get_option('strive_toolbar') == 'Display') { ?>			
         	<div class="mainbar row">
                 <div class="container">

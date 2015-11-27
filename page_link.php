@@ -4,6 +4,7 @@ Template Name: 友情链接
 */
 ?>
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
+<div id="content0">
 <div class="container" id="content">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <script type="text/javascript">
@@ -41,5 +42,6 @@ $(".flink a").each(function(e){
          </div>   
 	<?php endwhile;endif; ?>
     </div>
+</div>
 </div>
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>

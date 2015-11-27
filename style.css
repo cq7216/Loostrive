@@ -940,6 +940,20 @@ a.car-toggler { line-height: 30px; font-size: 14px; color: #c30 }
 .adphone,.single-adphone{display:none;}
 /*cq*/
 .fourfifth{width:100%;}
+/* focus焦点图cq开始*/
+#focusBar{width:100%;height:492px;clear:both;position:relative; overflow:hidden;}
+#focusBar img {max-width: 1920px;}
+#focusBar .mypng{ background:url(images/9.gif) repeat-x top center; padding-top:2px;}
+#focusBar li{width:100%;clear:both;height:462px;display:none;position:absolute;/* position:relative;*/ }
+#focusBar .focusL{height:462px;position:absolute;z-index:9;/*left:-1000px;*/ top:0px;left:-960px;margin-left:50%;}
+#focusBar .focusR{height:462px;position:absolute;z-index:10;/* right:1000px;*/top:0px;left:-960px;margin-left:50%;}
+#focusBar .arrL,#focusBar .arrR{display:block;width:52px;height:134px;position:absolute;top:150px;z-index:11111;cursor:pointer;background:url(images/bt_arr.png) no-repeat;}
+#focusBar .arrL{left:-52px;background-position:0px 0px;}
+#focusBar .arrR{right:-52px;background-position:-68px 0px;}
+#focusBar .arrL:hover{background-position:0px -144px;}
+#focusBar .arrR:hover{background-position:-68px -144px;}
+.zhezhao{height:492px;position:absolute;z-index:19;/* right:1000px;*/top:-15px;left:-960px;margin-left:50%;}
+/* focus焦点图cq结束 */
 /*Responsive Structure*/
 @media only screen and (max-width: 640px) {
 .container { max-width:306px !important;}

@@ -4,6 +4,7 @@ Template Name: 留言板
 */
 ?>
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
+<div id="content0">
 <div class="container" id="content">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<?php if (get_option('strive_breadcrumb') == 'Display') { ?>
@@ -53,5 +54,5 @@ Template Name: 留言板
 		<?php comments_template();?>
 </div>
 	<?php endwhile;endif; ?></div></div>
-
+</div>
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>

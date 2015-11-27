@@ -1,4 +1,5 @@
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
+<div id="content0">
 <div class="container" id="content">
 			<?php if (get_option('strive_breadcrumb') == 'Display') { ?>
                 <div class="subsidiary box">
@@ -18,5 +19,5 @@
 	</div>
 
 <div class="clear"></div>
-
+</div>
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>

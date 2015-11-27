@@ -1,4 +1,5 @@
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
+<div id="content0">
 <div class="container" id="content">
 	<?php if (have_posts()) : while (have_posts()) : the_post();?>
 			<?php if (get_option('strive_breadcrumb') == 'Display') { ?>
@@ -9,7 +10,7 @@
                 </div>
             <?php }?>
 <?php get_sidebar();?>
-    <div class="mainleft" id="content">
+    <div class="mainleft">
 		<div class="article_container row  box">
 			<h1 class="page_title"><?php the_title();?></h1>
         <div class="context">
@@ -23,5 +24,5 @@
 	<?php endwhile;else: ;endif;?>
 </div>
 </div>
-
+</div>
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>

@@ -137,6 +137,7 @@ $hacklog_archives=new hacklog_archives();
 			});
 		/* ]]> */
 	</script>
+<div id="content0">
 <div class="container" id="content">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<?php if (get_option('strive_breadcrumb') == 'Display') { ?>
@@ -159,6 +160,5 @@ $hacklog_archives=new hacklog_archives();
 	<?php endwhile;endif; ?>
 	</div>
 </div>
-
-
+</div>
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>

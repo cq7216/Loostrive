@@ -1,4 +1,5 @@
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
+<div id="content0">
 <div class="container" id="content">
     <div class="subsidiary row box">
 		<div class="bulletin fourfifth">
@@ -17,5 +18,5 @@
         </div>
 	</div>
 </div>
-</body>
+</div>
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>

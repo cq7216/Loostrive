@@ -1,4 +1,25 @@
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
+<div id="content0">
+<!-- 滑动焦点图begin -->
+<div id="focusBar"> 
+    <a href="javascript:void(0)" class="arrL" onclick="prePage()"></a>
+    <a href="javascript:void(0)" class="arrR" onclick="nextPage()"></a>
+    <ul class="mypng">
+        <li id="focusIndex1" style="background:url(http://7b1ff5.com1.z0.glb.clouddn.com/2.jpg) no-repeat center center; display:block;"><!--此处需判断li的display:block-->
+            <div class="focusL"><img src="http://7b1ff5.com1.z0.glb.clouddn.com/5.png" width="1920" height="462" /></div>
+            <div class="zhezhao" ><img src="http://7b1ff5.com1.z0.glb.clouddn.com/8.png" width="1920" height="462" /></div>
+            <div class="focusR"><img src="http://7b1ff5.com1.z0.glb.clouddn.com/9.png" width="1920" height="492" /></div>
+        </li>
+        <li id="focusIndex2" style="background:url(http://7b1ff5.com1.z0.glb.clouddn.com/1.jpg) no-repeat center center; display:none;">
+            <div class="focusL"><a href="/tougao"><img src="http://7b1ff5.com1.z0.glb.clouddn.com/5.png" width="1920" height="462" /></a></div>
+            <div class="zhezhao" ><a href="/tougao"><img src="http://7b1ff5.com1.z0.glb.clouddn.com/7.png" width="1920" height="462" /></a></div>
+            <div class="focusR"><a href="/tougao"><img src="http://7b1ff5.com1.z0.glb.clouddn.com/6.png" width="1920" height="492" /></a></div>
+        </li>
+    </ul>
+</div>
+<script src="http://7b1ff5.com1.z0.glb.clouddn.com/jquery.easing.1.3.js"></script>
+<script src="http://7b1ff5.com1.z0.glb.clouddn.com/focus.js"></script>
+<!-- 滑动焦点图end -->
 <div class="container" id="content">
 	<?php if (get_option('strive_gg') == 'Display') { ?>
 	<div class="subsidiary row box setanimate visible">
@@ -95,4 +116,5 @@
     })
 });
 </script>
+</div>
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_footer();  } ?>

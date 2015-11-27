@@ -409,13 +409,13 @@ function loadData(url,toPush){
 	data: "soz=ajax",  //这个可以参考ajax全站加载系列文章第二篇。
 	dataType: "html",
 	type: "post",
-	beforeSend:function(jqXHR, settings){    //加载前操作 #content的DIV变化
-		$('#content').fadeTo(500,0.3);
+	beforeSend:function(jqXHR, settings){    //加载前操作 #content0的DIV变化
+		$('#content0').fadeTo(500,0.3);
 		$('#main_loading').show();
 	}
 	,
-	complete:function(){                     //加载后操作 #content的DIV变化
-		$('#content').fadeTo(200,1);
+	complete:function(){                     //加载后操作 #content0的DIV变化
+		$('#content0').fadeTo(200,1);
 		$('#main_loading').hide();
 	}
 	,
@@ -429,8 +429,8 @@ function loadData(url,toPush){
 		else {
 			window.document.title = titl1 + " \u2502 小众网站";
 		}
-                        //以上几句为组合新页面的标题。下面一句为插入ajax回来的内容到"#content"的DIV容器内。
-                        $("#content").html(msger);
+                        //以上几句为组合新页面的标题。下面一句为插入ajax回来的内容到"#content0"的DIV容器内。
+                        $("#content0").html(msger);
 		if(toPush){//使用html5的特有API 来改变历史记录数据。
 			window.history.pushState(null, titl1, url);
 		}
@@ -449,7 +449,7 @@ function loadData(url,toPush){
 	}
 	,
 	error: function() {//如果加载失败 报错内容
-		$("#content").html("<div style='0margin-bottom: 800px;'><h2>AJAX Error...</h2></div>"); 
+		$("#content0").html("<div style='0margin-bottom: 800px;'><h2>AJAX Error...</h2></div>"); 
 	}, 
 }); 
 }
