@@ -941,7 +941,7 @@ a.car-toggler { line-height: 30px; font-size: 14px; color: #c30 }
 /*cq*/
 .fourfifth{width:100%;}
 /* focus焦点图cq开始*/
-#focusBar{width:100%;height:492px;clear:both;position:relative; overflow:hidden;}
+#focusBar{width:100%;height:462px;clear:both;position:relative; overflow:hidden;}
 #focusBar img {max-width: 1920px;}
 #focusBar .mypng{ background:url(images/9.gif) repeat-x top center; padding-top:2px;}
 #focusBar li{width:100%;clear:both;height:462px;display:none;position:absolute;/* position:relative;*/ }
