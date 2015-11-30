@@ -31,9 +31,11 @@ center { margin: 0 auto; text-align: center }
 }
 /*header*/
 #headwrapper{height: 110px;
-background: #E7E8E9;
+/*background: #E7E8E9;*/
 border-top: 1px solid #444;
-border-bottom: 1px solid #BABABA;}
+border-bottom: 1px solid #BABABA;
+background: url(images/headerbg2.jpg);
+}
 .head {
     position: relative;
     height: 110px;
