@@ -38,8 +38,10 @@ border-bottom: 1px solid #BABABA;}
     position: relative;
     height: 110px;
 }
+.logo_box{float:left;width:450px;}
+.weather{float:left;margin: 35px 0 0 50px;}
 .titleone{position:absolute;height:110px;width:255px;top:0px}
-.titleone a{position:absolute;left:0;top:0;display:block;width:245px;height:110px;line-height:120px;text-indent:15px;font-size:40px;font-family:'GJJCuQian-M17S541709','微软雅黑','黑体';text-shadow:0px -1px 1px #000,1px 0px 1px #fff,0px 1px 1px #fff,0 0 10px #555;color:#777}
+.titleone a{text-indent:-999px;position:absolute;display:block;width:450px;height:110px;line-height:120px;background:url(http://no16street.com/wp-content/themes/Loostrive/images/no16logo.png) no-repeat;}
 .titleone a:hover{color:#3f6c18}
 .mainbar { background:#fff; border-bottom:1px solid #ddd \9; width:100%; height:32px; -webkit-box-shadow: 0 2px 4px 0 #d9d9d9;-moz-box-shadow: 0 2px 4px 0 #d9d9d9;box-shadow: 0 2px 4px 0 #d9d9d9;}
 #topbar { height: 30px; line-height: 30px; float: left; overflow: hidden; }
@@ -65,7 +67,7 @@ border-bottom: 1px solid #BABABA;}
 .icon6 { background-position: 0 0; }
 .icon6 span.hover { background-position: 0 -24px; }
 #yuan:hover .titleone a{color:#3f6c18}
-#yuan{position:absolute;left:95px;top:28px;width:60px;height:60px}
+#yuan{position:absolute;left:100px;top:28px;width:60px;height:60px}
 .circle{background-color:rgba(0,0,0,0);border:5px solid rgba(63,108,24,0.9);opacity:.9;border-right:5px solid rgba(0,0,0,0);border-left:5px solid rgba(0,0,0,0);border-radius:50px;box-shadow:0 0 35px #666666;width:50px;height:50px;margin:0 auto;-moz-animation:spinPulse 1s infinite ease-in-out;-webkit-animation:spinPulse 1s infinite linear;-ms-animation:spinPulse 1s infinite linear}
 .circle1{background-color:rgba(0,0,0,0);border:5px solid rgba(63,108,24,0.9);opacity:.9;border-left:5px solid rgba(0,0,0,0);border-right:5px solid rgba(0,0,0,0);border-radius:50px;box-shadow:0 0 15px #666666;width:30px;height:30px;margin:0 auto;position:relative;top:-50px;-moz-animation:spinoffPulse 1s infinite linear;-webkit-animation:spinoffPulse 1s infinite linear;-ms-animation:spinoffPulse 1s infinite linear}
 #titleinfo{position:absolute;left:195px;top:85px;width:180px;color:#777}
@@ -95,7 +97,7 @@ border-bottom: 1px solid #BABABA;}
 #musicload{width:0px;height:24px;position:absolute;border-radius:0 0 7px 7px;background:#aaa}
 #musicload,.musiclist{display:none}
 #music{height:26px;width:26px;top:-83px;position:relative;left:17px;border-radius:13px;box-shadow:0 0px 12px #111 inset,0 0 15px #fff inset}
-#music a{font-size:20px;text-shadow:0px -1px 1px #000,1px 0px 1px #fff,0px 1px 1px #fff,0 0 8px #555;text-indent:7px;width:35px;height:26px;line-height:26px;}
+#music a{font-size:20px;text-shadow:0px -1px 1px #000,1px 0px 1px #fff,0px 1px 1px #fff,0 0 8px #555;text-indent:7px;width:45px;height:26px;line-height:26px;}
 a.mprev{display:none}
 a.mnext{display:none}
 a.mpause{display:none}
@@ -993,6 +995,9 @@ a.car-toggler { line-height: 30px; font-size: 14px; color: #c30 }
 .sitepic img {display: block; margin: 0 auto; }
 .info_ico {padding: 0 4px 0 20px; }
 .zhanzhanghuifu{margin-left:100px !important;}
+.weather{display: none;}
+.titleone a{width: 320px;}
+#focusBar{display: none !important;}
 }
 @media only screen and (min-width:640px) and (max-width:980px) {
 .container { max-width: 640px !important; }
@@ -1003,6 +1008,8 @@ a.car-toggler { line-height: 30px; font-size: 14px; color: #c30 }
 #tbox { right: 10px !important; }
 #search{display: none !important;}
 #navfenlei{width:100%;}
+.weather{display: none;}
+#focusBar{display: none !important;}
 }
 @media only screen and (min-width:1330px) {
 .container { max-width: 1262px !important; }

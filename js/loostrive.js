@@ -474,12 +474,12 @@ function p() {
     $(".titleone").hover(function() {
         $(".mprev").fadeIn(50);
         $(".mprev").animate({
-            left: "-140px"
+            left: "-160px"
         },
         100);
         $(".mnext").fadeIn(50);
         $(".mnext").animate({
-            left: "140px"
+            left: "125px"
         },
         100)
     },
@@ -571,7 +571,7 @@ window.onload = function() {
 };
 var playlist = [
 {
-    url: "http://yinyueshiting.baidu.com/data2/music/123196492/85699650237600128.mp3?xcode=890b09174c5b6f8996a2d3f13bf86a03",
+    url: "http://www.527578.com/down/58682.mp3",
     title: "\u4e0d\u518d\u8bf4\u6c38\u8fdc"
 },
 {

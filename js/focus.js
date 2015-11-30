@@ -97,7 +97,7 @@ function changeFocus(dir) {
 	}
 }
 function starFocustAm(){
-	timerFID = setInterval("timer_tickF()",7000);
+	timerFID = setInterval("timer_tickF()",10000);
 }
 function stopFocusAm(){
 	clearInterval(timerFID);
@@ -105,4 +105,3 @@ function stopFocusAm(){
 function timer_tickF() {
 	changeFocus(true);
 }
-/* 代码整理：懒人之家 www.lanrenzhijia.com */
