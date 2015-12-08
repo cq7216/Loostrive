@@ -57,7 +57,6 @@
     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('首页幻灯区域') ) :; endif;?>
     	
 	<div id="post-list">
-        <div id="afterrun"><script type="text/javascript">$("#barloading").show();$("#loadbar").animate({width:"60%"});</script></div>
 	    <div class="post-nav">
 	        <a id="post-list-nav0" class="post-list-nav focus" href="javascript:;"><i class="fa fa-list"></i> 最新发布</a>
 	        <a id="post-list-nav1" class="post-list-nav" href="javascript:;"><i class="fa fa-refresh"></i> 最近更新</a>
@@ -82,7 +81,6 @@
 	</div>
 		</div>
 	</div>
-    <div id="afterrun"><script type="text/javascript">$("#barloading").show();$("#loadbar").animate({width:"90%"});</script></div>
 <div class="clear"></div>
 <script type="text/javascript">$(document).ready(function() {
     $("#post-list a.post-list-nav").click(function() {

@@ -381,7 +381,6 @@ function Ajaxopt(){
          //所有不为新窗口打开的链接
          $('a[target!=_blank]').live('click',function(event){
          	gotoTop();
-         	$("#loadbar").hide();$("#loadbar").show();$("#loadbar").animate({width:"25%"});
          	var link = event.currentTarget;
          	var url = link.href;
          	if ( event.which > 1 || event.metaKey || event.ctrlKey )
@@ -393,14 +392,15 @@ function Ajaxopt(){
          		return
          	if (url.indexOf("respond")>0||url.indexOf("/wp-admin/")>0||url.indexOf("wp-login.php")>0||url.indexOf("sitemap.xml")>0)
          		return
-                //以上条件语句均为判断链接时候需要ajax加载，下面2句为执行loadDate函数进行ajax操作。
-                loadData(url,true);
-                event.preventDefault();
-                $("#loadbar").animate({width:"100%"},function(){
-                	$("#loadbar").fadeOut(1000,function(){$("#loadbar").css("width","0");});
-                })
-            });
-}
+            //以上条件语句均为判断链接时候需要ajax加载，下面2句为执行loadDate函数进行ajax操作。
+            loadData(url,true);
+            event.preventDefault();
+         	$("#loadbar").hide();$("#loadbar").show();$("#loadbar").animate({width:"25%"});
+            $("#loadbar").animate({width:"100%"},function(){
+            	$("#loadbar").fadeOut(1000,function(){$("#loadbar").css("width","0");});
+            })
+        });
+	}
 //loadDate函数
 function loadData(url,toPush){
        //进行AJAX操作
