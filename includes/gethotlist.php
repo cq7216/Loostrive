@@ -15,9 +15,9 @@ $args = array(
 'posts_per_page' => $post_num 
 ); 
 $query_posts = new WP_Query(); 
-$query_posts->query($args); 
-while( $query_posts->have_posts() ) { $query_posts->the_post(); ?> 
-		<ul id="post_container" class="masonry clearfix">
+$query_posts->query($args); ?>
+        <ul id="post_container" class="masonry clearfix">
+    <?php while( $query_posts->have_posts() ) { $query_posts->the_post(); ?> 
 			<li class="post box row <?php if (get_option('strive_waterfall') == 'Hide') { ?>fixed-hight<?php } else {}?>">
                 	<?php if ( is_home() ){ ?><?php if(is_sticky())echo '<div class="sticky">HOT</div>'?><?php }?>
                     <div class="thumbnail">
@@ -58,7 +58,7 @@ while( $query_posts->have_posts() ) { $query_posts->the_post(); ?>
                         <span class="info_website"><a href="<?php echo get_post_meta($post->ID,"website",true);?>" target="_blank" title="访问官方网站 <?php the_title(); ?>" rel="website" class="title">+Enter</a></span>
     				</div>
     		</li>
-	    </ul>
 <?php } wp_reset_query();?> 
+        </ul>
 
             <div class="clear"></div>

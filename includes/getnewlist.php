@@ -5,8 +5,8 @@ require('../../../../wp-load.php');
 query_posts('showposts=12');
 //这里是调用最新文章，如果是热门文章的话则改为get_most_viewed("post",10);当然这得是你的主题安装了热门文章插件，而且这里可以接受几乎wp-kit-cn所有代码。非常方便
 ?>
+        <ul id="post_container" class="masonry clearfix">
 	<?php if(have_posts()) : ;while(have_posts()) : the_post();?>
-		<ul id="post_container" class="masonry clearfix">
 			<li class="post box row <?php if (get_option('strive_waterfall') == 'Hide') { ?>fixed-hight<?php } else {}?>">
                 	<?php if ( is_home() ){ ?><?php if(is_sticky())echo '<div class="sticky">HOT</div>'?><?php }?>
                     <div class="thumbnail">
@@ -47,6 +47,6 @@ query_posts('showposts=12');
                         <span class="info_website"><a href="<?php echo get_post_meta($post->ID,"website",true);?>" target="_blank" title="访问官方网站 <?php the_title(); ?>" rel="website" class="title">+Enter</a></span>
     				</div>
     		</li>
-	    </ul>
 	<?php endwhile;endif;?>
+        </ul>
             <div class="clear"></div>

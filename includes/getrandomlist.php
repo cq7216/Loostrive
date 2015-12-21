@@ -12,8 +12,8 @@ $args = array( 'orderby' => 'rand', 'post__not_in' => array($post->ID), 'showpos
 $query_posts = new WP_Query(); 
 $query_posts->query($args); 
 ?> 
+<ul id="post_container" class="masonry clearfix">
 <?php while ($query_posts->have_posts()) : $query_posts->the_post(); ?> 
-		<ul id="post_container" class="masonry clearfix">
 			<li class="post box row <?php if (get_option('strive_waterfall') == 'Hide') { ?>fixed-hight<?php } else {}?>">
                 	<?php if ( is_home() ){ ?><?php if(is_sticky())echo '<div class="sticky">HOT</div>'?><?php }?>
                     <div class="thumbnail">
@@ -54,8 +54,8 @@ $query_posts->query($args);
                         <span class="info_website"><a href="<?php echo get_post_meta($post->ID,"website",true);?>" target="_blank" title="访问官方网站 <?php the_title(); ?>" rel="website" class="title">+Enter</a></span>
     				</div>
     		</li>
-	    </ul>
 <?php endwhile; ?>
+        </ul>
 
             <div class="clear"></div>
 <script type="text/javascript">$("#loadbar").animate({width:"100%"},function(){
