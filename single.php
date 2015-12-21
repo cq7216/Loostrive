@@ -30,8 +30,8 @@
                             <span>网站热度：</span><span><?php setPostViews(get_the_ID());;echo getPostViews(get_the_ID());?>&#176;C</span>
                         </div>
                         <div class="website">
-                            <span>网站地址：<a href="<?php echo get_post_meta($post->ID,"website",true);?>" target="_blank"><?php echo get_post_meta($post->ID,"website",true);?></a> </span> 
-                            <span class="enter"><a href="<?php echo get_post_meta($post->ID,"website",true);?>" target="_blank"><?php echo get_post_meta($post->ID,"website",true);?></a> </span>
+                            <span>网站地址：<a href="/view.php?url=<?php echo get_post_meta($post->ID,"website",true);?>" target="_blank"><?php echo get_post_meta($post->ID,"website",true);?></a> </span> 
+                            <span class="enter"><a href="/view.php?url=<?php echo get_post_meta($post->ID,"website",true);?>" target="_blank"><?php echo get_post_meta($post->ID,"website",true);?></a> </span>
                         </div>
                     </div>
                     <div class="sitepic">
