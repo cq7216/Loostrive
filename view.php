@@ -1,38 +1,52 @@
 <?php
     require_once($_SERVER['DOCUMENT_ROOT']. '/wp-load.php'); 
     $url = $_GET[url];
-    $ch = curl_init($url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    $result = curl_exec($ch);
-    curl_close($ch);
-    $title_un = preg_match('!<title>(.*?)</title>!i', $result, $matches) ? $matches[1] : '网站预览｜小众网站';
-    $description_un = preg_match('!<meta name="description" content="(.*?)" />!i', $result, $matches) ? $matches[1] : '小众网站｜精品网站推荐分享平台';
-    $keywords_un = preg_match('!<meta name="keywords" content="(.*?)" />!i', $result, $matches) ? $matches[1] : '小众网站｜精品网站推荐分享平台';
-    $icon_un = preg_match('!<link rel="icon" href="(.*?)" />!i', $result, $matches) ? $matches[1] : 'http://no16street.com/wp-content/themes/Loostrive/images/X_24px_1067642_easyicon.net.ico';
-    function get_encoding($data,$to){
-       $encode_arr = array('UTF-8','ASCII','GBK','GB2312','BIG5','JIS','eucjp-win','sjis-win','EUC-JP');
-       $encoded = mb_detect_encoding($data, $encode_arr);
-       $data = mb_convert_encoding($data,$to,$encoded);
-       return $data;
-    }
-    $title = get_encoding($title_un,'UTF-8');
-    $description = get_encoding($description_un,'UTF-8');
-    $keywords = get_encoding($keywords_un,'UTF-8');  
-    $icon = get_encoding($icon_un,'UTF-8');  
+    $name=$_GET[name];
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $title; ?></title>
-    <meta name="description" content="<?php echo $description; ?>">
-    <meta name="keywords" content="<?php echo $keywords; ?>">
-    <link href="<?php echo $icon; ?>" rel="icon" type="image/x-icon">
+    <title><?php echo $name; ?></title>
     <style type="text/css">
     *{margin:0;padding:0;}
     html{height:99%;}
-    body{height:100%;}
+    body{height:100%;position:relative;}
+    .guanggao{position:fixed;right:0;bottom:0;}
+    .windowBar {position: fixed; top: 100px; right: 25px; z-index: 99; }
+    .windowBar a {color: #fff; font-style: normal; text-decoration: none; display: block; text-align: center; font: 12px/1.5 tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1"; margin: 15px; padding: 0px; opacity: 0.7; }
+    .windowBar a img {border-radius: 50px; background-color: #fff; padding: 0; margin: 0; }
+    .wvTipArea {position: absolute; background-color: #6d6d6d; opacity: 0.9; padding: 9px; z-index: 9998; border-radius: 7px; color: #fff; font-size: 12px; line-height: 18px; text-align: center;  overflow: visible; white-space: normal; margin-top: -42px; width: 55px; cursor: default; right: 70px; }
+    .windowBar a:hover {opacity: 1; }
     </style>
+    <script type="text/javascript" src="http://no16street.qiniudn.com/wp-content/themes/Loostrive/js/jquery.min.js?ver=1453799417"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            // alert("test");
+            $(".wvTipArea").hide();
+            $(".wvTip").hover(
+                function(){
+            var hdw_index=$(".wvTip").index(this);
+            $(".wvTipArea").eq(hdw_index).show();},
+                function(){
+            $(".wvTipArea").hide();}
+            );
+        });
+    </script>
+</head>
+<body>
+    <div class="windowBar">
+        <a class="wvTip" wvtip="小众网站" href="../" title="小众网站">
+            <img src="http://www.zm1z.com/img/siteWindow/star.png" width="50px" height="50px">
+        <div class="wvTipArea">小众网站</div></a>
+        <a class="wvTip" wvtip="点评网站" href="../" title="点评网站">
+            <img src="http://www.zm1z.com/img/siteWindow/chat.png" width="50px" height="50px">
+        <div class="wvTipArea">点评网站</div></a>
+        <a class="wvTip" wvtip="直接访问<?php echo $name; ?>" href="<?php echo $url; ?>" title="直接访问" id="infoShow">
+            <img src="http://www.zm1z.com/img/siteWindow/mouse.png" width="50px" height="50px">
+        <div class="wvTipArea">直接访问<?php echo $name; ?></div></a>
+    </div>
+    <iframe src="<?php echo $url; ?>" width="100%" height="100%" scrolling="auto" style="border:0;"></iframe>
     <!-- 百度统计开始 -->
     <script>
     var _hmt = _hmt || [];
@@ -44,8 +58,14 @@
     })();
     </script>
     <!-- 百度统计结束 -->
-</head>
-<body>
-    <iframe src="<?php echo $url; ?>" width="100%" height="100%" scrolling="auto" style="border:0;"></iframe>
+    <div class="guanggao">
+        <!-- 百度广告开始 -->
+        <script type="text/javascript">
+        /*view页面右下角图片广告*/
+        var cpro_id = "u2501104";
+        </script>
+        <script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+        <!-- 百度广告结束 -->
+    </div>
 </body>
 </html>

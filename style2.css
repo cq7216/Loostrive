@@ -1001,7 +1001,7 @@ a:hover{
 .weather{display: none;}
 #focusBar{display: none !important;}
 }
-@media only screen and (min-width:1270px) {
+@media only screen and (min-width:1310px) {
 .container { max-width: 1262px !important; }
 .slider { width: 980px !important; }
 #focus ul li { width: 980px; }

@@ -28,10 +28,11 @@
                         </div>
                         <div class="webviews">
                             <span>网站热度：</span><span><?php setPostViews(get_the_ID());;echo getPostViews(get_the_ID());?>&#176;C</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;<?php if( function_exists('zilla_likes') ) zilla_likes(); ?></span>
                         </div>
                         <div class="website">
-                            <span>网站地址：<a href="/view.php?url=<?php echo get_post_meta($post->ID,"website",true);?>" target="_blank"><?php echo get_post_meta($post->ID,"website",true);?></a> </span> 
-                            <span class="enter"><a href="/view.php?url=<?php echo get_post_meta($post->ID,"website",true);?>" target="_blank"><?php echo get_post_meta($post->ID,"website",true);?></a> </span>
+                            <span>网站地址：<a href="/view.php?url=<?php echo get_post_meta($post->ID,"website",true);?>&name=<?php echo get_post_meta($post->ID,"webname",true);?>&go=<?php echo get_post_meta($post->ID,"go",true);?>" target="_blank"><?php echo get_post_meta($post->ID,"website",true);?></a> </span> 
+                            <span class="enter"><a href="/view.php?url=<?php echo get_post_meta($post->ID,"website",true);?>&name=<?php echo get_post_meta($post->ID,"webname",true);?>&go=<?php echo get_post_meta($post->ID,"go",true);?>" target="_blank"><?php echo get_post_meta($post->ID,"website",true);?></a> </span>
                         </div>
                     </div>
                     <div class="sitepic">
@@ -42,6 +43,10 @@
             <div class="context">
 				<div id="post_content"><?php the_content('Read more...');?></div>
 				<?php custom_wp_link_pages();?>
+                <!-- haiyunx广告开始 -->
+                <div style="margin:0 auto;width:640px;"><script type="text/javascript" src="http://s.haiyunx.com/SSP/31905.js"></script></div>
+                <!-- haiyunx广告结束 -->
+                <div class="open-message"><i class="fa fa-bullhorn"></i><a href="/view.php?url=<?php echo get_post_meta($post->ID,"website",true);?>&name=<?php echo get_post_meta($post->ID,"webname",true);?>" target="_blank">快速访问网站：【<?php echo get_post_meta($post->ID,"webname",true);?>】</a><br>小众网站, 版权所有丨如未注明 , 均为原创<br>更多精品网站请进入<a href="../dh" title="小众导航">小众实用导航</a></div>
                	<div class="clear"></div>
                 <?php if(function_exists('the_ratings')) { the_ratings(); } ?>
 
@@ -89,7 +94,7 @@
 	</div>
      <?php } ?>
     	<div class="clear"></div>
-	<div id="comments_box setanimate visible">
+	<div id="comments_box setanimate visible" class="box">
 		<?php comments_template('', true); ?>
     </div>
 	<?php endwhile;endif;?>

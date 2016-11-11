@@ -10,17 +10,29 @@
 			</div><!-- /footer-widgeted-1 -->
 			<div class="col-xs-4">
 				<div id="recent-posts-2" class="widget widget_recent_entries">
-					<h3 class="widget-title"><span>最新分享</span></h3>
+					<h3 class="widget-title"><span>近期最火文章</span></h3>
 					<ul>
-						<?php get_archives('postbypost', 10); ?>
+						<?php 
+							function mostweek($where = '') { 
+							//获取最近七天的文章 
+								$where .= " AND post_date > '" . date('Y-m-d', strtotime('-300 days')) . "'"; return $where; 
+							}
+							add_filter('posts_where', 'mostweek'); 
+						?>
+						<?php
+							query_posts("v_sortby=views&caller_get_posts=1&orderby=date&v_orderby=desc&showposts=10") 
+						?>
+						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+						<li><a href="<?php the_permalink() ?>" title="<?php the_title() ?>"><?php the_title() ?></a></li>
+						<?php endwhile; ?><?php endif; ?>
 					</ul>
 				</div>
 			</div><!-- /footer-widgeted-2 -->
 			<div class="col-xs-4">
 				<div id="text-9" class="widget widget_text">
-					<h3 class="widget-title"><span>关于小众网站</span></h3>
+					<h3 class="widget-title"><span>关于淘小众</span></h3>
 					<div class="textwidget">
-						<a href="http://www.iztwp.com/" title="小众网站">小众网站</a>，专注于分享国内外优秀网站，小众是针对大众而言，顾名思义，就是在一个小范围内流行的网站。有的网站不被大多数人知道，甚至主流导航网站也没有收录它们，但它们在一个小范围内却是非常有名，无论用户体验还是内容都堪称精品。
+						<a href="http://www.iztwp.com/" title="小众网站">淘小众</a>，专注于分享国内外优秀网站，小众是针对大众而言，顾名思义，就是在一个小范围内流行的网站。有的网站不被大多数人知道，甚至主流导航网站也没有收录它们，但它们在一个小范围内却是非常有名，无论用户体验还是内容都堪称精品。
 						<p style="color: #F0EB84;text-align:left;">温馨提示：本站所有搜集网站均来自互联网，对网站的介绍属作者个人观点，仅供参考。若发现网站链接错误，烦请通报管理员。</p>
 					</div>
 				</div>
@@ -29,14 +41,11 @@
 					<div class="textwidget">QQ：1457063 <br>E-Mail：1457063#qq.com（用@替换#）</div>
 				</div>
 				<div id="text-6" class="widget widget_text">
-					<h3 class="widget-title"><span>订阅小众网站</span></h3>
-					<div class="textwidget"><form action="http://list.qq.com/cgi-bin/qf_compose_send" target="_blank" name="form" id="qqlist-form" method="post">
-						<input type="hidden" name="t" value="qf_booked_feedback">
-						<input type="hidden" name="id" value="f787cf0c754b8d7a680140374c107295a5579926ebd07b7c">
-						<input type="email" name="to" placeholder="输入邮箱订阅..." class="qqlist" required="">
-						<input type="submit" name="submit" id="qqlist-submit" value="订阅">
-					</form>
-				</div>
+					<h3 class="widget-title"><span>支持小众网站</span></h3>
+					<a href="http://shang.qq.com/wpa/qunwpa?idkey=4b41fbbb002717c3f51cc84f38912b3aefd73ea1c4e62f2136c761d57b7f2680" target="_blank"><img alt="img" src="../wp-content/themes/Loostrive/images/ico_group.png"></a>
+					<a href="http://www.aliyun.com/product/ecs/?spm=5176.383338.201.11.EmuIDM" target="_blank"><img alt="img" src="../wp-content/themes/Loostrive/images/ico_aliyun.png" _hover-ignore="1"></a>
+					<a href="https://portal.qiniu.com/signup?code=3lmd5owdjqr0y" target="_blank"><img alt="img" src="../wp-content/themes/Loostrive/images/ico_qiniu.png"></a>
+					<input name="pay" type="image" value="转账" src="../wp-content/themes/Loostrive/images/zhifubao.png">
 			</div>
 		</div><!-- /footer-widgeted-3 -->
 	</div>
@@ -79,9 +88,14 @@
           	var xzbk = now.getTime() - bkyx.getTime();
           	var bksj = Math.floor(xzbk / (1000 * 60 * 60 * 24));
           	document.write("网站已运行"+bksj+"天")
-          	// ]]></script> ｜ 
+          	// ]]></script> ｜ <!-- 当前访客 -->
+          	<span class="demo">
+			      <span id="total">当前在线：<span id="onlinenum"></span>人</span>
+			</span> ｜
 			<!-- 纯代码实现数据库查询次数及加载时间 -->
           	<?php printf('数据库查询%2$s次 - 加载用时%1$s秒', timer_stop(0,3), get_num_queries()); ?>
+          	
+          	<!-- 结束 -->
           	<audio class="aud">
 				<p style="display:none;">Oops, looks like your browser doesn't support HTML 5 audio.</p>
 			</audio>
@@ -100,14 +114,24 @@
 </script>
 <!--gototop-->
 <div id="tbox">
-	<?php if( is_single() || is_page()){?>
-	<a id="home" href="<?php bloginfo('url');?>"></a>
-	<?php } ?>
-	<?php if( is_single() || is_page() && comments_open() ){ ?>
-	<a id="pinglun" href="#comments_box" target="_blank"></a>
-	<?php } ?>
 	<a id="gotop" href="javascript:void(0)"></a> </div>
 	<?php wp_footer(); ?>
+<!-- 顶部导航栏随鼠标滚动变化 -->
+<script type="text/javascript" src="http://taoxiaozhong.com/wp-content/themes/Loostrive/js/headroom.min.js"></script>
+<script  type="text/javascript"  src="http://taoxiaozhong.com/wp-content/themes/Loostrive/js/jQuery.headroom.js"></script>  
+<script type="text/javascript">
+    $("document").ready(function(){
+        $("#navOne").headroom();
+    });
+</script>
 	<!-- 百度分享代码 -->
-	<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"5","bdPos":"left","bdTop":"200"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+	<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"5","bdPos":"left","bdTop":"300"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+    <!-- 百度图片广告开始 -->
+    <script type="text/javascript">
+    /*为了保证用户体验及收益，图片大小不得小于：200*180*/
+    /*图片＋广告*/
+    var cpro_id = "u2418459";
+    </script>
+    <script src="http://cpro.baidustatic.com/cpro/ui/i.js" type="text/javascript"></script>
+    <!-- 百度图片广告结束 -->
 </body></html>

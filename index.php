@@ -1,12 +1,13 @@
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
 <div id="content0">
 <!-- 滑动焦点图begin -->
-<div id="focusBar"> 
+<!-- <div id="focusBar"> 
     <a href="javascript:void(0)" class="arrL" onclick="prePage()"></a>
     <a href="javascript:void(0)" class="arrR" onclick="nextPage()"></a>
     <ul class="mypng">
-        <li id="focusIndex1" style="background:url(http://7b1ff5.com1.z0.glb.clouddn.com/2.jpg) no-repeat center center; display:block;"><!--此处需判断li的display:block-->
-            <div class="focusL"><img src="http://7b1ff5.com1.z0.glb.clouddn.com/5.png" width="1920" height="462" /></div>
+        <li id="focusIndex1" style="background:url(http://7b1ff5.com1.z0.glb.clouddn.com/2.jpg) no-repeat center center; display:block;"> -->
+        <!--此处需判断li的display:block-->
+           <!--  <div class="focusL"><img src="http://7b1ff5.com1.z0.glb.clouddn.com/5.png" width="1920" height="462" /></div>
             <div class="zhezhao" ><img src="http://7b1ff5.com1.z0.glb.clouddn.com/8.png" width="1920" height="462" /></div>
             <div class="focusR"><img src="http://7b1ff5.com1.z0.glb.clouddn.com/9.png" width="1920" height="492" /></div>
         </li>
@@ -18,8 +19,9 @@
     </ul>
 </div>
 <script src="http://7b1ff5.com1.z0.glb.clouddn.com/jquery.easing.1.3.js"></script>
-<script src="http://7b1ff5.com1.z0.glb.clouddn.com/focus.js"></script>
+<script src="http://7b1ff5.com1.z0.glb.clouddn.com/focus.js"></script> -->
 <!-- 滑动焦点图end -->
+<h1 style="display:none;">淘小众 | 推荐优秀小众网站</h1>
 <div class="container" id="content">
 	<?php if (get_option('strive_gg') == 'Display') { ?>
 	<div class="subsidiary row box setanimate visible">
@@ -52,7 +54,7 @@
         	<?php include('includes/slides.php'); ?>
             <?php { echo ''; } ?>
     <?php }} ?>
-
+    <div class="no16logo" style="display:none;"><img src="../wp-content/themes/Loostrive/images/no16streetlogo2.jpg"></div>
     <div class="mainleft">
     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('首页幻灯区域') ) :; endif;?>
     	
@@ -102,7 +104,7 @@
                 $('#main_loading').hide();
             },
             success: function(b) {
-                $("#post-list" + a).html(b), $("#post-list .post-nav .loading").css("display", "none"), $("#post-list .post-list").hide(300), $("#post-list" + a).show(500)
+                $("#post-list" + a).html(b), $("#post-list .post-nav .loading").css("display", "none"), $("#post-list .post-list").hide(300), $("#post-list" + a).show(500), $("#post_container li").addClass("animated zoomIn")
             },
             error: function() {
                 $("#post-list" + a).append('<div class="fail">\u83b7\u53d6\u5206\u7c7b\u4fe1\u606f\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5\u3002</div>'), $("#post-list .post-list").hide(), $("#post-list" + a).show(0), $("#post-list .post-nav .loading").hide(), $("#post-list .post-list").hide(300), $("#post-list" + a).show(500)
@@ -110,7 +112,7 @@
         })) : ($("#post-list .post-list").hide(300), $("#post-list" + a).show(500));
         $("#loadbar").animate({width:"100%"},function(){
             $("#loadbar").fadeOut(1000,function(){$("#loadbar").css("width","0");});
-        })
+        });
     })
 });
 </script>

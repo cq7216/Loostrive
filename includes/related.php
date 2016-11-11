@@ -1,6 +1,6 @@
 <ul>
 <?php
-$post_num = 6;
+$post_num = 12;
 $exclude_id = $post->ID; 
 $posttags = get_the_tags(); $i = 0;
 $relatedhigh = stripslashes(get_option('strive_relatedhigh'));

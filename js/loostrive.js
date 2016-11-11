@@ -379,7 +379,7 @@ jQuery(document).ready(function(){
 //Ajaxopt函数
 function Ajaxopt(){
          //所有不为新窗口打开的链接
-         $('a[target!=_blank]').live('click',function(event){
+         $('a[target!=_blank]:not(.notop)').live('click',function(event){
          	gotoTop();
          	var link = event.currentTarget;
          	var url = link.href;
@@ -454,6 +454,10 @@ function loadData(url,toPush){
 }); 
 }
 //全站ajax加载结束
+// 访客实时统计
+$(function(){
+	$("#onlinenum").load("/wp-content/themes/Loostrive/visit/online.php");
+});
 //滚动上浮特效
 var init_animate_scroll = function () {
 		$(window).on('load scroll', function () {

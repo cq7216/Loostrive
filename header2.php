@@ -31,9 +31,6 @@
     })();
     </script>
     <!-- 百度统计结束 -->
-    <!-- 百度站长平台验证开始 -->
-    <meta name="baidu-site-verification" content="sv75CbGrWd" />
-    <!-- 百度站长平台验证结束 -->
 </head>
 <body class="custom-background" data-spy="scroll" data-target="#nav-plane">
     <?php if ( is_home() || is_search() || is_category() || is_month() || is_author() || is_archive() ) { ?>
