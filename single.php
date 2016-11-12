@@ -43,9 +43,10 @@
             <div class="context">
 				<div id="post_content"><?php the_content('Read more...');?></div>
 				<?php custom_wp_link_pages();?>
-                <!-- haiyunx广告开始 -->
-                <div style="margin:0 auto;width:640px;"><script type="text/javascript" src="http://s.haiyunx.com/SSP/31905.js"></script></div>
-                <!-- haiyunx广告结束 -->
+                <!-- 文末广告开始 -->
+                <div style="margin:0 auto;width:640px;">
+                </div>
+                <!-- 文末广告结束 -->
                 <div class="open-message"><i class="fa fa-bullhorn"></i><a href="/view.php?url=<?php echo get_post_meta($post->ID,"website",true);?>&name=<?php echo get_post_meta($post->ID,"webname",true);?>" target="_blank">快速访问网站：【<?php echo get_post_meta($post->ID,"webname",true);?>】</a><br>小众网站, 版权所有丨如未注明 , 均为原创<br>更多精品网站请进入<a href="../dh" title="小众导航">小众实用导航</a></div>
                	<div class="clear"></div>
                 <?php if(function_exists('the_ratings')) { the_ratings(); } ?>

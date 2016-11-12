@@ -179,6 +179,7 @@ $(".flink a:not(.noframe)").click(function(event){
         </h2>
         <div class="content flink">
             <ul class="time-list clearfix">
+                <li> <a href="http://www.quzhuanpan.com" target="_blank" rel="nofollow">去转盘网</a> <p>常用网盘资源搜索，百度网盘、360网盘等资源下载</p> </li>
                 <li> <a href="http://www.xilinjie.com/" target="_blank" rel="nofollow">西林街</a> <p>全能型网盘搜索引擎</p> </li>
                 <li> <a href="http://www.panc.cc/" target="_blank" rel="nofollow">胖次搜索</a> <p>网盘资源搜索</p> </li>
                 <li> <a href="http://www.iwapan.com/" target="_blank" rel="nofollow">爱挖盘</a> <p>网盘资源搜索</p> </li>

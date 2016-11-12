@@ -46,19 +46,22 @@
             <div class="txzlogo">
                 <a href="http://taoxiaozhong.com" class="logo">
                     <h1 class="hidden">淘小众-推荐优秀小众网站</h1>
-                    <img src="http://taoxiaozhong.com/wp-content/themes/Loostrive/images/taoxiaozhong.png" class="pic" alt="淘小众">
-                    <img src="http://taoxiaozhong.com/wp-content/themes/Loostrive/images/text.png" class="text" alt="推荐优秀小众网站">
+                    <img src="./wp-content/themes/Loostrive/images/taoxiaozhong.png" class="pic" alt="淘小众">
+                    <img src="./wp-content/themes/Loostrive/images/text.png" class="text" alt="推荐优秀小众网站">
                 </a>
             </div>
           <div id="navfenlei">
              <li class="fenleicat"><a href="../random">手气不错</a></li>
-             <?php if(function_exists('wp_nav_menu')) {
+             <li><a href="http://taoxiaozhong.com/dh">小众实用导航</a><img src="./wp-content/themes/Loostrive/images/hot.png" alt="" style="width: 22px;position: relative;top: 4px;"></li>
+             <li><a href="http://taoxiaozhong.com/tougao">投稿</a></li>
+             <li><a href="http://taoxiaozhong.com/79">留言板</a></li>
+             <!-- <?php if(function_exists('wp_nav_menu')) {
                 wp_nav_menu(array(
                     'theme_location'=>'toolbar',
                     'menu_id'=>'toolbar',
                     'container'=>'ul')
                 );}
-                ?>
+                ?> -->
             </div>
             <div id="search">
              <form method="get" id="searchform" action="<?php bloginfo('url');?>">

@@ -127,11 +127,5 @@
 	<!-- 百度分享代码 -->
 	<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"5","bdPos":"left","bdTop":"300"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
     <!-- 百度图片广告开始 -->
-    <script type="text/javascript">
-    /*为了保证用户体验及收益，图片大小不得小于：200*180*/
-    /*图片＋广告*/
-    var cpro_id = "u2418459";
-    </script>
-    <script src="http://cpro.baidustatic.com/cpro/ui/i.js" type="text/javascript"></script>
     <!-- 百度图片广告结束 -->
 </body></html>

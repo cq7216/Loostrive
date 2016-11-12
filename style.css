@@ -140,7 +140,8 @@ position: relative;
 .fenleicat {height: 20px; line-height: 20px; margin:30px 20px 0 2px; padding: 0 12px 0 6px; color: white; background-color: #555; border: 1px solid #444; }
 .fenleicat {border-radius: 0 0 36px 0; }
 .fenleicat a{line-height: 20px !important;}
-#navfenlei li a {display: inline-block; margin-right: 5px; color: #EEE; line-height:80px; height:80px; }
+#navfenlei li a {display: inline-block; margin-right: 5px; color: #999; line-height:80px; height:80px; }
+#navfenlei li a:hover{color:#eee;}
 #search {z-index: 1; position: absolute; top: 30px; right: 52%; margin-right: -480px; width: 230px; height: 24px; font-size: 12px; background: #E2E1E0; box-shadow: 0 0 5px black; }
 #search, #search input#s, #search input#searchsubmit, .entry p.read-more a, .entry a.more-link, #sidebar .zadsbtn a {border-radius: 6px; }
 #search input#s {width: 208px; height: 24px; line-height: 24px; background: #E2E1E0; border: none; color: #999; padding: 0 4px!important; font-family: "Lucida Grande"; margin-top: 4px; }
