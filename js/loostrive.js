@@ -424,10 +424,10 @@ function loadData(url,toPush){
 		var titl1 = $(message).find("h1:first").text();
 		var titl2 = $(message).find("h2:first").text();
 		if (titl1 == "") {
-			window.document.title = titl2 + " \u2502 小众网站";
+			window.document.title = titl2 + " \u2502 淘小众";
 		}
 		else {
-			window.document.title = titl1 + " \u2502 小众网站";
+			window.document.title = titl1 + " \u2502 淘小众";
 		}
                         //以上几句为组合新页面的标题。下面一句为插入ajax回来的内容到"#content0"的DIV容器内。
                         $("#content0").html(msger);

@@ -41,7 +41,7 @@
 					<div class="textwidget">QQ：1457063 <br>E-Mail：1457063#qq.com（用@替换#）</div>
 				</div>
 				<div id="text-6" class="widget widget_text">
-					<h3 class="widget-title"><span>支持小众网站</span></h3>
+					<h3 class="widget-title"><span>支持淘小众</span></h3>
 					<a href="http://shang.qq.com/wpa/qunwpa?idkey=4b41fbbb002717c3f51cc84f38912b3aefd73ea1c4e62f2136c761d57b7f2680" target="_blank"><img alt="img" src="../wp-content/themes/Loostrive/images/ico_group.png"></a>
 					<a href="http://www.aliyun.com/product/ecs/?spm=5176.383338.201.11.EmuIDM" target="_blank"><img alt="img" src="../wp-content/themes/Loostrive/images/ico_aliyun.png" _hover-ignore="1"></a>
 					<a href="https://portal.qiniu.com/signup?code=3lmd5owdjqr0y" target="_blank"><img alt="img" src="../wp-content/themes/Loostrive/images/ico_qiniu.png"></a>

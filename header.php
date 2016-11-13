@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name');?> RSS Feed" href="<?php bloginfo('rss2_url');?>" />
     <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name');?> Atom Feed" href="<?php bloginfo('atom_url');?>" />
-    <link rel="shortcut icon" href="<?php echo stripslashes(get_option('strive_favicon')); ?>" type="image/x-icon" />
+    <link rel="shortcut icon" href="./wp-content/themes/Loostrive/images/favicon.ico" type="image/x-icon" />
     <link rel="pingback" href="<?php bloginfo('pingback_url');?>" />
     <link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css"> -->
@@ -108,7 +108,7 @@
         <?php }else{?>              
         <!-- <div class="row"></div> -->
         <?php }?>
-        <div class="container head">
+        <div class="container head"><!-- 
             <div class="logo_box">
                 <div id="musictitle">
                     <div id="musicload"></div>
@@ -138,7 +138,7 @@
             </div>
             <div class="weather">
                 <iframe width="450" scrolling="no" height="60" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&amp;id=12&amp;color=%23&amp;icon=1&amp;num=3"></iframe>
-            </div>
+            </div> -->
         </div>
         <div class="clear"></div>
 </div>

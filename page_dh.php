@@ -21,7 +21,7 @@ Template Name: 导航首页
     .time-list li a {margin-top: 3px; display: inline-block; color: #000; padding: 1px 3px; overflow: hidden; border-radius: 2px; font-size: 16px; line-height: 1.5em; font-weight: normal; position: absolute;left: -2px;white-space: nowrap;}
     .time-list li p {padding: 0 5px;font-size: 12px;margin-top:30px !important; display: none;}
     .flink li a img{width: 20px;padding: 3px 5px 0 0;}
-    #nav-plane {position: fixed; top: 210px; right: 0; background: url(../wp-content/themes/Loostrive/images/step.png) repeat-y; z-index: 999; }
+    #nav-plane {position: fixed; top: 190px; right: 0; background: url(../wp-content/themes/Loostrive/images/step.png) repeat-y; z-index: 999; }
     #nav-plane ul {margin-bottom: -3px; }
     #nav-plane li {margin-bottom: 3px; text-align: center; -webkit-box-shadow: 0 0 5px #555; -moz-box-shadow: 0 0 5px #555; box-shadow: 0 0 5px #555; }
     #nav-plane li a {display: inline-block; line-height: 30px; width: 75px; text-align:center;border: 1px solid #e3e3e3; color: #555; background: #fff; border: none;}
@@ -29,10 +29,10 @@ Template Name: 导航首页
     #nav-plane li a:hover {color: #850e06; }
     .shanchu{text-decoration:line-through !important;}
     /*Responsive Structure*/
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 375px) {
 .time-list li {width: 80%;}
 }
-@media only screen and (min-width:380px) and (max-width:680px) {
+@media only screen and (min-width:375px) and (max-width:680px) {
 .time-list li {width: 40%;}
 }
 @media only screen and (min-width:680px) and (max-width:768px) {
@@ -229,6 +229,7 @@ $(".flink a:not(.noframe)").click(function(event){
                <li><a href="http://btrabbit.com/" target="_blank" rel="nofollow">BTRabbit</a> <p>BT兔子-BT资源搜索引擎</p> </li>
                <li><a href="http://www.cilisou.cn/" target="_blank" rel="nofollow">磁力搜</a> <p>最稳定最好用的DHT磁力搜索引擎</p> </li>
                <li><a href="http://www.xunleihd.com/" target="_blank" rel="nofollow" class="shanchu">TSearch种子搜索器</a> <p>纯绿色，可预览，史上最强种子搜索器</p> </li>
+               <li><a href="http://www.juzisousuo.com/" target="_blank" rel="nofollow">橘子搜索</a> <p>橘子搜索是目前国内最专业磁力链接搜索引擎，精准高效的为您提供最新最热的bt资源的搜索信息。</p> </li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -263,6 +264,8 @@ $(".flink a:not(.noframe)").click(function(event){
                 <li> <a href="http://note.youdao.com/share/web/file.html?id=74003c3aa45df69f93201424624f0a1c&type=note" target="_blank" rel="nofollow" class="shanchu">加速度</a> <p>高质量的极速稳定代理，1元试用一个月</p> </li>
                 <li> <a href="https://niuxss.com/" target="_blank" rel="nofollow" class="noframe">牛叉网络加速服务</a> <p>一种全新上网体验，带您走进不一样的世界！</p> </li>
                 <li> <a href="http://fazero.cc/archives/584" target="_blank" rel="nofollow">蓝灯Lantern</a> <p>免费，速度快，支持windows，Ubuntu，Mac三平台，安装配置简单</p> </li>
+                <li> <a href="https://www.leisufree.com" target="_blank" rel="nofollow" class="noframe">雷速网络加速器</a> <p>付费服务 快速稳定有保障
+FaceBook·Youtube·Google一键到达</p> </li>
                 <li> <a href="https://www.tizipuss.com/" target="_blank" rel="nofollow" class="noframe">梯子铺</a> <p>世界那么大，还不去看看</p> </li>
                 <li> <a href="https://www.feiyulian.cn/aff.php?aff=294" target="_blank" rel="nofollow" class="noframe">飞鱼链</a> <p>高强度加密传输、智能路由、跨平台、支持移动客户端</p> </li>
                 <div style="clear:both;"></div>
@@ -777,6 +780,7 @@ $(".flink a:not(.noframe)").click(function(event){
         <div class="content flink">
             <ul class="time-list clearfix">
                 <li> <a href="http://www.135editor.com/" target="_blank" rel="nofollow">135排版</a> <p>微信图文素材排版编辑器提供美化微信文章排版 </p> </li>
+                <li> <a href="http://bj.96weixin.com/" target="_blank" rel="nofollow">96微信编辑器</a> <p>一款专业强大的微信公众平台在线编辑排版工具，提供手机预览功能，让用户在微信图文 、文章、内容排版、文本编辑、素材编辑上更加方便。 </p> </li>
                 <li> <a href="http://xiumi.us/" target="_blank" rel="nofollow">秀米</a> <p>图文排版_场景秀_图文秀_秀制作_H5_微信_公众号_图文消息_排版_助手</p> </li>
                 <li> <a href="http://www.ipaiban.com/" target="_blank" rel="nofollow">i排版</a> <p>一款排版效率高、界面简洁、样式原创设计的微信排版工具，支持全文编辑，实时预览、一键样式、一键添加签名的微信图文编辑器</p> </li>
                 <li> <a href="http://www.gorse.com/" target="_blank" rel="nofollow">构思</a> <p>融合了精美素材、图文排版、模板定制、版权图库搜索及图片编辑为一体的简单好用的编辑器</p> </li>
@@ -976,12 +980,15 @@ $(".flink a:not(.noframe)").click(function(event){
         <div class="content flink">
             <ul class="time-list clearfix">
                 <li> <a href="http://www.atool.org/" target="_blank" rel="nofollow">atool在线工具 <img src="../wp-content/themes/Loostrive/images/hot.gif"></a> <p>由华中科技大学一位在校女研究生开发的在线工具集合网站</p> </li>
-                <li> <a href="http://tool.lu/" target="_blank" rel="nofollow">程序员工具箱</a> <p>在线工具,开发人员工具,代码格式化、压缩、加密、解密,下载链接转换,sql工具,正则测试工具,favicon在线制作,ruby工具,中文简繁体转换,迅雷下载链接转换,程序猿的在线工具</p> </li>
+                <li> <a href="http://tool.lu/" target="_blank" rel="nofollow">程序员工具箱 <img src="../wp-content/themes/Loostrive/images/hot.gif"></a> <p>在线工具,开发人员工具,代码格式化、压缩、加密、解密,下载链接转换,sql工具,正则测试工具,favicon在线制作,ruby工具,中文简繁体转换,迅雷下载链接转换,程序猿的在线工具</p> </li>
+                <li> <a href="http://123.w3cschool.cn/webtools" target="_blank" rel="nofollow">W3CSchool在线工具</a> <p>整理一些常用的在线工具</p> </li>
                 <li> <a href="http://zb.letwind.com/" target="_blank" rel="nofollow">装逼神器</a> <p>装逼如风，常伴吾身，在线图片生成网站</p> </li>
                 <li> <a href="http://www.flvcd.com" target="_blank" rel="nofollow">硕鼠视频解析<img src="../wp-content/themes/Loostrive/images/hot.gif"></a> <p>在线解析视频下载地址，支持80多个视频网站</p> </li>
                 <li> <a href="http://www.clipconverter.cc/" target="_blank" rel="nofollow" class="noframe">ClipConverter</a> <p>免费下载youtube视频</p> </li>
                 <li> <a href="http://en.savefrom.net/" target="_blank" rel="nofollow">Savefrom.net<img src="../wp-content/themes/Loostrive/images/hot.gif"></a> <p>在线解析youtube视频下载地址，免费下载youtube视频</p> </li>
+                <li> <a href="https://yout.com/" target="_blank" rel="nofollow" class="noframe">Yout</a> <p>在线解析youtube视频下载地址，免费下载youtube视频</p> </li>
                 <li> <a href="http://web.yeekit.com/" target="_blank" rel="nofollow">Yeekit网页翻译</a> <p>百分百极速的网页翻译，再也不用怕上任何外文网站了</p> </li>
+                <li> <a href="http://cli.im/" target="_blank" rel="nofollow">草料二维码</a> <p>草料二维码是国内最大的二维码在线服务网站。我们用心制作了简单、便捷、功能强大的免费工具，还提供功能强大的商用二维码解决方案，帮助你轻松搞定二维码。</p> </li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -1000,7 +1007,6 @@ $(".flink a:not(.noframe)").click(function(event){
                 <li><a href="http://fis.baidu.com/" target="_blank">前端工程构建</a></li>
                 <li><a href="http://duoshuo.com/" target="_blank">多说</a></li>
                 <li><a href="http://www.51.la/" target="_blank">网站统计工具</a></li>
-                <li><a href="http://www.zzbaike.com/" target="_blank">站长百科</a></li>
                 <li><a href="http://www.jiathis.com/index2" target="_blank">按钮分享工具</a></li>
                 <li><a href="http://www.dingdone.com/index#case" target="_blank">APP制作</a></li>
                 <li><a href="http://www.gruntjs.net/" target="_blank">Grunt</a></li>
@@ -1039,6 +1045,7 @@ $(".flink a:not(.noframe)").click(function(event){
         </h2>
         <div class="content flink">
             <ul class="time-list clearfix">
+                <li><a href="http://tool.chinaz.com/" target="_blank">站长工具</a><p></p></li>
                 <li><a href="http://seo.chinaz.com/" target="_blank">SEO综合</a><p></p></li>
                 <li><a href="http://www.123cha.com/alexa/" target="_blank">网站流量</a><p></p></li>
                 <li><a href="http://webscan.360.cn/" target="_blank">安全检测</a><p></p></li>
@@ -1247,6 +1254,8 @@ $(".flink a:not(.noframe)").click(function(event){
                     <li><a href="http://www.maiziedu.com/" target="_blank" rel="nofollow">麦子学院</a> <p>专业IT职业在线教育平台</p> </li>
                     <li><a href="http://www.51zxw.net/" target="_blank" rel="nofollow">我要自学网</a> <p>免费视频教程,提供全方位软件学习</p> </li>
                     <li><a href="http://www.icourse163.org/" target="_blank" rel="nofollow">中国大学Mooc</a> <p>国内最好的中文MOOC学习平台，拥有来自于39所985高校的顶级课程，最好最全的大学课程，与名师零距离。</p> </li>
+                    <li><a href="http://ninghao.net/" target="_blank" rel="nofollow">宁皓网</a> <p>宁皓是一个小团队，或许有一天我们会很大，如果你同意的话。</p> </li>
+                    <li><a href="https://laravist.com/" target="_blank" rel="nofollow" class="noframe">Laravist</a> <p>从这里开始成为现代的Web开发工程师</p> </li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -1399,6 +1408,36 @@ $(".flink a:not(.noframe)").click(function(event){
         </div>
         <!-- 分隔线 -->
     </div>
+    <!--.section-->
+    <div class="section mtop" id="qiangwai">
+        <h1 class="lefttitle">墙外世界</h1>
+        <h2 class="nav-title" id="worldnews">
+            <i class="icon-globe"></i>资讯<span class="sub-category">
+                <a href="#worldnews" class="current notop">所有</a> | <a href="#worldnews" class="notop">资讯</a> | <a href="#worldvideo" class="notop">视频</a>            </span>
+            <a href="#" class="more">更多&gt;&gt;</a>
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li> <a href="http://cn.nytimes.com/" target="_blank" rel="nofollow" class="noframe">纽约时报</a> <p>纽约时报中文版</p> </li>
+                <li> <a href="http://www.aol.com/" target="_blank" rel="nofollow">美国在线</a> <p>美国在线（American Online）</p> </li>
+                <li> <a href="http://www.ap.org/" target="_blank" rel="nofollow">美联社</a> <p>美联社是世界上独立新闻采访量最大的通讯社之一，其新闻稿件被世界众多新闻机构采用</p> </li>
+                <li> <a href="https://www.afp.com/" target="_blank" rel="nofollow" class="noframe">法新社</a> <p>法新社24小时不断提供快速、准确的视频、文字、图片新闻资料，及时报道战争和冲突、政治、体育、娱乐、健康等领域新闻以及科学和技术的最新突破。</p> </li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
+        <h2 class="nav-title" id="worldvideo">
+            <i class="icon-globe"></i>视频
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li> <a href="https://www.youtube.com/" target="_blank" rel="nofollow" class="noframe">youtube</a> <p>全球知名视频网站</p> </li>
+                <li> <a href="https://vimeo.com/" target="_blank" rel="nofollow" class="noframe">vimeo</a> <p>高清视频播客网站，与大多数类似的视频分享网站不同，Vimeo允许上传1280X700的高清视频，上传后Vimeo会自动转码为高清视频，源视频文件可以自由下载，它达到了真正的高清视频标准</p> </li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
+    </div>
     <!--.section-->    
     <div class="section mtop" id="daohang">
         <h1 class="lefttitle">导航</h1>
@@ -1412,7 +1451,7 @@ $(".flink a:not(.noframe)").click(function(event){
                 <li><a href="http://www.allyingshi.com/" target="_blank" rel="nofollow">人人影视大全</a> <p>人人影视全新网址</p></li>
                 <li><a href="http://www.yingmi123.com/" target="_blank" rel="nofollow">影迷导航网</a> <p>搜集、归类、整理、分享各种影视网站</p></li>
                 <li><a href="http://www.dydh.org/" target="_blank" rel="nofollow">电影导航.ORG</a> <p>人工整理优秀的电影网站</p></li>
-                <li><a href="http://www.disanlou.org/hao.php" target="_blank" rel="nofollow">字幕大全</a> <p>电影字幕下载网站大全</p></li>
+                <li><a href="http://www.disanlou.org/" target="_blank" rel="nofollow">第三楼字幕网</a> <p>电影字幕下载网站大全</p></li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -1477,6 +1516,10 @@ $(".flink a:not(.noframe)").click(function(event){
                 <li><a href="http://mfavisa.com/" target="_blank" rel="nofollow">各国签证导航</a> <p>直达各国签证网站</p></li>
                 <li><a href="http://gds123.cn/" target="_blank" rel="nofollow">龟大师网络营销导航</a> <p>这是一个满足所有自媒体运营的网络营销导航</p></li>
                 <li><a href="http://tool.lusongsong.com/" target="_blank" rel="nofollow">松松站长工具大全</a> <p>收录了互联网各大热门在线站长工具，经常上站长工具可以了解SEO数据变化。还可以检测网站死链接、蜘蛛访问、HTML格式检测、网站速度测试、友情链接检查、网站域名IP查询、PR、权重查询、alexa、whois查询等等。</p></li>
+                <li><a href="http://www.chuang007.com/" target="_blank" rel="nofollow">创业007</a> <p>创业服务网址导航</p></li>
+                <li><a href="http://www.51index.cn/" target="_blank" rel="nofollow">程序员垂直导航</a> <p>我的索引</p></li>
+                <li><a href="http://123.w3cschool.cn/" target="_blank" rel="nofollow">W3CSchool极客导航</a> <p>W3Cschool极客导航，编程资源，技术网址，编程学习资源相关网址导航</p></li>
+                <li><a href="https://www.rishiqing.com/saas/" target="_blank" rel="nofollow" class="noframe">SaaS（科技）行业导航</a> <p>日事清--科技行业导航</p></li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -1495,9 +1538,9 @@ $(".flink a:not(.noframe)").click(function(event){
                 <li><a href="http://gate.guokr.com/" target="_blank" rel="nofollow">果壳任意门</a> <p>发现你最爱的网站</p></li>
                 <li><a href="http://www.neihan999.com/" target="_blank" rel="nofollow">内涵导航</a> <p>简洁有内涵</p></li>
                 <li><a href="http://go.fuli.lu/" target="_blank" rel="nofollow">福利导航</a> <p>精选电影资源，软件资源，免费资源，学习资源</p></li>
+                <li><a href="http://www.dsqndh.com/" target="_blank" rel="nofollow">屌丝青年导航</a> <p>争做福利导航第一站</p></li>
                 <li><a href="http://www.neihan999.com/FQ/" target="_blank" rel="nofollow">墙外世界导航</a> <p>收录了中国大陆不能正常访问的网址</p></li>
-                <li><a href="http://mwlmt.cc/d/" target="_blank" rel="nofollow">五花八门导航</a> <p>为用户提供门户、新闻、视频、游戏、小说、彩票等各种分类的优秀内容和网站入口</p></li>
-                <div style="clear:both;"></div>
+                <li><a href="http://mwlmt.cc/d/" target="_blank" rel="nofollow">五花八门导航</a> <p>为用户提供门户、新闻、视频、游戏、小说、彩票等各种分类的优秀内容和网站入口</p></li>                <div style="clear:both;"></div>
             </ul>
         </div>
         <!-- 分隔线 -->
@@ -1532,6 +1575,7 @@ $(".flink a:not(.noframe)").click(function(event){
                 <li><a class="notop" href="#study">学习</a></li>
                 <li><a class="notop" href="#cool">酷站</a></li>
                 <li><a class="notop" href="#fuli">福利</a></li>
+                <li><a class="notop" href="#qiangwai">墙外世界</a></li>
                 <li><a class="notop" href="#daohang">导航</a></li>
     </ul>
 </div>

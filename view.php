@@ -36,9 +36,9 @@
 </head>
 <body>
     <div class="windowBar">
-        <a class="wvTip" wvtip="小众网站" href="../" title="小众网站">
+        <a class="wvTip" wvtip="淘小众" href="../" title="淘小众">
             <img src="http://www.zm1z.com/img/siteWindow/star.png" width="50px" height="50px">
-        <div class="wvTipArea">小众网站</div></a>
+        <div class="wvTipArea">淘小众</div></a>
         <a class="wvTip" wvtip="点评网站" href="../" title="点评网站">
             <img src="http://www.zm1z.com/img/siteWindow/chat.png" width="50px" height="50px">
         <div class="wvTipArea">点评网站</div></a>
