@@ -486,7 +486,7 @@ span.ua{
 	content: "\f02c"
 }
 #post_container { margin-left: -16px; position:relative;overflow: hidden; }
-#post_container li { width: 300px; margin-left: 19px; float: left;/*-webkit-animation:fadeInUp .3s .2s ease both;-moz-animation:fadeInUp .3s .2s ease both;-webkit-box-shadow: 0 2px 4px 0 #999;-moz-box-shadow: 0 2px 4px 0 #999;*/box-shadow: 0 2px 4px 0 #999;background:#fff;}
+#post_container li { width: 300px; margin-left: 19px;margin-bottom:15px; float: left;/*-webkit-animation:fadeInUp .3s .2s ease both;-moz-animation:fadeInUp .3s .2s ease both;-webkit-box-shadow: 0 2px 4px 0 #999;-moz-box-shadow: 0 2px 4px 0 #999;*/box-shadow: 0 2px 4px 0 #999;background:#fff;}
 #post_container li:after{position: absolute !important; width: 473px !important;text-indent:-999px !important; background: url("images/shadow.png") no-repeat center bottom !important; background-size: 310px !important; margin-left: -90px !important; opacity: 0.5 !important;height:auto !important;visibility: visible !important;}
 /** Animation **/
 /*.setanimate {-moz-opacity: 0; -khtml-opacity: 0; -webkit-opacity: 0; opacity: 0; -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); filter: alpha(opacity=0); -webkit-transition: all 0.9s ease-in-out 0s; -moz-transition: all 0.9s ease-in-out 0s; -o-transition: all 0.9s ease-in-out 0s; -ms-transition: all 0.9s ease-in-out 0s; transition: all 0.9s ease-in-out 0s; position: relative;}
@@ -1013,10 +1013,11 @@ a:hover{
 .headroom--unpinned .logo .pic{width:90px;margin:7px 0 5px 0;display: block;}
 .headroom--unpinned .logo .text{width:110px;}
 #navOne {position:fixed;top:0; transition: all 500ms; -webkit-transition: all 500ms;z-index: 20;height:60px;width:100%; background: #000; font-family: 'Microsoft YaHei', 微软雅黑;font-size:13px; }
-}
 #headwrapper{height:90px;}
+.subsidiary{margin-top:0;}
 .head{height:90px;}
 .row {margin-bottom: 0; }
+}
 @media only screen and (min-width:640px) and (max-width:980px) {
 .container { max-width: 640px !important; }
 .mainmenus { margin-bottom: 1.5em; }
@@ -1028,10 +1029,6 @@ a:hover{
 #navfenlei{width:100%;}
 .weather{display: none;}
 #focusBar{display: none !important;}
-.row {margin-bottom: 1.5em; }
-}
-@media only screen and (min-width:980px) and (max-width:1270px) {
-.row {margin-bottom: 1.5em; }
 }
 @media only screen and (min-width:1270px) {
 .container { max-width: 1262px !important; }
@@ -1047,5 +1044,4 @@ a:hover{
 .flex-caption .btn a { color: #ff7d00; }
 #focus ul li a img { width: 650px !important; }
 .related_box{ width:155px !important;}
-.row {margin-bottom: 1.5em; }
 }

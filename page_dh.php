@@ -52,6 +52,7 @@ Template Name: 导航首页
 }
 </style>
 <link href="../wp-content/themes/Loostrive/css/font.css" rel="stylesheet" type="text/css">
+<script src="../wp-content/themes/Loostrive/js/linkTip.js"></script>
 <script type="text/javascript">
     //bootstrap-scrollspy.js v2.0.2
     // 滚动监听（Scrollspy）

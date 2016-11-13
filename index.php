@@ -47,7 +47,7 @@
 			<?php }?>
         </div>
 	</div>
-    <?php } else { echo '<div class="row"></div>';} ?>
+    <?php } else { echo '<div class="row1"></div>';} ?>
     <?php if (get_option('strive_slidebar') == 'Display') { ?>
     <?php get_sidebar();?>
     	<?php if (get_option('strive_slides') == 'Display'&& $post==$posts[0] && !is_paged()) { ?>
