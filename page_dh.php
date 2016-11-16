@@ -5,9 +5,10 @@ Template Name: 导航首页
 ?>
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
 <style type="text/css">
-    .section {background: #fff; box-shadow: 0 1px 2px rgba(43,59,93,.29); border-radius: 3px;position: relative; }
-    .lefttitle{background: #333; color:#fff;box-shadow: 0 1px 2px rgba(43,59,93,.29); border-radius: 3px; padding: 20px 5px; position: absolute; width: 30px; line-height: 22px; font-size: 20px; left: -38px; top: 0px; /* height: 100px; */ text-align: center; border-right: 0; z-index: 9;}
-    .mtop {margin-top: 10px; }
+    .subsidiary{background: #eee;border-radius:5px;}
+    .section {background: #eee; box-shadow: 0 1px 2px rgba(43,59,93,.29);border-radius: 0 10px 10px 10px; position: relative; }
+    .lefttitle{background: #333; color:#fff;box-shadow: 0 1px 2px rgba(43,59,93,.29); border-radius: 10px 0 0 10px; padding: 20px 5px; position: absolute; width: 30px; line-height: 22px; font-size: 20px; left: -40px; top: 0px; /* height: 100px; */ text-align: center; border-right: 0; z-index: 9;}
+    .mtop {margin-top: 15px; }
     .section .nav-title {height: 30px; line-height: 35px; border-bottom: 1px solid #e2e2e2; font-size: 16px; color: #333; padding-left: 8px; position: relative; border-left: 3px solid #000; }
     .icon-play-sign:before {content: "\f144"; }
     .sub-category {font-weight: normal; font-size: 12px; margin-left: 30px; }
@@ -20,8 +21,8 @@ Template Name: 导航首页
     .time-list li:hover {background: rgba(0,0,0,.1);}
     .time-list li a {margin-top: 3px; display: inline-block;width: 100%;height:100%; color: #000; padding: 1px 3px; overflow: hidden; border-radius: 2px; font-size: 16px; line-height: 1.5em; font-weight: normal; position: absolute;left: -2px;white-space: nowrap;}
     .time-list li p {padding: 0 5px;font-size: 12px;margin-top:30px !important; display: none;}
-    .flink li a img{width: 20px;padding: 3px 5px 0 0;}
-    #nav-plane {position: fixed; top: 190px; right: 0; background: url(../wp-content/themes/Loostrive/images/step.png) repeat-y; z-index: 99; }
+    .flink li a img{width: 25px;padding: 0 10px 0 0;}
+    #nav-plane {position: fixed; bottom: 50px; right: 0; background: url(../wp-content/themes/Loostrive/images/step.png) repeat-y; z-index: 99; }
     #nav-plane ul {margin-bottom: -3px; }
     #nav-plane li {margin-bottom: 3px; text-align: center; -webkit-box-shadow: 0 0 5px #555; -moz-box-shadow: 0 0 5px #555; box-shadow: 0 0 5px #555; }
     #nav-plane li a {display: inline-block; line-height: 30px; width: 75px; text-align:center;border: 1px solid #e3e3e3; color: #555; background: #fff; border: none;}
@@ -52,7 +53,6 @@ Template Name: 导航首页
 
 }
 </style>
-<link href="../wp-content/themes/Loostrive/css/font.css" rel="stylesheet" type="text/css">
 <script src="../wp-content/themes/Loostrive/js/linkTip.js"></script>
 <script type="text/javascript">
     //bootstrap-scrollspy.js v2.0.2
@@ -260,7 +260,7 @@ $(".flink a:not(.noframe)").click(function(event){
                 <li> <a href="http://www.ccav1.me/chromegae.html" title="Yanu分享的科学上网" target="_blank" rel="nofollow" class="linkTip">ChromeGAE</a> </li>
                 <li> <a href="http://browser.ccavhd.com/chromegae.html" title="Yanu分享的科学上网" target="_blank" rel="nofollow" class="linkTip">360ChromeGAE 1.1</a>  </li>
                 <li> <a href="http://www.jubushoushen.com/" title="科学上网博客" target="_blank" rel="nofollow" class="linkTip">菊部受审</a>  </li>
-                <li> <a href="https://gochrome.info/" target="_blank" rel="nofollow" class="linkTip">Chrome资源</a> title="致力于免费科学上网"  </li>
+                <li> <a href="https://gochrome.info/" title="致力于免费科学上网" target="_blank" rel="nofollow" class="linkTip">Chrome资源</a>  </li>
                 <li> <a href="http://wsgzao.github.io/post/fq/" title="免费和付费的GFW翻墙方案小结" target="_blank" rel="nofollow" class="linkTip">GFW翻墙小结</a>  </li>
                 <li> <a href="http://www.dou-bi.com/" title="世界那么逗，我想出去看看" target="_blank" rel="nofollow" class="linkTip">逗比根据地</a>  </li>
                 <li> <a href="http://note.youdao.com/share/web/file.html?id=74003c3aa45df69f93201424624f0a1c&type=note" title="高质量的极速稳定代理，1元试用一个月"  target="_blank" rel="nofollow" class="linkTip" class="shanchu">加速度</a> </li>
@@ -402,7 +402,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li> <a href="http://www.ttmeiju.com/" title="第一时间为您提供最火最新的高清美剧片源下载" target="_blank" rel="nofollow" class="linkTip">天天美剧</a>  </li>
                 <li> <a href="http://www.yugaopian.com/" title="提供最新、最热门的高清电影预告片、电影花絮" target="_blank" rel="nofollow" class="linkTip">预告片世界</a>  </li>
                 <li> <a href="http://www.gaoqingkong.com/" title="热衷于高清发烧，每日关注高清影视" target="_blank" rel="nofollow" class="linkTip">高清控联盟</a>  </li>
-                <li> <a href="http://www.lanyingwang.com/" target="_blank" rel="nofollow" class="linkTip">蓝影网</a> title="高清种子下载网站"  </li>
+                <li> <a href="http://www.lanyingwang.com/" title="高清种子下载网站" target="_blank" rel="nofollow" class="linkTip">蓝影网</a>  </li>
                 <li> <a href="http://www.yinfans.com/" title="高清蓝光电影资源的精选网站，分享顶级蓝光原盘下载资源" target="_blank" rel="nofollow" class="linkTip">音范丝</a>  </li>
                 <li> <a href="http://gaoqing.la/" title="每天关注提供720p高清、1080p高清、蓝光原盘高清" target="_blank" rel="nofollow" class="linkTip">中国高清网</a>  </li>
                 <li> <a href="http://www.i1080.cn/" title="提供720P高清、1080P超清、蓝光原盘、3D高清、IMAX巨幕高清电影" target="_blank" rel="nofollow" class="linkTip">艾米电影网</a>  </li>
@@ -720,8 +720,8 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         </h2>
         <div class="content flink">
             <ul class="time-list clearfix">
-                <li> <a href="http://alpha.wallhaven.cc/" target="_blank" rel="nofollow" class="linkTip">Wallhaven <img src="../wp-content/themes/Loostrive/images/hot.gif"></a> title="国外精品高清壁纸分享"  </li>
-                <li> <a href="http://www.kdatu.com/category/hd-wallpaper/" target="_blank" rel="nofollow" class="linkTip">看大图</a> title="高清壁纸打包下载"  </li>
+                <li> <a href="http://alpha.wallhaven.cc/" title="国外精品高清壁纸分享" target="_blank" rel="nofollow" class="linkTip">Wallhaven <img src="../wp-content/themes/Loostrive/images/hot.gif"></a>  </li>
+                <li> <a href="http://www.kdatu.com/category/hd-wallpaper/" title="高清壁纸打包下载" target="_blank" rel="nofollow" class="linkTip">看大图</a>  </li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -982,6 +982,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
             <ul class="time-list clearfix">
                 <li> <a href="http://www.atool.org/" title="由华中科技大学一位在校女研究生开发的在线工具集合网站" target="_blank" rel="nofollow" class="linkTip">atool在线工具 <img src="../wp-content/themes/Loostrive/images/hot.gif"></a>  </li>
                 <li> <a href="http://tool.lu/" title="在线工具,开发人员工具,代码格式化、压缩、加密、解密,下载链接转换,sql工具,正则测试工具,favicon在线制作,ruby工具,中文简繁体转换,迅雷下载链接转换,程序猿的在线工具" target="_blank" rel="nofollow" class="linkTip">程序员工具箱 <img src="../wp-content/themes/Loostrive/images/hot.gif"></a>  </li>
+                <li> <a href="http://c.runoob.com/" title="菜鸟工具，为开发设计人员提供在线工具，提供在线PHP、Python、 CSS、JS 调试，中文简繁体转换，进制转换等工具。" target="_blank" rel="nofollow" class="linkTip">菜鸟工具</a>  </li>
                 <li> <a href="http://123.w3cschool.cn/webtools" title="整理一些常用的在线工具" target="_blank" rel="nofollow" class="linkTip">W3CSchool在线工具</a>  </li>
                 <li> <a href="http://zb.letwind.com/" title="装逼如风，常伴吾身，在线图片生成网站" target="_blank" rel="nofollow" class="linkTip">装逼神器</a>  </li>
                 <li> <a href="http://www.flvcd.com" title="在线解析视频下载地址，支持80多个视频网站" target="_blank" rel="nofollow" class="linkTip">硕鼠视频解析<img src="../wp-content/themes/Loostrive/images/hot.gif"></a>  </li>
@@ -1131,6 +1132,8 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         </h2>
         <div class="content flink">
             <ul class="time-list clearfix">
+                <li><a href="http://www.bootcss.com/p/font-awesome/" title="完美的图标字体
+只为Bootstrap设计" target="_blank" rel="nofollow" class="linkTip">Font-Awesome</a></li>
                 <li><a href="http://zeptojs.com/" target="_blank" rel="nofollow" class="linkTip">zeptojs</a></li>
                 <li><a href="https://github.com/visionmedia/move.js" target="_blank" rel="nofollow" class="linkTip">运动库</a></li>
                 <li><a href="http://velocityjs.org/" target="_blank" rel="nofollow" class="linkTip">动画库</a></li>
@@ -1231,7 +1234,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         <div class="content flink">
             <ul class="time-list clearfix">
                     <li><a href="http://www.imooc.com/" title="免费的IT技能学习平台 专注IT学习的开放式在线精品课程" target="_blank" rel="nofollow" class="linkTip">慕课网</a>  </li>
-                    <li><a href="http://www.mengma.com/" title="萌码是计算教育领域的先行者，领先的跟随式教学、图形化教学等让计算学习更有趣、更高效" target="_blank" rel="nofollow" class="linkTip">萌码网</a>  </li>
+                    <li><a href="http://www.mengma.com/" title="萌码是计算教育领域的先行者，领先的跟随式教学、图形化教学等让计算学习更有趣、更高效" target="_blank" rel="nofollow" class="linkTip noframe">萌码网</a>  </li>
                 <li><a href="http://study.163.com/" title="大型在线教育平台服务，提供海量免费、优质课程" target="_blank" rel="nofollow" class="linkTip">网易云课堂</a>  </li>
                     <li><a href="http://www.ycku.com/" title="持久的理念，最酷的教学" target="_blank" rel="nofollow" class="linkTip">瓢城Web俱乐部</a>  </li>
                     <li><a href="http://doyoudo.com" title="一个有趣、专业的设计类软件学习网站" target="_blank" rel="nofollow" class="linkTip">doyoudo</a>  </li>
@@ -1432,7 +1435,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         </h2>
         <div class="content flink">
             <ul class="time-list clearfix">
-                <li> <a href="https://www.youtube.com/" target="_blank" rel="nofollow" class="linkTip" class="noframe">youtube</a> title="全球知名视频网站"  </li>
+                <li> <a href="https://www.youtube.com/" title="全球知名视频网站" target="_blank" rel="nofollow" class="linkTip" class="noframe">youtube</a>  </li>
                 <li> <a href="https://vimeo.com/" title="高清视频播客网站，与大多数类似的视频分享网站不同，Vimeo允许上传1280X700的高清视频，上传后Vimeo会自动转码为高清视频，源视频文件可以自由下载，它达到了真正的高清视频标准" target="_blank" rel="nofollow" class="linkTip" class="noframe">vimeo</a>  </li>
                 <div style="clear:both;"></div>
             </ul>

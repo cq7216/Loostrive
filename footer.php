@@ -114,7 +114,7 @@
 </script>
 <!--gototop-->
 <div id="tbox">
-	<a id="gotop" href="javascript:void(0)"></a> </div>
+	<a id="gotop" href="javascript:void(0)"><i class="icon-circle-arrow-up"></i>TOP</a> </div>
 	<?php wp_footer(); ?>
 <!-- 顶部导航栏随鼠标滚动变化 -->
 <script type="text/javascript" src="http://taoxiaozhong.com/wp-content/themes/Loostrive/js/headroom.min.js"></script>

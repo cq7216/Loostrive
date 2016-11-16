@@ -14,7 +14,7 @@ button,input[type=button],input[type=submit]{cursor:pointer}
 input[type=radio],input[type=checkbox]{font-size:110%}
 hr{display:block;height:1px;border:0;border-top:1px solid #ddd}
 .group:after{content:".";display:block;height:0;clear:both;visibility:hidden}
-body{background:#fff;color:#000;font-size:.875em;line-height:1.5em;font-family:Helvetica,Arial,Tahoma,sans-serif}
+body{background:#fff;color:#000;font-size:.875em;line-height:1.5em;font-family:"Microsoft Yahei",Tahoma,Helvetica,Arial,Tahoma,sans-serif}
 a{color:#369}
 a:hover{color:#19334d}
 h1,h2,h3,h4,h5,h6{font-weight:700;margin-bottom:.5em}

@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="./wp-content/themes/Loostrive/images/favicon.ico" type="image/x-icon" />
     <link rel="pingback" href="<?php bloginfo('pingback_url');?>" />
     <link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
+    <link href="../wp-content/themes/Loostrive/css/font.css" rel="stylesheet" type="text/css">
     <!-- <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css"> -->
     <!--[if lte IE 7]><script>window.location.href='http://7xkipo.com1.z0.glb.clouddn.com/upgrade-your-browser.html?referrer='+location.href;</script><![endif]-->
     <?php my_scripts_method; wp_head()?>

@@ -8,7 +8,7 @@
 	Version:1.2.4
 */
 html{background: url(images/bg.gif);}
-body { background: url(images/bgpic.jpg) no-repeat -10% 130px fixed; color: #333; font: 13px 微软雅黑, Verdana, Arial, Helvetica, sans-serif; line-height: 1; }
+body { background: url(images/bgpic.jpg) no-repeat -10% 130px fixed; color: #333; font: 13px "Microsoft Yahei",Tahoma,SimSun; line-height: 1; }
 ::selection { color: #fff; background: #FF7D00; }
 ::-moz-selection {color:#fff;background:#FF7D00;}
 a:link, a:visited { color: #303030; text-decoration: none; -webkit-transition: background-color .15s linear, color .15s linear; -moz-transition: background-color .15s linear, color .15s linear; -o-transition: background-color .15s linear, color .15s linear; -ms-transition: background-color .15s linear, color .15s linear; transition: background-color .15s linear, color .15s linear; }
@@ -486,7 +486,7 @@ span.ua{
 	content: "\f02c"
 }
 #post_container { margin-left: -16px; position:relative;overflow: hidden; }
-#post_container li { width: 300px; margin-left: 19px;margin-bottom:15px; float: left;/*-webkit-animation:fadeInUp .3s .2s ease both;-moz-animation:fadeInUp .3s .2s ease both;-webkit-box-shadow: 0 2px 4px 0 #999;-moz-box-shadow: 0 2px 4px 0 #999;*/box-shadow: 0 2px 4px 0 #999;background:#fff;}
+#post_container li { width: 300px; margin-left: 19px;margin-bottom:20px; float: left;/*-webkit-animation:fadeInUp .3s .2s ease both;-moz-animation:fadeInUp .3s .2s ease both;-webkit-box-shadow: 0 2px 4px 0 #999;-moz-box-shadow: 0 2px 4px 0 #999;*/box-shadow: 0 2px 4px 0 #999;background:#fff;}
 #post_container li:after{position: absolute !important; width: 473px !important;text-indent:-999px !important; background: url("images/shadow.png") no-repeat center bottom !important; background-size: 310px !important; margin-left: -90px !important; opacity: 0.5 !important;height:auto !important;visibility: visible !important;}
 /** Animation **/
 /*.setanimate {-moz-opacity: 0; -khtml-opacity: 0; -webkit-opacity: 0; opacity: 0; -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); filter: alpha(opacity=0); -webkit-transition: all 0.9s ease-in-out 0s; -moz-transition: all 0.9s ease-in-out 0s; -o-transition: all 0.9s ease-in-out 0s; -ms-transition: all 0.9s ease-in-out 0s; transition: all 0.9s ease-in-out 0s; position: relative;}
@@ -861,8 +861,8 @@ color: #EEE;
 #footer p.author a { color: #444; }
 #footer p.author a:hover { text-decoration: underline }
 /*gototop*/
-#tbox { width:45px; float: right; position: fixed; right: 20px; bottom:5%; z-index: 999;}
-#pinglun, #home, #gotop { width:34px; height:100px; background:url(images/goTopZcool.png); display: block; margin-bottom: 5px; /*filter: alpha(Opacity=50); -moz-opacity: 0.5; opacity: 0.5; */}
+#tbox { width:45px; float: right; position: fixed; right: 10px; bottom:5px; z-index: 999;}
+#pinglun, #home, #gotop { width:35px; height:35px;text-align:center;/* background:url(images/goTopZcool.png);*/ display: block;  /*filter: alpha(Opacity=50); -moz-opacity: 0.5; opacity: 0.5; */}
 #pinglun:hover, #home:hover, #gotop:hover { filter: alpha(Opacity=100); -moz-opacity: 1; opacity: 1; }
 #pinglun { background-position: 0 -50px; }
 #home { background-position: 0 5px; }
