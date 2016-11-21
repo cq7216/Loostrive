@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name');?> RSS Feed" href="<?php bloginfo('rss2_url');?>" />
     <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name');?> Atom Feed" href="<?php bloginfo('atom_url');?>" />
-    <link rel="shortcut icon" href="./wp-content/themes/Loostrive/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://taoxiaozhong.com/wp-content/themes/Loostrive/images/favicon.ico" type="image/x-icon" />
     <link rel="pingback" href="<?php bloginfo('pingback_url');?>" />
     <link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
-    <link href="../wp-content/themes/Loostrive/css/font.css" rel="stylesheet" type="text/css">
+    <link href="http://taoxiaozhong.com/wp-content/themes/Loostrive/css/font.css" rel="stylesheet" type="text/css">
     <!-- <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css"> -->
     <!--[if lte IE 7]><script>window.location.href='http://7xkipo.com1.z0.glb.clouddn.com/upgrade-your-browser.html?referrer='+location.href;</script><![endif]-->
     <?php my_scripts_method; wp_head()?>
@@ -47,13 +47,13 @@
             <div class="txzlogo">
                 <a href="http://taoxiaozhong.com" class="logo">
                     <h1 class="hidden">淘小众-推荐优秀小众网站</h1>
-                    <img src="./wp-content/themes/Loostrive/images/taoxiaozhong.png" class="pic" alt="淘小众">
-                    <img src="./wp-content/themes/Loostrive/images/text.png" class="text" alt="推荐优秀小众网站">
+                    <img src="http://taoxiaozhong.com/wp-content/themes/Loostrive/images/taoxiaozhong.png" class="pic" alt="淘小众">
+                    <img src="http://taoxiaozhong.com/wp-content/themes/Loostrive/images/text.png" class="text" alt="推荐优秀小众网站">
                 </a>
             </div>
           <div id="navfenlei">
              <li class="fenleicat"><a href="../random">手气不错</a></li>
-             <li><a href="http://taoxiaozhong.com/dh">小众实用导航</a><img src="./wp-content/themes/Loostrive/images/hot.png" alt="" style="width: 22px;position: relative;top: 4px;"></li>
+             <li><a href="http://taoxiaozhong.com/dh">小众实用导航</a><img src="http://taoxiaozhong.com/wp-content/themes/Loostrive/images/hot.png" alt="" style="width: 22px;position: relative;top: 4px;"></li>
              <li><a href="http://taoxiaozhong.com/tougao">投稿</a></li>
              <li><a href="http://taoxiaozhong.com/79">留言板</a></li>
              <!-- <?php if(function_exists('wp_nav_menu')) {

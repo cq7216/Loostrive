@@ -6,22 +6,22 @@ Template Name: 导航首页
 <?php  $soz=$_POST["soz"]; if ($soz != "ajax") { get_header();  } ?>
 <style type="text/css">
     .subsidiary{background: #eee;border-radius:5px;}
-    .section {background: #eee; box-shadow: 0 1px 2px rgba(43,59,93,.29);border-radius: 0 10px 10px 10px; position: relative; }
-    .lefttitle{background: #333; color:#fff;box-shadow: 0 1px 2px rgba(43,59,93,.29); border-radius: 10px 0 0 10px; padding: 20px 5px; position: absolute; width: 30px; line-height: 22px; font-size: 20px; left: -40px; top: 0px; /* height: 100px; */ text-align: center; border-right: 0; z-index: 9;}
+    .section {background: #fff; box-shadow: 0 1px 2px rgba(43,59,93,.29);border-radius: 0 10px 10px 10px; position: relative; }
+    .lefttitle{background: #333; color:#fff;box-shadow: 0 1px 2px rgba(43,59,93,.29); border-radius: 10px 0 0 10px; padding: 10px 5px; position: absolute; width: 20px; line-height: 20px; font-size: 16px; left: -30px; top: 0px; text-align: center; border-right: 0; z-index: 9;}
     .mtop {margin-top: 15px; }
-    .section .nav-title {height: 30px; line-height: 35px; border-bottom: 1px solid #e2e2e2; font-size: 16px; color: #333; padding-left: 8px; position: relative; border-left: 3px solid #000; }
+    .section .nav-title {height: 32px; line-height: 32px; border-bottom: 1px solid #eee; font-size: 14px; font-weight:normal;color: #333; padding-left: 8px; padding-bottom:0;position: relative; background-color:#fafafa;border-left: 3px solid #000; }
     .icon-play-sign:before {content: "\f144"; }
     .sub-category {font-weight: normal; font-size: 12px; margin-left: 30px; }
     .sub-category a.current, .sub-category a:hover {background: #006cd3;color: #fff;}
     .sub-category a {margin: 0 1px; display: inline-block; padding: 1px 5px; height: 14px; line-height: 14px; color: #666; border-radius: 2px; transition: all 0.3s linear 0s; }
-    .section .nav-title .more {display: inline-block; font-size: 12px; line-height: 30px; font-weight: normal; color: #aaa; position: absolute; right: 0px; font-family: SimSun; }
+    .section .nav-title .more {display: inline-block; font-size: 12px; line-height: 36px; font-weight: normal; color: #aaa; position: absolute; right: 10px; font-family: SimSun; }
     .section .nav-title i{font-style:normal !important;padding-right: 5px;}
     .content {padding: 10px 20px; }
-    .time-list li {float: left; padding-left: 20px;/* background: url(../wp-content/themes/Loostrive/images/timelist.jpg) no-repeat;*/ width: 172px; /*height: 90px; */height: 40px; padding-right: 10px; line-height: 1.5em; overflow: hidden; color: #999; cursor: pointer; position: relative;transition: all .2s ease;border-radius: 5px;}
+    .time-list li {float: left; padding-left: 10px;width: 172px; height: 30px; padding-right: 10px; line-height: 30px; overflow: hidden; color: #999; cursor: pointer; position: relative;transition: all .2s ease;border-radius: 5px;}
     .time-list li:hover {background: rgba(0,0,0,.1);}
-    .time-list li a {margin-top: 3px; display: inline-block;width: 100%;height:100%; color: #000; padding: 1px 3px; overflow: hidden; border-radius: 2px; font-size: 16px; line-height: 1.5em; font-weight: normal; position: absolute;left: -2px;white-space: nowrap;}
+    .time-list li a {display: inline-block;width: 100%;height:100%; color: #777; overflow: hidden; border-radius: 2px; font-size: 14px; line-height: 30px; font-weight: normal; position: absolute;/*left: -2px;*/white-space: nowrap;}
     .time-list li p {padding: 0 5px;font-size: 12px;margin-top:30px !important; display: none;}
-    .flink li a img{width: 25px;padding: 0 10px 0 0;}
+    .flink li a img{width: 16px;padding: 7px 5px 0 0;}
     #nav-plane {position: fixed; bottom: 50px; right: 0; background: url(../wp-content/themes/Loostrive/images/step.png) repeat-y; z-index: 99; }
     #nav-plane ul {margin-bottom: -3px; }
     #nav-plane li {margin-bottom: 3px; text-align: center; -webkit-box-shadow: 0 0 5px #555; -moz-box-shadow: 0 0 5px #555; box-shadow: 0 0 5px #555; }
@@ -31,103 +31,104 @@ Template Name: 导航首页
     .shanchu{text-decoration:line-through !important;}
     #linkTip {background:#333; border-radius:10px; line-height:24px; color:#eee; position:absolute; padding:6px 10px; display:none;z-index: 100;}
     /*Responsive Structure*/
-@media only screen and (max-width: 375px) {
-.time-list li {width: 80%;}
-}
-@media only screen and (min-width:375px) and (max-width:680px) {
-.time-list li {width: 40%;}
-}
-@media only screen and (min-width:680px) and (max-width:768px) {
-.time-list li {width: 28%;}
-.container {max-width: 90% !important; }
-}
-@media only screen and (min-width:768px) and (max-width:900px) {
-.time-list li {width: 20%;}
-.container {max-width: 90% !important; }
-}
-@media only screen and (min-width:900px) and (max-width:1330px) {
-.time-list li {width: 16%;}
-.container {max-width: 90% !important; }
-}
-@media only screen and (min-width:1330px) {
-
-}
+    @media only screen and (max-width: 375px) {
+    .time-list li {width: 80%;}
+    }
+    @media only screen and (min-width:375px) and (max-width:680px) {
+    .time-list li {width: 40%;}
+    }
+    @media only screen and (min-width:680px) and (max-width:768px) {
+    .time-list li {width: 28%;}
+    .container {max-width: 90% !important; }
+    }
+    @media only screen and (min-width:768px) and (max-width:900px) {
+    .time-list li {width: 20%;}
+    .container {max-width: 90% !important; }
+    }
+    @media only screen and (min-width:900px) and (max-width:1170px) {
+    .time-list li {width: 16%;}
+    .container {max-width: 90% !important; }
+    }
+    @media only screen and (min-width:1170px) {
+    .time-list li {width: 162px !important;}
+    .container {width: 1140px !important; }
+    }
 </style>
 <script src="../wp-content/themes/Loostrive/js/linkTip.js"></script>
 <script type="text/javascript">
     //bootstrap-scrollspy.js v2.0.2
     // 滚动监听（Scrollspy）
- ! 
-function($) {
-    function ScrollSpy(element, options) {
-        var process = $.proxy(this.process, this),
-        $element = $(element).is("body") ? $(window) : $(element),
-        href;
-        this.options = $.extend({},
-        $.fn.scrollspy.defaults, options);
-        this.$scrollElement = $element.on("scroll.scroll.data-api", process);
-        this.selector = (this.options.target || ((href = $(element).attr("href")) && href.replace(/.*(?=#[^\s]+$)/, "")) || "") + " ul li > a";
-        this.$body = $("body").on("click.scroll.data-api", this.selector, process);
-        this.refresh();
-        this.process()
-    }
-    ScrollSpy.prototype = {
-        constructor: ScrollSpy,
-        refresh: function() {
-            this.targets = this.$body.find(this.selector).map(function() {
-                var href = $(this).attr("href");
-                return /^#\w/.test(href) && $(href).length ? href: null
-            });
-            this.offsets = $.map(this.targets, 
-            function(id) {
-                return $(id).position().top
-            })
-        },
-        process: function() {
-            var scrollTop = this.$scrollElement.scrollTop() + this.options.offset,
-            offsets = this.offsets,
-            targets = this.targets,
-            activeTarget = this.activeTarget,
-            i;
-            for (i = offsets.length; i--;) {
-                activeTarget != targets[i] && scrollTop >= offsets[i] && (!offsets[i + 1] || scrollTop <= offsets[i + 1]) && this.activate(targets[i])
-            }
-        },
-        activate: function(target) {
-            var active;
-            this.activeTarget = target;
-            this.$body.find(this.selector).parent(".active").removeClass("active");
-            active = this.$body.find(this.selector + '[href="' + target + '"]').parent("li").addClass("active");
-            if (active.parent(".dropdown-menu")) {
-                active.closest("li.dropdown").addClass("active")
-            }
+     ! 
+    function($) {
+        function ScrollSpy(element, options) {
+            var process = $.proxy(this.process, this),
+            $element = $(element).is("body") ? $(window) : $(element),
+            href;
+            this.options = $.extend({},
+            $.fn.scrollspy.defaults, options);
+            this.$scrollElement = $element.on("scroll.scroll.data-api", process);
+            this.selector = (this.options.target || ((href = $(element).attr("href")) && href.replace(/.*(?=#[^\s]+$)/, "")) || "") + " ul li > a";
+            this.$body = $("body").on("click.scroll.data-api", this.selector, process);
+            this.refresh();
+            this.process()
         }
-    };
-    $.fn.scrollspy = function(option) {
-        return this.each(function() {
-            var $this = $(this),
-            data = $this.data("scrollspy"),
-            options = typeof option == "object" && option;
-            if (!data) {
-                $this.data("scrollspy", (data = new ScrollSpy(this, options)))
+        ScrollSpy.prototype = {
+            constructor: ScrollSpy,
+            refresh: function() {
+                this.targets = this.$body.find(this.selector).map(function() {
+                    var href = $(this).attr("href");
+                    return /^#\w/.test(href) && $(href).length ? href: null
+                });
+                this.offsets = $.map(this.targets, 
+                function(id) {
+                    return $(id).position().top
+                })
+            },
+            process: function() {
+                var scrollTop = this.$scrollElement.scrollTop() + this.options.offset,
+                offsets = this.offsets,
+                targets = this.targets,
+                activeTarget = this.activeTarget,
+                i;
+                for (i = offsets.length; i--;) {
+                    activeTarget != targets[i] && scrollTop >= offsets[i] && (!offsets[i + 1] || scrollTop <= offsets[i + 1]) && this.activate(targets[i])
+                }
+            },
+            activate: function(target) {
+                var active;
+                this.activeTarget = target;
+                this.$body.find(this.selector).parent(".active").removeClass("active");
+                active = this.$body.find(this.selector + '[href="' + target + '"]').parent("li").addClass("active");
+                if (active.parent(".dropdown-menu")) {
+                    active.closest("li.dropdown").addClass("active")
+                }
             }
-            if (typeof option == "string") {
-                data[option]()
-            }
+        };
+        $.fn.scrollspy = function(option) {
+            return this.each(function() {
+                var $this = $(this),
+                data = $this.data("scrollspy"),
+                options = typeof option == "object" && option;
+                if (!data) {
+                    $this.data("scrollspy", (data = new ScrollSpy(this, options)))
+                }
+                if (typeof option == "string") {
+                    data[option]()
+                }
+            })
+        };
+        $.fn.scrollspy.Constructor = ScrollSpy;
+        $.fn.scrollspy.defaults = {
+            offset: 10
+        };
+        $(function() {
+            $('[data-spy="scroll"]').each(function() {
+                var $spy = $(this);
+                $spy.scrollspy($spy.data())
+            })
         })
-    };
-    $.fn.scrollspy.Constructor = ScrollSpy;
-    $.fn.scrollspy.defaults = {
-        offset: 10
-    };
-    $(function() {
-        $('[data-spy="scroll"]').each(function() {
-            var $spy = $(this);
-            $spy.scrollspy($spy.data())
-        })
-    })
-} (window.jQuery);
-// 单击侧导航栏滚动到相应位置
+    } (window.jQuery);
+    // 单击侧导航栏滚动到相应位置
     $(document).ready(function(){
         $('#nav-plane a').on('click', 
             function(e) {
@@ -146,30 +147,30 @@ function($) {
     });
 </script>
 <div id="content0">
-<div class="container" id="content">
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<script type="text/javascript">
-jQuery(document).ready(function($){
-$(".flink a").each(function(e){
-	$(this).prepend("<img src=https://statics.dnspod.cn/proxy_favicon/_/favicon?domain="+this.href.replace(/^(http:\/\/[^\/]+).*$/, '$1').replace( 'http://', '' )+">");
-}); 
-$(".flink a:not(.noframe)").click(function(event){
-    var link = this.href;
-    var name = this.text;
-    var newlink='http://taoxiaozhong.com/view.php?url='+link+'&name='+name;
-    this.href = newlink;
-});
-});
-</script>
-			<?php if (get_option('strive_breadcrumb') == 'Display') { ?>
-                <div class="subsidiary box">
-                    <div class="bulletin fourfifth">
-                        <span class="sixth">当前位置：</span><?php loo_breadcrumbs(); ?>
-                     </div>
-                </div>
-            <?php }?>
-	<?php endwhile;endif; ?>
-    <div id="container" class="wrap">
+    <div class="container" id="content">
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+        <script type="text/javascript">
+        jQuery(document).ready(function($){
+        $(".flink a").each(function(e){
+        	$(this).prepend("<img src=https://statics.dnspod.cn/proxy_favicon/_/favicon?domain="+this.href.replace(/^(http:\/\/[^\/]+).*$/, '$1').replace( 'http://', '' )+">");
+        }); 
+        $(".flink a:not(.noframe)").click(function(event){
+            var link = this.href;
+            var name = this.text;
+            var newlink='http://taoxiaozhong.com/view.php?url='+link+'&name='+name;
+            this.href = newlink;
+        });
+        });
+        </script>
+		<?php if (get_option('strive_breadcrumb') == 'Display') { ?>
+            <div class="subsidiary box">
+                <div class="bulletin fourfifth">
+                    <span class="sixth">当前位置：</span><?php loo_breadcrumbs(); ?>
+                 </div>
+            </div>
+        <?php }?>
+	    <?php endwhile;endif; ?>
+        <div id="container" class="wrap">
 <!--.section--> 
     <h1 style="display:none;">小众实用导航</h1>
     <div class="section mtop" id="ziyuan">
@@ -408,7 +409,6 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li> <a href="http://www.i1080.cn/" title="提供720P高清、1080P超清、蓝光原盘、3D高清、IMAX巨幕高清电影" target="_blank" rel="nofollow" class="linkTip">艾米电影网</a>  </li>
                 <li> <a href="http://www.hd1080.cn/" title="每日提供最新蓝光高清电影、蓝光高清原盘、720p高清、1080p高清" target="_blank" rel="nofollow" class="linkTip">蓝光电影网</a>  </li>
                 <li> <a href="http://www.rs05.com/" title="高清电影下载网站，每天更新迅雷电影下载" target="_blank" rel="nofollow" class="linkTip">人生05电影</a>  </li>
-                <li> <a href="http://www.cangyunge.com/" title="提供1080P高清电影下载，720P高清电影下载" target="_blank" rel="nofollow" class="linkTip">藏云阁高清网</a>  </li>
                 <li> <a href="http://www.moviewg.com/" title="提供最新最热门的国内外HD电影资源下载分享" target="_blank" rel="nofollow" class="linkTip">电影王国</a>  </li>
                 <li> <a href="http://www.youzhidy.com/" title="1080P高清电影下载、蓝光原盘高清电影下载、迅雷高清电影下载" target="_blank" rel="nofollow" class="linkTip">优质电影网</a>  </li>
                 <li> <a href="http://www.liangzijie.com" title="经典电影完美超清珍藏网，提供高清电影迅雷下载" target="_blank" rel="nofollow" class="linkTip">量子界</a>  </li>
@@ -458,7 +458,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li> <a href="http://www.hplayer.cf/" title="一款支持磁力链接和种子的在线播放器" target="_blank" rel="nofollow" class="linkTip">Hplayer磁力链播放器</a>  </li>
                 <li> <a href="http://www.btzhai.cc" title="磁力链在线播放器" target="_blank" rel="nofollow" class="linkTip">BT宅云播放器</a>  </li>
                 <li> <a href="http://www.8eoe.com/category/dianying" title="未上映以及收费电影在线免费看，无需下载" target="_blank" rel="nofollow" class="linkTip">酷客在线电影</a>  </li>
-                <li> <a href="http://www.7mang.com/" target="_blank" rel="nofollow" class="linkTip">七芒网</a> title="在线去广告看视频"  </li>
+                <li> <a href="http://www.7mang.com/" title="在线去广告看视频" target="_blank" rel="nofollow" class="linkTip">七芒网</a>  </li>
                 <li> <a href="http://www.jxvdy.com" title="涵盖资源分享、教学、交易、海选的微电影一站式服务平台" target="_blank" rel="nofollow" class="linkTip">金象微电影</a>  </li>
                 <li> <a href="http://www.vmovier.com/" title="国内最大的短片分享平台,汇集优秀视频短片及微电影创作人" target="_blank" rel="nofollow" class="linkTip">V电影</a>  </li>
                 <li> <a href="http://www.xinpianchang.com/" title="新片场_最大的互联网影视出品发行平台" target="_blank" rel="nofollow" class="linkTip">新片场</a>  </li>
@@ -733,7 +733,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         <h1 class="lefttitle">设计</h1>
         <h2 class="nav-title" id="fonts">
             <i class="icon-edit"></i>字体<span class="sub-category">
-                <a href="#design" class="current notop">所有</a> | <a href="#fonts" class="notop">字体</a>| <a href="#2D" class="notop">平面设计</a>| <a href="#wechatedit" class="notop">微信排版</a>| <a href="#h5" class="notop">微信H5</a>| <a href="#resources" class="notop">资源下载</a>| <a href="#template" class="notop">网站模板</a>| <a href="#wordpress" class="notop">wordpress主题</a>| <a href="#ppt" class="notop">ppt模板</a>|| <a href="#AE" class="notop">视频素材</a>| <a href="#sounds" class="notop">音效素材</a>| <a href="#chuangyi" class="notop">创意设计</a>            </span>
+                <a href="#design" class="current notop">所有</a> | <a href="#fonts" class="notop">字体</a>| <a href="#2D" class="notop">平面设计</a>| <a href="#wechatedit" class="notop">微信排版</a>| <a href="#h5" class="notop">微信H5</a>| <a href="#resources" class="notop">资源下载</a>| <a href="#template" class="notop">网站模板</a>| <a href="#wordpress" class="notop">wordpress主题</a>| <a href="#ppt" class="notop">ppt模板</a>| <a href="#AE" class="notop">视频素材</a>| <a href="#sounds" class="notop">音效素材</a>| <a href="#chuangyi" class="notop">创意设计</a>            </span>
             <a href="#" class="more">更多&gt;&gt;</a>
         </h2>
         <div class="content flink">
@@ -746,7 +746,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li> <a href="http://www.1001freefonts.com/" title="大量免费的创意英文字体下载，设计师必备" target="_blank" rel="nofollow" class="linkTip">1001freefonts</a>  </li>
                 <li> <a href="http://www.fonts.com/" title="号称全球最大，质量最高的设计字体提供者" target="_blank" rel="nofollow" class="linkTip">Fonts</a>  </li>
                 <li> <a href="http://www.homefont.cn/" title="包含17400多种有效字体下载,频道分类220个的专业字体下载站" target="_blank" rel="nofollow" class="linkTip">字体之家</a>  </li>
-                <li> <a href="http://icomoon.io/app/" title="很强大很实用的图标字体网站，提供常用图标字体和图片下载" target="_blank" rel="nofollow" class="linkTip">IcoMoon</a>  </li>
+                <li> <a href="https://icomoon.io/" title="很强大很实用的图标字体网站，提供常用图标字体和图片下载" target="_blank" rel="nofollow" class="linkTip noframe">IcoMoon</a>  </li>
                 <li> <a href="http://www.myfonts.com/WhatTheFont/" title="上传图片搜索英文字体 。功能强大，准确性高，值得拥有" target="_blank" rel="nofollow" class="linkTip">Myfonts</a>  </li>
                 <li><a href="http://www.diyiziti.com/" title="提供最全的字体转换器在线转换、艺术字体在线生成器和字体下载" target="_blank" rel="nofollow" class="linkTip">第一字体转换器</a>  </li>
                 <li><a href="http://font.knowsky.com/" title="中文字体、英文字体、广告字体、字体下载大全" target="_blank" rel="nofollow" class="linkTip">字体下载大宝库</a>  </li>
@@ -834,6 +834,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li> <a href="http://www.zcool.com.cn/gfxs/" title="站酷免费素材下载频道，提供网友分享素材供您免费下载" target="_blank" rel="nofollow" class="linkTip">站酷素材</a>  </li>
                 <li> <a href="http://90sheji.com/" title="专注电商精品素材免费下载" target="_blank" rel="nofollow" class="linkTip">90设计</a>  </li>
                 <li> <a href="http://so.ui001.com/" title="设计素材搜索聚合" target="_blank" rel="nofollow" class="linkTip">搜素材</a>  </li>
+                <li> <a href="http://www.17sucai.com/" title="提供优质的图片素材和代码素材的素材天下素材网，为网站建设人员提供网页特效,flash素材,网页设计,网页模板,网页素材等素材" target="_blank" rel="nofollow" class="linkTip">门素材</a>  </li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -1093,14 +1094,15 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         <div class="content flink">
             <ul class="time-list clearfix">
                 <li> <a href="http://www.runoob.com/" title="超全基础编程技术教程，学的不仅是技术，更是梦想" target="_blank" rel="nofollow" class="linkTip">菜鸟教程</a>  </li>
-                <li> <a href="http://www.bootcss.com/" title="简洁、直观、强悍的前端开发框架，让web开发更迅速、简单" target="_blank" rel="nofollow" class="linkTip">Bootstrap中文网</a>  </li>
                 <li> <a href="http://tutorialzine.com/" title="国外高质量的网页开发教程博客，并提供免费开源代码的下载" target="_blank" rel="nofollow" class="linkTip">Tutorialzine</a>  </li>
                 <li> <a href="http://www.w3cfuns.com/" title="前端开发工程师互动平台，并提供大量优秀的教程及资源下载" target="_blank" rel="nofollow" class="linkTip">前端网</a> </li>
                 <li> <a href="http://www.daqianduan.com/" title="一个关注前端开发、用户体验设计、wordpress主题的独立博客" target="_blank" rel="nofollow" class="linkTip">大前端</a>  </li>
                 <li> <a href="http://www.html5cn.org/" title="HTML5中文门户，为广大爱好者提供各种HTML5资料及教程等" target="_blank" rel="nofollow" class="linkTip">HTML5中国</a>  </li>
                 <li> <a href="http://www.jplayer.org/" title="非常棒的开源网页播放器，使用JQuery + HTML5编写" target="_blank" rel="nofollow" class="linkTip">JPlayer</a>  </li>
                 <li> <a href="http://www.cuplayer.com/" title="多终端跨平台(支持ipad,iphone,安卓平析,安卓手机)网页播放器" target="_blank" rel="nofollow" class="linkTip">酷播网页播放器</a>  </li>
+                <li> <a href="http://www.ckplayer.com/" title="超酷网页播放器" target="_blank" rel="nofollow" class="linkTip">CKPlayer</a>  </li>
                 <li> <a href="http://www.w3cplus.com/" title="前端爱好者的家园，努力打造最优秀的web前端学习的站点" target="_blank" rel="nofollow" class="linkTip">W3CPlus</a>  </li>
+                <li><a href="http://ueditor.baidu.com/website/" title="由百度web前端研发部开发所见即所得富文本web编辑器，具有轻量，可定制，注重用户体验等特点，开源基于MIT协议，允许自由使用和修改代码" target="_blank" rel="nofollow" class="linkTip">ueditor</a></li>
                 <li> <a href="http://kindeditor.net/" title="美观大方，功能强大的开源在线HTML编辑器" target="_blank" rel="nofollow" class="linkTip">KindEditor</a>  </li>
                 <li> <a href="http://www.html5china.com/" title="面向中国HTML5开发者搭建的官方网站，提供HTML5专业服务" target="_blank" rel="nofollow" class="linkTip">HTML5中文网</a></li>
                 <li> <a href="http://www.css88.com/" title="专注前端开发，关注用户体验及国内外最新最好的前端开发技术" target="_blank" rel="nofollow" class="linkTip">Web前端开发</a>  </li>
@@ -1108,6 +1110,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li> <a href="http://docs.kissyui.com/" title="淘宝团队开发的款跨终端、模块化、高性能、使用简单的JS框架" target="_blank" rel="nofollow" class="linkTip">KISSY</a>  </li>
                 <li> <a href="http://www.gbin1.com/" title="分享前端及其web开发相关HTML5技术" target="_blank" rel="nofollow" class="linkTip">GBin1</a>  </li>
                 <li> <a href="http://jirengu.com/" title="国内最有爱的在前端学习社区" target="_blank" rel="nofollow" class="linkTip">饥人谷</a>  </li>
+                <li> <a href="http://www.daimabiji.com/" title="为前端人员提供建站常用的JS特效,网页特效等大多数资源" target="_blank" rel="nofollow" class="linkTip">代码笔记</a>  </li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -1132,38 +1135,32 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         </h2>
         <div class="content flink">
             <ul class="time-list clearfix">
-                <li><a href="http://www.bootcss.com/p/font-awesome/" title="完美的图标字体
-只为Bootstrap设计" target="_blank" rel="nofollow" class="linkTip">Font-Awesome</a></li>
-                <li><a href="http://zeptojs.com/" target="_blank" rel="nofollow" class="linkTip">zeptojs</a></li>
-                <li><a href="https://github.com/visionmedia/move.js" target="_blank" rel="nofollow" class="linkTip">运动库</a></li>
+                <li><a href="http://www.bootcdn.cn/" title="稳定、快速、免费的开源项目 CDN 服务" target="_blank" rel="nofollow" class="linkTip">BootCDN中文网</a></li>
+                <li><a href="https://www.awesomes.cn/" title="Web前端开发工程师需要的免费开源的高质量前端库、框架和插件" target="_blank" rel="nofollow" class="linkTip noframe">Awesomes前端资源库</a></li>
+                <li><a href="http://www.bootcss.com/p/font-awesome/" title="完美的图标字体 只为Bootstrap设计" target="_blank" rel="nofollow" class="linkTip">Font-Awesome</a></li>
+                <li><a href="http://www.webhek.com/misc/css-shake/" title="一些让你的页面发抖的CSS类" target="_blank" rel="nofollow" class="linkTip">css发抖</a></li>
+                <li><a href="http://www.hcharts.cn/" title="让数据可视化更简单,兼容 IE6+、完美支持移动端、图表类型丰富、方便快捷的 HTML5 交互性图表库" target="_blank" rel="nofollow" class="linkTip">HighCharts交互图表库</a></li>
+                <li><a href="http://echarts.baidu.com/index.html" target="_blank" rel="nofollow" class="linkTip">ECharts</a></li>
+                <li><a href="http://modernizr.cn/" title="Modernizr 是一个 JavaScript 库，用于检测用户浏览器的 HTML5 与 CSS3 特性" target="_blank" rel="nofollow" class="linkTip">modernizr</a></li>
+                <li><a href="http://masonry.desandro.com/" target="_blank" rel="nofollow" class="linkTip">网格库</a></li>
                 <li><a href="http://velocityjs.org/" target="_blank" rel="nofollow" class="linkTip">动画库</a></li>
-                <li><a href="https://github.com/carhartl/jquery-cookie#readme" target="_blank" rel="nofollow" class="linkTip">jqueryCookie</a></li>
-                <li><a href="http://modernizr.cn/" target="_blank" rel="nofollow" class="linkTip">modernizr</a></li>
-                <li><a href="http://ueditor.baidu.com/website/" target="_blank" rel="nofollow" class="linkTip">ueditor</a></li>
-                <li><a href="http://www.zeptojs.cn/" target="_blank" rel="nofollow" class="linkTip">zeptojs中文</a></li>
-                <li><a href="http://www.webhek.com/misc/css-shake/" target="_blank" rel="nofollow" class="linkTip">css-shake</a></li>
+                <li><a href="http://www.zeptojs.cn/" target="_blank" rel="nofollow" class="linkTip">zeptojs</a></li>
                 <li><a href="http://www.artisanjs.com/" target="_blank" rel="nofollow" class="linkTip">ArtisanJS</a></li>
                 <li><a href="http://www.rgraph.net/" target="_blank" rel="nofollow" class="linkTip">JS图表</a></li>
                 <li><a href="http://manos.malihu.gr/jquery-custom-content-scroller/" target="_blank" rel="nofollow" class="linkTip">自定义滚动条</a></li>
                 <li><a href="http://www.embeddedjs.com/" target="_blank" rel="nofollow" class="linkTip">ejs</a></li>
                 <li><a href="http://jade-lang.com/" target="_blank" rel="nofollow" class="linkTip">jade</a></li>
                 <li><a href="http://handlebarsjs.com/" target="_blank" rel="nofollow" class="linkTip">handlebarsjs</a></li>
-                <li><a href="https://github.com/janl/mustache.js" target="_blank" rel="nofollow" class="linkTip">mustachejs</a></li>
-                <li><a href="https://github.com/aui/artTemplate" target="_blank" rel="nofollow" class="linkTip">artTemplate</a></li>
                 <li><a href="http://velocity.apache.org/" target="_blank" rel="nofollow" class="linkTip">velocity</a></li>
                 <li><a href="http://www.dustjs.com/" target="_blank" rel="nofollow" class="linkTip">dustjs</a></li>
-                <li><a href="http://masonry.desandro.com/" target="_blank" rel="nofollow" class="linkTip">网格库</a></li>
                 <li><a href="http://ricostacruz.com/nprogress/" target="_blank" rel="nofollow" class="linkTip">NProgress.js</a></li>
                 <li><a href="http://c3js.org/" target="_blank" rel="nofollow" class="linkTip">C3.js</a></li>
                 <li><a href="http://www.jsviews.com/" target="_blank" rel="nofollow" class="linkTip">JsRender</a></li>
-                <li><a href="https://www.awesomes.cn/" target="_blank" rel="nofollow" class="linkTip">前端资源库</a></li>
                 <li><a href="http://socket.io/" target="_blank" rel="nofollow" class="linkTip">socket.io</a></li>
                 <li><a href="http://todomvc.com/" target="_blank" rel="nofollow" class="linkTip">TodoMVC</a></li>
-                <li><a href="http://echarts.baidu.com/index.html" target="_blank" rel="nofollow" class="linkTip">ECharts</a></li>
-                <li><a href="https://lodash.com/" target="_blank" rel="nofollow" class="linkTip">Lodash</a></li>
-                <li><a href="https://lodash.com/" target="_blank" rel="nofollow" class="linkTip">Loodash</a></li>
+                <li><a href="https://lodash.com/" target="_blank" rel="nofollow" class="linkTip noframe">Lodash</a></li>
                 <li><a href="http://lodashjs.com/" target="_blank" rel="nofollow" class="linkTip">Lodashjs中文</a></li>
-                <li><a href="https://aerotwist.com/" target="_blank" rel="nofollow" class="linkTip">Aerotwist</a></li>
+                <li><a href="https://aerotwist.com/" target="_blank" rel="nofollow" class="linkTip noframe">Aerotwist</a></li>
                 <li><a href="http://www.createjs.com/" target="_blank" rel="nofollow" class="linkTip">CreateJS</a></li>
                 <li><a href="http://snapsvg.io/" target="_blank" rel="nofollow" class="linkTip">SnapSvg</a></li>
                 <div style="clear:both;"></div>
@@ -1175,22 +1172,21 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         </h2>
         <div class="content flink">
             <ul class="time-list clearfix">
-                <li><a href="http://www.apjs.net/" target="_blank">angularjs</a></li>
-                <li><a href="http://www.sassmeister.com/" target="_blank">样式框架</a></li>
+                <li> <a href="http://www.bootcss.com/" title="简洁、直观、强悍的前端开发框架，让web开发更迅速、简单" target="_blank" rel="nofollow" class="linkTip">Bootstrap中文网</a>  </li>
+                <li> <a href="http://www.gruntjs.net/" title="JavaScript 世界的构建工具" target="_blank" rel="nofollow" class="linkTip">Grunt中文网</a>  </li>
+                <li> <a href="http://www.gulpjs.com.cn/" title="用自动化构建工具增强你的工作流程" target="_blank" rel="nofollow" class="linkTip">gulp中文网</a>  </li>
+                <li><a href="http://www.foundcss.com/" target="_blank">Foundation中文网</a></li>
+                <li><a href="http://www.expressjs.com.cn/" title="基于 Node.js 平台，快速、开放、极简的 web 开发框架" target="_blank" class="linkTip">Express中文网</a></li>
+                <li><a href="http://cn.vuejs.org/" title="渐进式JavaScript框架" target="_blank" class="linkTip">vue2.0中文网</a></li>
+                <li><a href="http://www.layui.com/" class="经典模块化前端框架" target="_blank" class="linkTip">Layui中文</a></li>
+                <li><a href="http://www.apjs.net/" title="为克服HTML在构建应用上的不足而设计" target="_blank" class="linkTip">angularjs</a></li>
+                <li><a href="http://www.sassmeister.com/" target="_blank" class="noframe">样式框架</a></li>
                 <li><a href="http://www.17sucai.com/preview/1/2014-12-23/ScatteredPolaroidsGallery/index.html" target="_blank">画廊框架</a></li>
-                <li><a href="http://www.bootcss.com/" target="_blank">bootstrap</a></li>
-                <li><a href="https://thinkjs.org/" target="_blank">thinkjs</a></li>
+                <li><a href="https://thinkjs.org/" target="_blank" class="noframe">thinkjs</a></li>
                 <li><a href="https://hexo.io/" target="_blank">hexo博客框架</a></li>
-                <li><a href="http://angularjs.cn/" target="_blank">angularjs中文</a></li>
-                <li><a href="http://www.foundcss.com/" target="_blank">Foundation中文</a></li>
-                <li><a href="http://foundation.zurb.com/" target="_blank">foundation</a></li>
                 <li><a href="http://backbonejs.org/" target="_blank">backbonejs</a></li>
                 <li><a href="http://underscorejs.org/" target="_blank">underscorejs</a></li>
                 <li><a href="http://www.jeasyui.com/" target="_blank">easyui</a></li>
-                <li><a href="http://cn.vuejs.org/" target="_blank">vuejs</a></li>
-                <li><a href="http://www.expressjs.com.cn/" target="_blank">Express</a></li>
-                <li><a href="http://vuefe.cn/" target="_blank">Vue2.0中文</a></li>
-                <li><a href="http://www.layui.com/" target="_blank">Layui</a></li>
                 <li><a href="http://emberjs.com/" target="_blank">EmberJs</a></li>
                 <li><a href="https://alibaba.github.io/weex/index.html" target="_blank">Weex</a></li>
                 <div style="clear:both;"></div>
@@ -1202,18 +1198,16 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         </h2>
         <div class="content flink">
             <ul class="time-list clearfix">
-                <li><a href="http://demo.jb51.net/js/myfocus/" target="_blank">焦点图</a></li>
-                <li><a href="https://github.com/alvarotrigo/fullPage.js" target="_blank">全屏翻页</a></li>
-                <li><a href="http://www.oschina.net/project/tag/273/jquery/" target="_blank">开源中国</a></li>
+                <li><a href="http://www.oschina.net/project/tag/273/jquery/" title="共有近3000款jQuery插件开源软件" target="_blank" class="linkTip">开源中国jQuery插件</a></li>
+                <li><a href="http://2.swiper.com.cn/" class="开源强大的免费触摸滑动插件" target="_blank" class="linkTip">swiper触摸滑动插件</a></li>
+                <li><a href="http://mwlmt.cc/content/wljdtcj/index.html" title="一个没有什么卵用的焦点图插件" target="_blank" class="linkTip">WLFocus焦点图插件</a></li>
+                <li><a href="http://demo.jb51.net/js/myfocus/" title="可能是目前唯一的js焦点图库" target="_blank" class="linkTip">MyFocus焦点图</a></li>
+                <li><a href="http://fex.baidu.com/webuploader/" title="一个简单的以HTML5为主，FLASH为辅的现代文件上传组件" target="_blank" class="linkTip">webuploader上传组件</a></li>
                 <li><a href="https://jqueryvalidation.org/" target="_blank">表单插件</a></li>
-                <li><a href="http://2.swiper.com.cn/" target="_blank">swiper</a></li>
-                <li><a href="http://www.uploadify.com/" target="_blank">uploadify</a></li>
                 <li><a href="http://www.uploadify.com/" target="_blank">uploadify</a></li>
                 <li><a href="http://momentjs.com/" target="_blank">Moment.js</a></li>
                 <li><a href="http://flickity.metafizzy.co/" target="_blank">幻灯片插件</a></li>
-                <li><a href="http://mwlmt.cc/content/wljdtcj/index.html" target="_blank">WLFocus</a></li>
                 <li><a href="http://www.jquery-steps.com/" target="_blank">jquery steps</a></li>
-                <li><a href="http://fex.baidu.com/webuploader/" target="_blank">webuploader</a></li>
                 <li><a href="http://wijmo.com/" target="_blank">wIJMO</a></li>
                 <li><a href="http://jscolor.com/" target="_blank">JsColor</a></li>
                 <li><a href="http://slidesjs.com/" target="_blank">SlideJs</a></li>
@@ -1375,6 +1369,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li><a href="http://lusongsong.com/" title="关注草根创业者和站长的媒体博客" target="_blank" rel="nofollow" class="linkTip">卢松松</a>  </li>
                 <li><a href="http://yigujin.wang/" title="一个普通人的生活纪实博客" target="_blank" rel="nofollow" class="linkTip">懿古今</a>  </li>
                 <li><a href="http://www.tanglangxia.com/" title="记录日常点滴、关注网络琐碎；感悟与吐槽并存、收藏与分享伴随" target="_blank" rel="nofollow" class="linkTip">螳螂虾</a>  </li>
+                <li><a href="http://www.guchena.com/" title="感受宁静，欢迎来我这里歇歇脚，在人生的道路上偶尔驻足停留一下未尝不是风景。" target="_blank" rel="nofollow" class="linkTip">一诚</a>  </li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -1523,7 +1518,9 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li><a href="http://www.chuang007.com/" title="创业服务网址导航" target="_blank" rel="nofollow" class="linkTip">创业007</a> </li>
                 <li><a href="http://www.51index.cn/" title="我的索引" target="_blank" rel="nofollow" class="linkTip">程序员垂直导航</a> </li>
                 <li><a href="http://123.w3cschool.cn/" title="W3Cschool极客导航，编程资源，技术网址，编程学习资源相关网址导航" target="_blank" rel="nofollow" class="linkTip">W3CSchool极客导航</a> </li>
-                <li><a href="https://www.rishiqing.com/saas/" title="日事清--科技行业导航" target="_blank" rel="nofollow" class="linkTip" class="noframe">SaaS（科技）行业导航</a> </li>
+                <li><a href="https://www.rishiqing.com/saas/" title="日事清--科技行业导航" target="_blank" rel="nofollow" class="linkTip noframe">SaaS（科技）行业导航</a> </li>
+                <li><a href="http://daohangcom.com/" title="为设计师和前端开发工程师提供网站源码、设计素材、设计图片、交互设计、用户体验设计、前端开发资讯等各种分类的优秀内容和网站入口，提供最简单便捷的上网导航服务" target="_blank" rel="nofollow" class="linkTip">com导航</a> </li>
+                <li><a href="https://ruby-china.org/sites" title="Ruby China社区搜集的酷站" target="_blank" rel="nofollow" class="linkTip noframe">酷站-Ruby China</a> </li>
                 <div style="clear:both;"></div>
             </ul>
         </div>

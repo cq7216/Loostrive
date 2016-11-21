@@ -7,7 +7,7 @@
 								<?php echo post_thumbnail_list()?>
                              <?php } else {?>
                              	<?php $timthigh = stripslashes(get_option('strive_timthigh')); ?>
-                                <?php echo post_thumbnail_img(300,$timthigh)?>
+                                <?php echo post_thumbnail_img(600,$timthigh)?>
                          <?php  } ?>
                          <div class="zoomOverlay"></div>
                         </a>
