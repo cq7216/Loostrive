@@ -267,10 +267,10 @@ Template Name: 导航首页
                 <li> <a href="http://note.youdao.com/share/web/file.html?id=74003c3aa45df69f93201424624f0a1c&type=note" title="高质量的极速稳定代理，1元试用一个月"  target="_blank" rel="nofollow" class="linkTip" class="shanchu">加速度</a> </li>
                 <li> <a href="https://niuxss.com/" title="一种全新上网体验，带您走进不一样的世界！" target="_blank" rel="nofollow" class="linkTip" class="noframe">牛叉网络加速服务</a>  </li>
                 <li> <a href="http://fazero.cc/archives/584" title="免费，速度快，支持windows，Ubuntu，Mac三平台，安装配置简单" target="_blank" rel="nofollow" class="linkTip">蓝灯Lantern</a>  </li>
-                <li> <a href="https://www.leisufree.com" title="付费服务 快速稳定有保障
-FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="linkTip" class="noframe">雷速网络加速器</a>  </li>
+                <li> <a href="https://www.leisufree.com" title="付费服务 快速稳定有保障 FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="linkTip" class="noframe">雷速网络加速器</a>  </li>
                 <li> <a href="https://www.tizipuss.com/" title="世界那么大，还不去看看" target="_blank" rel="nofollow" class="linkTip" class="noframe">梯子铺</a> </li>
                 <li> <a href="https://www.feiyulian.cn/aff.php?aff=294" title="高强度加密传输、智能路由、跨平台、支持移动客户端" target="_blank" rel="nofollow" class="linkTip" class="noframe">飞鱼链</a>  </li>
+                <li> <a href="http://www.geek-vpn5.com/" title="拥有美国专线服务器，稳定、快速。所有数据，全部加密，确保您的隐私安全。让您安心遨游网络世界 ！" target="_blank" rel="nofollow" class="linkTip" class="noframe">极客VPN</a>  </li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -574,7 +574,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         <h1 class="lefttitle">音乐</h1>
         <h2 class="nav-title" id="tingge">
             <i class="icon-asterisk"></i>在线听歌<span class="sub-category">
-                <a href="#music2" class="current notop">所有</a> | <a href="#tingge" class="notop">在线音乐</a>| <a href="#diantai" class="notop">在线电台</a>| <a href="#musicblog" class="notop">音乐博客</a> | <a href="#musicbbs" class="notop">音乐论坛</a>            </span>
+                <a href="#music2" class="current notop">所有</a> | <a href="#tingge" class="notop">在线音乐</a>| <a href="#diantai" class="notop">在线电台</a>| <a href="#musicblog" class="notop">音乐博客</a> | <a href="#musicbbs" class="notop">音乐论坛</a> | <a href="#wusun" class="notop">无损音乐</a>            </span>
             <a href="#" class="more">更多&gt;&gt;</a>
         </h2>
         <div class="content flink">
@@ -588,8 +588,9 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li> <a href="http://y.qq.com/" title="腾讯旗下音乐产品" target="_blank" rel="nofollow" class="linkTip">QQ音乐</a>  </li>
                 <li> <a href="http://www.kuwo.cn/" title="知名音乐品牌" target="_blank" rel="nofollow" class="linkTip">酷我音乐</a>  </li>
                 <li> <a href="http://musicforprogramming.net" title="帮你专心工作的音乐网站，适合程序员编程时听" target="_blank" rel="nofollow" class="linkTip">MusicForProgramming</a>  </li>
-                <li> <a href="http://musicuu.com/search.html" title="一个网站搞定所有音乐下载" target="_blank" rel="nofollow" class="linkTip" class="shanchu">音乐间谍</a> </li>
                 <li> <a href="http://www.bandari.net/" title="在线欣赏班得瑞世界名曲" target="_blank" rel="nofollow" class="linkTip">班得瑞全球网</a>  </li>
+                <li> <a href="http://www.9sky.com/" title="九天音乐网提供高品质音乐mp3在线试听下载、MV在线视听、明星访谈服务" target="_blank" rel="nofollow" class="linkTip">九天音乐网</a>  </li>
+                <li> <a href="http://www.tingall.com/d" title="诠音网专注推广新世纪，古典，爵士，中国民乐，世界音乐，民谣等高雅音乐，诠释音乐之美。提供在线与移动端音乐欣赏，拥有网络音乐教学平台。" target="_blank" rel="nofollow" class="linkTip">诠音乐库</a>  </li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -624,6 +625,11 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li> <a href="http://manpin.net" title="小清新音乐网站，超级多好听的英文歌中文歌" target="_blank" rel="nofollow" class="linkTip">慢品音乐</a>  </li>
                 <li> <a href="http://www.52qingyin.cn/" title="纯音乐分享网站，以忧伤轻音乐为主，用耳聆听，用心感受" target="_blank" rel="nofollow" class="linkTip">清音陋屋</a>  </li>
                 <li> <a href="http://www.leavemealone.cn/music/" title="来听听不一样的音乐，整理心情，重新出发吧" target="_blank" rel="nofollow" class="linkTip">微时光音乐期刊</a>  </li>
+                <li> <a href="http://www.maninmusic.com/" title="乐之随属于个人纯音乐分享网站，主要为喜欢音乐的朋友创建，其主要内容为分享当下流行音乐、怀旧歌曲" target="_blank" rel="nofollow" class="linkTip">乐之随</a>  </li>
+                <li> <a href="http://fana.me/" title="几名音乐爱好者的音乐博客" target="_blank" rel="nofollow" class="linkTip">FANA</a>  </li>
+                <li> <a href="http://www.mologer.cn/" title="专注于美剧原声,独立音乐,小众音乐,安静的纯音乐,睡前音乐的博客" target="_blank" rel="nofollow" class="linkTip">音乐是岸</a>  </li>
+                <li> <a href="http://tothesky.cn/" title="旨在于分享最好听的精品音乐歌曲，好听的音乐不分国界语言风格，当然每个人有各自的听歌品味喜欢的风格，因此小博成员都是分工发各自比较擅听的音乐，希望大家也尊重每位分享者的辛苦劳动。" target="_blank" rel="nofollow" class="linkTip">Best Music</a>  </li>
+                <li> <a href="http://www.ningmeng.name/" title="想把我唱给你听" target="_blank" rel="nofollow" class="linkTip">私房歌</a>  </li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -642,12 +648,39 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li><a href="http://www.cdbao.net/" title="专业的无损音乐分享论坛，分享高音质无损音乐免费下载" target="_blank" rel="nofollow" class="linkTip">CD包音乐网</a>  </li>
                 <li><a href="http://www.mixrnb.com/" title="MixRNB -  Enjoy Your Life !" target="_blank" rel="nofollow" class="linkTip">MixRNB</a>  </li>
                 <li><a href="http://www.zhiaimusic.com/" title="聆听音乐 感悟生活" target="_blank" rel="nofollow" class="linkTip">至爱音乐论坛</a>  </li>
-                <li><a href="http://www.oppsu.cn/" title="音乐世界是一个免费向音乐迷们提供音乐交互分享的平台，同时也是苹果迷们一起学习探讨的专业论坛"target="_blank" rel="nofollow" class="linkTip">OppsU</a>   </li>
+                <li><a href="http://www.oppsu.cn/" title="音乐世界是一个免费向音乐迷们提供音乐交互分享的平台，同时也是苹果迷们一起学习探讨的专业论坛" target="_blank" rel="nofollow" class="linkTip">OppsU</a>   </li>
                 <li><a href="http://www.breezee.org/" title="以音乐评论和交流为主的，最宁静、温馨的心灵港湾" target="_blank" rel="nofollow" class="linkTip">清风音乐论坛</a>  </li>
                 <li><a href="http://micool.xclub.tw/" title="全国最大的iTunes音乐论坛" target="_blank" rel="nofollow" class="linkTip">米酷音乐论坛</a>  </li>
                 <li><a href="http://www.oolove.com/" title="爱音乐 爱生活 爱自己 爱家园" target="_blank" rel="nofollow" class="linkTip">真爱家园</a>  </li>
                 <li><a href="http://www.hcyy.org/" title="无损音乐网,发烧音乐网,WAV音乐网,怀旧音乐网" target="_blank" rel="nofollow" class="linkTip">风云音乐谷</a>  </li>
                 <li><a href="http://bbs.zzse.net/" title="无损音乐下载网站,高品质发烧试音音乐下载" target="_blank" rel="nofollow" class="linkTip">极品社区</a>  </li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
+        <h2 class="nav-title" id="wusun">
+            <i class="icon-asterisk"></i>无损音乐
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li><a href="http://ape8.cn/" title="" target="_blank" rel="nofollow" class="linkTip">无损音乐吧</a></li>
+                <li><a href="http://www.xicxi.com/" title="" target="_blank" rel="nofollow"   class="linkTip">XICXI</a></li>
+                <li><a href="http://flac8.com/" title="" target="_blank" rel="nofollow"   class="linkTip">flac8</a></li>
+                <li><a href="http://www.mfhifi.com/" title="" target="_blank" rel="nofollow"  class="linkTip">免费HIFI</a></li>
+                <li><a href="http://weibo.com/u/3712071345" title="" target="_blank" rel="nofollow"   class="linkTip">无损音乐频道</a></li>
+                <li><a href="http://www.52flac.com/" title="" target="_blank" rel="nofollow"  class="linkTip">52flac</a></li>
+                <li><a href="http://www.51ape.com/" title="" target="_blank" rel="nofollow"   class="linkTip">51ape</a></li>
+                <li><a href="http://tieba.baidu.com/f?kw=%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90" title="" target="_blank" rel="nofollow" class="linkTip">无损音乐贴吧</a></li>
+                <li><a href="http://www.moofeel.com/" title="" target="_blank" rel="nofollow" class="linkTip">磨坊音乐</a></li>
+                <li><a href="http://www.pt80.net/forum.php?gid=89" title="" target="_blank" rel="nofollow" class="linkTip">捌零音乐</a></li>
+                <li><a href="http://www.zasv.com/forum-44-1.html" title="" target="_blank" rel="nofollow" class="linkTip">杂碎后院</a></li>
+                <li><a href="http://www.eacdy.com/forum-124-1.html" title="" target="_blank" rel="nofollow"   class="linkTip">音艾论坛</a></li>
+                <li><a href="http://www.88liu.com/" title="" target="_blank" rel="nofollow"   class="linkTip">88六音乐</a></li>
+                <li><a href="http://bbs.trix360.com/forum.php" title="" target="_blank" rel="nofollow"class="linkTip">trix360</a></li>
+                <li><a href="http://www.deepms.net/" title="" target="_blank" rel="nofollow"  class="linkTip">深度无损音乐</a></li>
+                <li><a href="http://www.eaymusic.com/" title="" target="_blank" rel="nofollow" class="linkTip">易音音乐</a></li>
+                <li><a href="http://wusunyinyue.cn/forum.php" title="" target="_blank" rel="nofollow" class="linkTip">无损音乐网</a></li>
+                <li><a href="http://www.hifidac.net/forum.php" title="" target="_blank" rel="nofollow" class="linkTip">深度发烧音乐</a></li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -764,7 +797,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li> <a href="http://ux.etao.com/" title="一淘团队UX 体验工作平台——阿里巴巴一淘用户体验部门官方博客" target="_blank" rel="nofollow" class="linkTip">一淘-UX</a>  </li>
                 <li> <a href="http://www.zcool.com.cn/" title="国内最活跃的原创设计交流平台，聚集中国绝大部分的专业设计师年轻创意人群" target="_blank" rel="nofollow" class="linkTip">站酷</a>  </li>
                 <li> <a href="http://68design.net/" title="国内专业网页设计人才基地,为广大设计师提供学习交流空间" target="_blank" rel="nofollow" class="linkTip">网页设计师联盟</a>  </li>
-                <li> <a href="http://sudasuta.com/" title="关于创意设计，艺术摄影，灵感来源，平面设计欣赏的综合性网站" target="_blank" rel="nofollow" class="linkTip">苏打苏塔</a>  </li>
+                <li> <a href="http://sudasuta.com/" title="苏打苏塔是一个关于创意设计，设计，插画，艺术摄影，lomo，素材，教程，web，灵感来源，平面设计欣赏的综合性网站。站点每日更新原创文章，为设计师提供优美高品质图片。" target="_blank" rel="nofollow" class="linkTip">苏打苏塔设计量贩铺</a>  </li>
                 <li> <a href="http://www.uimaker.com/" title="为UI设计师提供专业UI设计，教程及素材的网站" target="_blank" rel="nofollow" class="linkTip">UIMaker</a>  </li>
                 <li> <a href="http://www.sharelogo.cn/" title="logo设计欣赏，标志商标征集设计网设计网" target="_blank" rel="nofollow" class="linkTip">晒标网</a>  </li>
                 <li> <a href="http://www.boxui.com/" title="以用户体验为中心的设计，分享精彩的UI设计、交互设计" target="_blank" rel="nofollow" class="linkTip">盒子UI</a>  </li>
@@ -829,8 +862,6 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li> <a href="http://subtlepatterns.com/" title="国外高质量的无缝背景纹理免费下载站，值得推荐" target="_blank" rel="nofollow" class="linkTip">Subtle Patterns</a>  </li>
                 <li> <a href="http://freebiesbooth.com/" title="国外免费的设计素材下载，大量web设计资源及分层PSD下载站" target="_blank" rel="nofollow" class="linkTip">Freebies Booth</a>  </li>
                 <li> <a href="http://www.uiparade.com/" title="国外PSD素材免费下载网站" target="_blank" rel="nofollow" class="linkTip">365PSD</a>  </li>
-                <li> <a href="http://www.easyicon.net/" title="图标搜索引擎（中英）" target="_blank" rel="nofollow" class="linkTip">EasyIcon</a>  </li>
-                <li> <a href="http://www.iconfont.cn/" title="阿里巴巴矢量图标库" target="_blank" rel="nofollow" class="linkTip" class="noframe">阿里图标库</a>  </li>
                 <li> <a href="http://www.zcool.com.cn/gfxs/" title="站酷免费素材下载频道，提供网友分享素材供您免费下载" target="_blank" rel="nofollow" class="linkTip">站酷素材</a>  </li>
                 <li> <a href="http://90sheji.com/" title="专注电商精品素材免费下载" target="_blank" rel="nofollow" class="linkTip">90设计</a>  </li>
                 <li> <a href="http://so.ui001.com/" title="设计素材搜索聚合" target="_blank" rel="nofollow" class="linkTip">搜素材</a>  </li>
@@ -1012,7 +1043,6 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li><a href="http://www.51.la/" target="_blank">网站统计工具</a></li>
                 <li><a href="http://www.jiathis.com/index2" target="_blank">按钮分享工具</a></li>
                 <li><a href="http://www.dingdone.com/index#case" target="_blank">APP制作</a></li>
-                <li><a href="http://www.gruntjs.net/" target="_blank">Grunt</a></li>
                 <li><a href="http://runjs.cn/" target="_blank">RUNJS</a></li>
                 <li><a href="http://markitup.jaysalvat.com/home/" target="_blank">markitup</a></li>
                 <li><a href="https://atom-china.org/" target="_blank">atom</a></li>
@@ -1088,7 +1118,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         <h1 class="lefttitle">编程</h1>
         <h2 class="nav-title" id="webcode">
             <i class="icon-code"></i>web开发<span class="sub-category">
-                <a href="#program" class="current notop">所有</a> | <a href="#webcode" class="notop">Web开发</a>| <a href="#softcode" class="notop">软件编程</a>| <a href="#library" class="notop">库</a>| <a href="#frame" class="notop">框架</a> | <a href="#plugin" class="notop">插件</a>            </span>
+                <a href="#program" class="current notop">所有</a> | <a href="#webcode" class="notop">Web开发</a>| <a href="#softcode" class="notop">软件编程</a>| <a href="#ziyuanku" class="notop">资源库</a>| <a href="#zititubiao" class="notop">字体图标</a>| <a href="#UIframe" class="notop">UI框架</a>|<a href="#js" class="notop">JS</a>| <a href="#library" class="notop">库</a>| <a href="#frame" class="notop">框架</a> | <a href="#plugin" class="notop">插件</a>            </span>
             <a href="#" class="more">更多&gt;&gt;</a>
         </h2>
         <div class="content flink">
@@ -1130,39 +1160,197 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
             </ul>
         </div>
         <!-- 分隔线 -->
+        <h2 class="nav-title" id="ziyuanku">
+            <i class="icon-code"></i>资源库
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li> <a href="http://cdn.code.baidu.com/" title="稳定，快速，全面，开源的国内CDN加速服务，由百度遍布全国各地100+个CDN节点提供加速服务" target="_blank" rel="nofollow" class="linkTip">百度静态资源公共库</a>  </li>
+                <li> <a href="https://npm.taobao.org/" title="这是一个完整 npmjs.org 镜像，你可以用此代替官方版本(只读)，同步频率目前为 10分钟 一次以保证尽量与官方服务同步" target="_blank" rel="nofollow" class="linkTip noframe">淘宝NPM镜像</a>  </li>
+                <li><a href="http://www.bootcdn.cn/" title="Bootstrap中文网支持并维护的开源项目免费 CDN 服务，致力于为 Bootstrap、jQuery、Angular 一样优秀的开源项目提供稳定、快速的免费 CDN 服务。BootCDN 所收录的开源项目主要同步于 cdnjs 仓库。" target="_blank" rel="nofollow" class="linkTip">BootCDN中文网</a></li>
+                <li><a href="http://www.jq22.com/" title="收集jQuery插件和提供各种jQuery特效的详细使用方法,在线预览，jQuery插件下载及教程" target="_blank" rel="nofollow" class="linkTip">jQuery插件库</a></li>
+                <li><a href="http://www.htmleaf.com/" title="搜集和整理各种jQuery插件，jQuery特效，jquery ui，jQuery 教程，JS特效，网页特效，以及各种html5，css3动画和效果，为前端开发者提供最全面的网页开发素材。" target="_blank" rel="nofollow" class="linkTip">jQuery之家</a></li>
+                <li><a href="https://www.awesomes.cn/" title="Web前端开发工程师需要的免费开源的高质量前端库、框架和插件" target="_blank" rel="nofollow" class="linkTip noframe">Awesomes前端资源库</a></li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
+        <h2 class="nav-title" id="tubiaoziti">
+            <i class="icon-code"></i>图标字体库
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li><a href="http://www.bootcss.com/p/font-awesome/" title="完美的图标字体 只为Bootstrap设计" target="_blank" rel="nofollow" class="linkTip">Font-Awesome</a></li>
+                <li><a href="http://weloveiconfonts.com/" title="We Love Icon Fonts" target="_blank" rel="nofollow" class="linkTip">We Love Icon Fonts</a></li>
+                <li><a href="https://glyphter.com/" title="The SVG Font Machine | Glyphter" target="_blank" rel="nofollow" class="linkTip noframe">Glyphter</a></li>
+                <li><a href="http://perfecticons.com/" title="快速创建分辨率独立的任何大小，形状或颜色的图标字体" target="_blank" rel="nofollow" class="linkTip">Perfect Icons</a></li>
+                <li><a href="http://www.xiconeditor.com/" title="帮助快速创建漂亮的web图标字体" target="_blank" rel="nofollow" class="linkTip">X-icon Editor</a></li>
+                <li><a href="http://fontello.com/" title="为你的网站提供一个简单的方法来创建一个自定义的图标字体" target="_blank" rel="nofollow" class="linkTip">Fontello</a></li>
+                <li> <a href="https://icomoon.io/app/#/select" title="使用icomoon您可以轻松地搜索和下载矢量图标或图标字体。此工具也可以用于图标集管理，它可以生成图标字体、SVGs、PDF、PNG等" target="_blank" rel="nofollow" class="linkTip">icoMoon</a>  </li>
+                <li><a href="http://www.iconfont.cn/plus" title="国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具" target="_blank" rel="nofollow" class="linkTip">阿里巴巴矢量图标</a></li>
+                <li> <a href="http://www.easyicon.net/" title="图标搜索引擎（中英）" target="_blank" rel="nofollow" class="linkTip">EasyIcon</a>  </li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
+        <h2 class="nav-title" id="UIframe">
+            <i class="icon-code"></i>UI框架
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li><a href="http://getbootstrap.com/" title="简洁、直观、强悍的前端开发框架，让web开发更迅速、简单" target="_blank" rel="nofollow" class="linkTip">Bootstrap(英)</a></li>
+                <li> <a href="http://www.bootcss.com/" title="简洁、直观、强悍的前端开发框架，让web开发更迅速、简单" target="_blank" rel="nofollow" class="linkTip">Bootstrap(中)</a>  </li>
+                <li><a href="http://foundation.zurb.com/index.html" target="_blank" rel="nofollow" class="linkTip">Foundation(英)</a></li>
+                <li><a href="http://www.foundcss.com/" target="_blank">Foundation(中)</a></li>
+                <li><a href="http://www.jeasyui.com/" title="帮助web开发者更轻松的打造出功能丰富并且美观的UI界面" target="_blank">Jquery EasyUI(英)</a></li>
+                <li><a href="http://www.jeasyui.net/" title="帮助web开发者更轻松的打造出功能丰富并且美观的UI界面" target="_blank" rel="nofollow" class="linkTip">Jquery EasyUI(中)</a></li>
+                <li><a href="http://css3lib.alloyteam.com/" title="使用本 CSS3 UI 库的 demo 可以使男生更帅、女生更美、人品更高，改善夫妻关系，提高生活品质。让你相信爱，让世界充满爱！" target="_blank"  rel="nofollow" class="linkTip">CSS3 UI Lib</a></li>
+                <li><a href="http://www.getuikit.net/" title="一款轻量级、模块化的前端框架，可快速构建强大的web前端界面" target="_blank"  rel="nofollow" class="linkTip">UIkit</a></li>
+                <li><a href="http://www.layui.com/" class="经典模块化前端框架" target="_blank" class="linkTip">Layui中文</a></li>
+                <li><a href="http://yuilibrary.com/" title="一个免费的、开源的用于构建丰富的交互式Web网页的JavaScript库和CSS库" target="_blank"  rel="nofollow" class="linkTip noframe">yui</a></li>
+                <li><a href="http://metroui.org.ua/" title="提供Windows Metro风格的Web开发项目的前端框架" target="_blank" rel="nofollow" class="linkTip">Metroui</a></li>
+                <li><a href="http://semantic-ui.com/" title="User Interface is the language of the web" target="_blank" rel="nofollow" class="linkTip">Semantic</a></li>
+                <li><a href="http://purecss.io/grids/" title="Fully customizable and responsive CSS grids" target="_blank" rel="nofollow" class="linkTip noframe">Purecss</a></li>
+                <li><a href="http://www.basscss.com/" title="Low-level CSS toolkit" target="_blank" rel="nofollow" class="linkTip">Basscss</a></li>
+                <li><a href="http://jqueryui.com/" title="jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. Whether you're building highly interactive web applications or you just need to add a date picker to a form control, jQuery UI is the perfect choice." target="_blank" rel="nofollow" class="linkTip">jQueryUI</a></li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
+        <h2 class="nav-title" id="js">
+            <i class="icon-code"></i>JS
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li><a href="http://jquery.com/" title="jQuery是一个快速、简洁的JavaScript框架。它的宗旨是“write Less，Do More”，即倡导写更少的代码，做更多的事情。它封装JavaScript常用的功能代码，提供一种简便的JavaScript设计模式，优化HTML文档操作、事件处理、动画设计和Ajax交互。" target="_blank" rel="nofollow" class="linkTip">jQuery</a></li>
+                <li><a href="http://www.zeptojs.cn/" title="Zepto.js 是专门为现代智能手机浏览器推出的Javascript框架" target="_blank" rel="nofollow" class="linkTip">ZeptoJS</a></li>
+                <li><a href="https://angularjs.org/" title="Angular是Google开发的前端技术框架，为克服HTML在构建应用上的不足而设计" target="_blank" class="linkTip noframe">AngularJS(英)</a></li>
+                <li><a href="http://www.apjs.net/" title="Angular是Google开发的前端技术框架，为克服HTML在构建应用上的不足而设计" target="_blank" class="linkTip">AngularJS(中)</a></li>
+                <li><a href="http://angularjs.cn/" title="Angular是Google开发的前端技术框架，为克服HTML在构建应用上的不足而设计" target="_blank" class="linkTip">AngularJS社区</a></li>
+                <li><a href="http://reactjs.cn/" title="React是Facebook开发的一款JS库" target="_blank" class="linkTip">ReactJS</a></li>
+                <li><a href="http://jslite.io/" title="JSLite是正对现代浏览器的一个主要的兼容jQuery的API简约的JavaScript库" target="_blank" class="linkTip">JSLite</a></li>
+                <li><a href="http://cn.vuejs.org/" title="渐进式JavaScript框架" target="_blank" class="linkTip">vue2.0中文网</a></li>
+                <li><a href="http://avalonjs.coding.me/" title="avalon2是一款基于虚拟DOM与属性劫持的 迷你、 易用、 高性能 的 前端MVVM框架， 拥有超优秀的兼容性, 支持移动开发, 后端渲染, WEB Component式组件开发, 无需编译, 开箱即用" target="_blank" class="linkTip">AvalonJS</a></li>
+                <li><a href="https://thinkjs.org/" title="ThinkJS是一款使用 ES6/7 特性全新开发的 Node.js MVC 框架，使用 ES7 中 async/await，或者 ES6 中的 */yield 特性彻底解决了 Node.js中异步嵌套的问题。同时吸收了国内外众多框架的设计理念和思想，让开发 Node.js 项目更加简单、高效。" target="_blank" class="linkTip noframe">ThinkJS</a></li>
+                <li><a href="http://www.expressjs.com.cn/" title="基于 Node.js 平台，快速、开放、极简的 web 开发框架" target="_blank" class="linkTip">ExpressJS中文网</a></li>
+                <li><a href="http://seajs.org/" title="提供简单、极致的模块化开发体验" target="_blank" class="linkTip">SeaJS</a></li>
+                <li><a href="http://www.artisanjs.com/" target="_blank" rel="nofollow" class="linkTip">ArtisanJS</a></li>
+                <li><a href="http://www.createjs.com/" target="_blank" rel="nofollow" class="linkTip">CreateJS</a></li>
+                <li><a href="http://rickharrison.github.io/validate.js/" title="轻量级的JavaScript表单验证库" target="_blank" class="linkTip">Validate表单验证</a></li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
+        <h2 class="nav-title" id="donghua">
+            <i class="icon-code"></i>动画库
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li><a href="https://daneden.github.io/animate.css/" title="animate.css是一个来自国外的 CSS3 动画库，它预设了抖动（shake）、闪烁（flash）、弹跳（bounce）、翻转（flip）、旋转（rotateIn/rotateOut）、淡入淡出（fadeIn/fadeOut）等多达 60 多种动画效果，几乎包含了所有常见的动画效果。" target="_blank" rel="nofollow" class="linkTip noframe">Animate</a></li>
+                <li><a href="http://leaverou.github.io/animatable/" title="为我们实现一些交互效果提供灵感" target="_blank" rel="nofollow" class="linkTip noframe">Animatable</a></li>
+                <li><a href="http://www.justinaguilar.com/animations" title="一组超酷CSS3动画效果" target="_blank" rel="nofollow" class="linkTip">Animations</a></li>
+                <li><a href="http://anicollection.github.io/" title="Anicollection网站是一个托管在Github平台上的集合了很多CSS3动画效果代码的网站，开发者可以免费下载所有动画效果源码使用，可以帮助网站开发者提高网站的设计效果和用户体验度。" target="_blank" rel="nofollow" class="linkTip">Anicollection</a></li>
+                <li><a href="http://elrumordelaluz.github.io/csshake/" title="CSS Shake是一个使用CSS3实现的动画样式，使用SASS编写，利用它我们可以实现多种不同样式的抖动效果" target="_blank" rel="nofollow" class="linkTip">Css Shake</a></li>
+                <li><a href="http://www.webhek.com/misc/css-shake/" title="一些让你的页面发抖的CSS类" target="_blank" rel="nofollow" class="linkTip">Css Shake(中)</a></li>
+                <li><a href="http://ianlunn.github.io/Hover/" title="一组超实用的CSS3悬停效果和动画" target="_blank" rel="nofollow" class="linkTip">Hover.css</a></li>
+                <li><a href="http://alloyteam.github.io/JXAnimate/jxanimate_demo.html" target="_blank" rel="nofollow" class="linkTip">JXAnimate</a></li>
+                <li><a href="http://tobiasahlin.com/spinkit/" target="_blank" rel="nofollow" class="linkTip">spinkit</a></li>
+                <li><a href="http://julian.com/research/velocity/" target="_blank" rel="nofollow" class="linkTip">velocity动画</a></li>
+                <li><a href="http://alloyteam.github.io/AlloyStick/" target="_blank" rel="nofollow" class="linkTip">AlloyStick骨骼动画引擎</a></li>
+                <li><a href="http://minimamente.com/example/rocket/" target="_blank" rel="nofollow" class="linkTip">rocket</a></li>
+                <li><a href="http://bennettfeely.com/cssynth/" target="_blank" rel="nofollow" class="linkTip">cssynth</a></li>
+                <li><a href="http://jeremyckahn.github.io/stylie/" target="_blank" rel="nofollow" class="linkTip">stylie</a></li>
+                <li><a href="http://labs.bigroomstudios.com/libraries/animo-js" target="_blank" rel="nofollow" class="linkTip">animo-js</a></li>
+                <li><a href="http://lvivski.com/anima/" target="_blank" rel="nofollow" class="linkTip">anima</a></li>
+                <li><a href="http://www.minimamente.com/example/magic_animations/" target="_blank" rel="nofollow" class="linkTip">magic_animations</a></li>
+                <li><a href="http://dynamicsjs.com/" target="_blank" rel="nofollow" class="linkTip">dynamicsjs</a></li>
+                <li><a href="http://anijs.github.io/" target="_blank" rel="nofollow" class="linkTip">anijs</a></li>
+                <li><a href="http://darsa.in/motio/" target="_blank" rel="nofollow" class="linkTip">motio</a></li>
+                <li><a href="https://daniel-lundin.github.io/snabbt.js/" target="_blank" rel="nofollow" class="linkTip noframe">snabbt</a></li>
+                <li><a href="https://jschr.github.io/textillate/" target="_blank" rel="nofollow" class="linkTip noframe">textillate</a></li>
+                <li><a href="http://git.blivesta.com/animsition/" target="_blank" rel="nofollow" class="linkTip">animsition</a></li>
+                <li><a href="http://matthew.wagerfield.com/parallax/" target="_blank" rel="nofollow" class="linkTip">parallax</a></li>
+                <li><a href="http://joaopereirawd.github.io/fakeLoader.js/" target="_blank" rel="nofollow" class="linkTip">fakeLoader</a></li>
+                <li><a href="http://mynameismatthieu.com/WOW/" target="_blank" rel="nofollow" class="linkTip">wow</a></li>
+                <li><a href="https://visionmedia.github.io/move.js/" target="_blank" rel="nofollow" class="linkTip noframe">move</a></li>
+                <li><a href="http://jaukia.github.io/easie/" target="_blank" rel="nofollow" class="linkTip">easie</a></li>
+                <li><a href="http://catc.github.io/iGrowl/" target="_blank" rel="nofollow" class="linkTip">iGrowl</a></li>
+                <li><a href="http://www.joelambert.co.uk/morf/" target="_blank" rel="nofollow" class="linkTip">morf</a></li>
+                <li><a href="http://ricostacruz.com/jquery.transit/" target="_blank" rel="nofollow" class="linkTip">transit</a></li>
+                <li><a href="http://greensock.com/" target="_blank" rel="nofollow" class="linkTip">greensock</a></li>
+                <li><a href="http://manos.malihu.gr/jquery-custom-content-scroller/" target="_blank" rel="nofollow" class="linkTip noframe">自定义滚动条</a></li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
+        <h2 class="nav-title" id="gundong">
+            <i class="icon-code"></i>触屏滚动
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li><a href="http://www.superslide2.com/TouchSlide/index.html" title="" target="_blank" rel="nofollow" class="linkTip">TouchSlide</a></li>
+                <li><a href="http://www.swiper.com.cn/" title="" target="_blank" rel="nofollow" class="linkTip">Swiper</a></li>
+                <li><a href="http://2.swiper.com.cn/" class="开源强大的免费触摸滑动插件" target="_blank" class="linkTip">swiper2触摸滑动</a></li>
+                <li><a href="http://owlgraphic.com/owlcarousel/" title="" target="_blank" rel="nofollow" class="linkTip">owlcarousel</a></li>
+                <li><a href="http://www.superslide2.com/" title="" target="_blank" rel="nofollow" class="linkTip">superslide2</a></li>
+                <li><a href="http://be-fe.github.io/iSlider/" title="" target="_blank" rel="nofollow" class="linkTip">iSlider</a></li>
+                <li><a href="http://alvarotrigo.com/fullPage/" title="" target="_blank" rel="nofollow" class="linkTip">fullPage</a></li>
+                <li><a href="https://github.com/yanhaijing/zepto.fullpage" title="" target="_blank" rel="nofollow" class="linkTip noframe">zepto.fullpage</a></li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
+        <h2 class="nav-title" id="datechoice">
+            <i class="icon-code"></i>日期选择器
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li><a href="http://lexxus.github.io/jq-timeTo/" title="" target="_blank" rel="nofollow" class="linkTip">jq-timeTo</a></li>
+                <li><a href="http://flipclockjs.com/" title="" target="_blank" rel="nofollow" class="linkTip">FlipClockJS</a>
+                <li><a href="http://www.bootcss.com/p/bootstrap-datetimepicker/" title="" target="_blank" rel="nofollow" class="linkTip">DatetimePicker</a></li>
+                <li><a href="http://amsul.ca/pickadate.js/" title="" target="_blank" rel="nofollow" class="linkTip">pickadate</a></li>
+                <li><a href="http://glad.github.io/glDatePicker/" title="" target="_blank" rel="nofollow" class="linkTip">glDatePicker</a></li>
+                <li><a href="http://keith-wood.name/calendarsPicker.html" title="" target="_blank" rel="nofollow" class="linkTip">calendarsPicker</a></li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
+        <h2 class="nav-title" id="chart">
+            <i class="icon-code"></i>图表
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li><a href="http://echarts.baidu.com/" title="" target="_blank" rel="nofollow" class="linkTip">Echarts</a></li>
+                <li><a href="http://www.hcharts.cn/" title="让数据可视化更简单,兼容 IE6+、完美支持移动端、图表类型丰富、方便快捷的 HTML5 交互性图表库" target="_blank" rel="nofollow" class="linkTip">Highcharts交互图表库</a></li>
+                <li><a href="http://www.jscharts.com/" title="" target="_blank" rel="nofollow" class="linkTip">Jscharts</a></li>
+                <li><a href="http://www.bootcss.com/p/chart.js/" title="" target="_blank" rel="nofollow" class="linkTip">Chart</a></li>
+                <li><a href="http://www.rgraph.net/" title="" target="_blank" rel="nofollow" class="linkTip">JS图表</a></li>
+                <li><a href="http://c3js.org/" title="" target="_blank" rel="nofollow" class="linkTip">C3.js</a></li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
         <h2 class="nav-title" id="library">
             <i class="icon-code"></i>库
         </h2>
         <div class="content flink">
             <ul class="time-list clearfix">
-                <li><a href="http://www.bootcdn.cn/" title="稳定、快速、免费的开源项目 CDN 服务" target="_blank" rel="nofollow" class="linkTip">BootCDN中文网</a></li>
-                <li><a href="https://www.awesomes.cn/" title="Web前端开发工程师需要的免费开源的高质量前端库、框架和插件" target="_blank" rel="nofollow" class="linkTip noframe">Awesomes前端资源库</a></li>
-                <li><a href="http://www.bootcss.com/p/font-awesome/" title="完美的图标字体 只为Bootstrap设计" target="_blank" rel="nofollow" class="linkTip">Font-Awesome</a></li>
-                <li><a href="http://www.webhek.com/misc/css-shake/" title="一些让你的页面发抖的CSS类" target="_blank" rel="nofollow" class="linkTip">css发抖</a></li>
-                <li><a href="http://www.hcharts.cn/" title="让数据可视化更简单,兼容 IE6+、完美支持移动端、图表类型丰富、方便快捷的 HTML5 交互性图表库" target="_blank" rel="nofollow" class="linkTip">HighCharts交互图表库</a></li>
-                <li><a href="http://echarts.baidu.com/index.html" target="_blank" rel="nofollow" class="linkTip">ECharts</a></li>
                 <li><a href="http://modernizr.cn/" title="Modernizr 是一个 JavaScript 库，用于检测用户浏览器的 HTML5 与 CSS3 特性" target="_blank" rel="nofollow" class="linkTip">modernizr</a></li>
-                <li><a href="http://masonry.desandro.com/" target="_blank" rel="nofollow" class="linkTip">网格库</a></li>
-                <li><a href="http://velocityjs.org/" target="_blank" rel="nofollow" class="linkTip">动画库</a></li>
-                <li><a href="http://www.zeptojs.cn/" target="_blank" rel="nofollow" class="linkTip">zeptojs</a></li>
-                <li><a href="http://www.artisanjs.com/" target="_blank" rel="nofollow" class="linkTip">ArtisanJS</a></li>
-                <li><a href="http://www.rgraph.net/" target="_blank" rel="nofollow" class="linkTip">JS图表</a></li>
-                <li><a href="http://manos.malihu.gr/jquery-custom-content-scroller/" target="_blank" rel="nofollow" class="linkTip">自定义滚动条</a></li>
-                <li><a href="http://www.embeddedjs.com/" target="_blank" rel="nofollow" class="linkTip">ejs</a></li>
-                <li><a href="http://jade-lang.com/" target="_blank" rel="nofollow" class="linkTip">jade</a></li>
-                <li><a href="http://handlebarsjs.com/" target="_blank" rel="nofollow" class="linkTip">handlebarsjs</a></li>
-                <li><a href="http://velocity.apache.org/" target="_blank" rel="nofollow" class="linkTip">velocity</a></li>
-                <li><a href="http://www.dustjs.com/" target="_blank" rel="nofollow" class="linkTip">dustjs</a></li>
-                <li><a href="http://ricostacruz.com/nprogress/" target="_blank" rel="nofollow" class="linkTip">NProgress.js</a></li>
-                <li><a href="http://c3js.org/" target="_blank" rel="nofollow" class="linkTip">C3.js</a></li>
-                <li><a href="http://www.jsviews.com/" target="_blank" rel="nofollow" class="linkTip">JsRender</a></li>
-                <li><a href="http://socket.io/" target="_blank" rel="nofollow" class="linkTip">socket.io</a></li>
-                <li><a href="http://todomvc.com/" target="_blank" rel="nofollow" class="linkTip">TodoMVC</a></li>
-                <li><a href="https://lodash.com/" target="_blank" rel="nofollow" class="linkTip noframe">Lodash</a></li>
-                <li><a href="http://lodashjs.com/" target="_blank" rel="nofollow" class="linkTip">Lodashjs中文</a></li>
-                <li><a href="https://aerotwist.com/" target="_blank" rel="nofollow" class="linkTip noframe">Aerotwist</a></li>
-                <li><a href="http://www.createjs.com/" target="_blank" rel="nofollow" class="linkTip">CreateJS</a></li>
-                <li><a href="http://snapsvg.io/" target="_blank" rel="nofollow" class="linkTip">SnapSvg</a></li>
+                <li><a href="http://masonry.desandro.com/" title="" target="_blank" rel="nofollow" class="linkTip">网格库</a></li>
+                <li><a href="http://www.embeddedjs.com/" title="" target="_blank" rel="nofollow" class="linkTip">ejs</a></li>
+                <li><a href="http://jade-lang.com/" title="" target="_blank" rel="nofollow" class="linkTip">jade</a></li>
+                <li><a href="http://handlebarsjs.com/" title="" target="_blank" rel="nofollow" class="linkTip">handlebarsjs</a></li>
+                <li><a href="http://velocity.apache.org/" title="" target="_blank" rel="nofollow" class="linkTip">velocity</a></li>
+                <li><a href="http://www.dustjs.com/" title="" target="_blank" rel="nofollow" class="linkTip">dustjs</a></li>
+                <li><a href="http://ricostacruz.com/nprogress/" title="" target="_blank" rel="nofollow" class="linkTip">NProgress.js</a></li>
+                <li><a href="http://www.jsviews.com/" title="" target="_blank" rel="nofollow" class="linkTip">JsRender</a></li>
+                <li><a href="http://socket.io/" title="" target="_blank" rel="nofollow" class="linkTip">socket.io</a></li>
+                <li><a href="http://todomvc.com/" title="" target="_blank" rel="nofollow" class="linkTip">TodoMVC</a></li>
+                <li><a href="https://lodash.com/" title="" target="_blank" rel="nofollow" class="linkTip noframe">Lodash</a></li>
+                <li><a href="http://lodashjs.com/" title="" target="_blank" rel="nofollow" class="linkTip">Lodashjs中文</a></li>
+                <li><a href="https://aerotwist.com/" title="" target="_blank" rel="nofollow" class="linkTip noframe">Aerotwist</a></li>
+                <li><a href="http://snapsvg.io/" title="" target="_blank" rel="nofollow" class="linkTip">SnapSvg</a></li>
+                <li><a href="http://t4t5.github.io/sweetalert/" title="美化弹出警告样式插件" target="_blank" rel="nofollow" class="linkTip">SweetAlert</a></li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -1172,21 +1360,13 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         </h2>
         <div class="content flink">
             <ul class="time-list clearfix">
-                <li> <a href="http://www.bootcss.com/" title="简洁、直观、强悍的前端开发框架，让web开发更迅速、简单" target="_blank" rel="nofollow" class="linkTip">Bootstrap中文网</a>  </li>
                 <li> <a href="http://www.gruntjs.net/" title="JavaScript 世界的构建工具" target="_blank" rel="nofollow" class="linkTip">Grunt中文网</a>  </li>
                 <li> <a href="http://www.gulpjs.com.cn/" title="用自动化构建工具增强你的工作流程" target="_blank" rel="nofollow" class="linkTip">gulp中文网</a>  </li>
-                <li><a href="http://www.foundcss.com/" target="_blank">Foundation中文网</a></li>
-                <li><a href="http://www.expressjs.com.cn/" title="基于 Node.js 平台，快速、开放、极简的 web 开发框架" target="_blank" class="linkTip">Express中文网</a></li>
-                <li><a href="http://cn.vuejs.org/" title="渐进式JavaScript框架" target="_blank" class="linkTip">vue2.0中文网</a></li>
-                <li><a href="http://www.layui.com/" class="经典模块化前端框架" target="_blank" class="linkTip">Layui中文</a></li>
-                <li><a href="http://www.apjs.net/" title="为克服HTML在构建应用上的不足而设计" target="_blank" class="linkTip">angularjs</a></li>
                 <li><a href="http://www.sassmeister.com/" target="_blank" class="noframe">样式框架</a></li>
                 <li><a href="http://www.17sucai.com/preview/1/2014-12-23/ScatteredPolaroidsGallery/index.html" target="_blank">画廊框架</a></li>
-                <li><a href="https://thinkjs.org/" target="_blank" class="noframe">thinkjs</a></li>
                 <li><a href="https://hexo.io/" target="_blank">hexo博客框架</a></li>
                 <li><a href="http://backbonejs.org/" target="_blank">backbonejs</a></li>
                 <li><a href="http://underscorejs.org/" target="_blank">underscorejs</a></li>
-                <li><a href="http://www.jeasyui.com/" target="_blank">easyui</a></li>
                 <li><a href="http://emberjs.com/" target="_blank">EmberJs</a></li>
                 <li><a href="https://alibaba.github.io/weex/index.html" target="_blank">Weex</a></li>
                 <div style="clear:both;"></div>
@@ -1199,7 +1379,6 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         <div class="content flink">
             <ul class="time-list clearfix">
                 <li><a href="http://www.oschina.net/project/tag/273/jquery/" title="共有近3000款jQuery插件开源软件" target="_blank" class="linkTip">开源中国jQuery插件</a></li>
-                <li><a href="http://2.swiper.com.cn/" class="开源强大的免费触摸滑动插件" target="_blank" class="linkTip">swiper触摸滑动插件</a></li>
                 <li><a href="http://mwlmt.cc/content/wljdtcj/index.html" title="一个没有什么卵用的焦点图插件" target="_blank" class="linkTip">WLFocus焦点图插件</a></li>
                 <li><a href="http://demo.jb51.net/js/myfocus/" title="可能是目前唯一的js焦点图库" target="_blank" class="linkTip">MyFocus焦点图</a></li>
                 <li><a href="http://fex.baidu.com/webuploader/" title="一个简单的以HTML5为主，FLASH为辅的现代文件上传组件" target="_blank" class="linkTip">webuploader上传组件</a></li>
@@ -1303,11 +1482,11 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
         <!-- 分隔线 -->
     </div>
     <!--.section-->
-    <div class="section mtop" id="cool">
-        <h1 class="lefttitle">酷站</h1>
+    <div class="section mtop" id="zixun">
+        <h1 class="lefttitle">资讯</h1>
         <h2 class="nav-title">
-            <i class="icon-globe"></i>小清新<span class="sub-category">
-                <a href="#cool" class="current notop">所有</a> | <a href="#xiaoqingxin" class="notop">小清新</a>| <a href="#chuangye" class="notop">创业融资</a>| <a href="#goodblog" class="notop">个性独立博客</a>            </span>
+            <i class="icon-globe"></i>科技<span class="sub-category">
+                <a href="#cool" class="current notop">所有</a> | <a href="#keji" class="notop">科技</a>|<a href="#xiaoqingxin" class="notop">小淸新</a>| <a href="#chuangye" class="notop">创业融资</a>| <a href="#goodblog" class="notop">个性独立博客</a>            </span>
             <a href="#" class="more">更多&gt;&gt;</a>
         </h2>
         <div class="content flink">
@@ -1315,6 +1494,35 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li> <a href="http://www.huxiu.com" title="有视角的、个性化商业资讯与交流平台，核心关注一系列明星公司" target="_blank" rel="nofollow" class="linkTip">虎嗅网</a>  </li>
                 <li> <a href="http://www.leiphone.com/" title="专注于移动互联网创新和创业的科技博客，客观敏锐地记录移动互联网的每一天" target="_blank" rel="nofollow" class="linkTip">雷锋网</a>  </li>
                 <li> <a href="http://www.36kr.com/" title="36氪是一个关注互联网创业的科技博客" target="_blank" rel="nofollow" class="linkTip">36氪</a>  </li>
+                <li> <a href="http://www.geekpark.net/" title="极客公园，为你带来互联网热门趋势、热点产品的深度分析，发掘产品和趋势的价值" target="_blank" rel="nofollow" class="linkTip noframe">极客公园</a>  </li>
+                <li> <a href="http://www.niaogebiji.com/" title="移动互联网第一干货平台，移动互联网新手学习好去处" target="_blank" rel="nofollow" class="linkTip">鸟哥笔记</a>  </li>
+                <li> <a href="http://www.infoq.com/cn/" title="关注软件开发领域知识与创新的在线新闻/社区网站" target="_blank" rel="nofollow" class="linkTip">InfoQ中文站</a>  </li>
+                <li> <a href="http://www.techug.com/" title="用程序师的眼光看世界" target="_blank" rel="nofollow" class="linkTip">程序师视野网</a>  </li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
+        <h2 class="nav-title" id="xiaoqingxin">
+            <i class="icon-globe"></i>创意
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li> <a href="http://www.topys.cn/" title="全球顶尖创意分享平台" target="_blank" rel="nofollow" class="linkTip">TOPYS顶尖文案</a>  </li>
+                <li> <a href="http://www.qdaily.com/" title="以商业视角观察生活并启发你的好奇心，有想法的阅读网站" target="_blank" rel="nofollow" class="linkTip">好奇心日报</a>  </li>
+                <li> <a href="http://www.lemo.me/" title="最优质的文化创意产业互动平台，为专业人才及专业机构提供展示与合作机会" target="_blank" rel="nofollow" class="linkTip">乐摩网</a>  </li>
+                <li> <a href="http://www.art-ba-ba.com/" title="中国当代艺术社区" target="_blank" rel="nofollow" class="linkTip">中国当代艺术社区</a>  </li>
+                <li> <a href="http://www.patent-cn.com/" title="设计发明与创意商机" target="_blank" rel="nofollow" class="linkTip">专利之家</a>  </li>
+                <li> <a href="http://www.pplock.com/" title="分享关于美的一切" target="_blank" rel="nofollow" class="linkTip">PPLock</a>  </li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <!-- 分隔线 -->
+        <h2 class="nav-title" id="xiaoqingxin">
+            <i class="icon-globe"></i>小淸新
+        </h2>
+        <div class="content flink">
+            <ul class="time-list clearfix">
+                <li> <a href="http://ziranzhi.com/" title="我们关注自然，那么我们的任务就是给你介绍这个世界上最稀有，最奇特，最酷的自然事物" target="_blank" rel="nofollow" class="linkTip">自然志</a>  </li>
                 <li> <a href="http://www.woxihuan.com/" title="收集喜欢的图片和网页。可以查阅别人收集的内容，或看看热门收集频道等" target="_blank" rel="nofollow" class="linkTip">我喜欢</a>  </li>
                 <li> <a href="http://www.xiachufang.com/" title="一个吃货的精彩分享平台，提供有版权的实用菜谱做法与饮食知识" target="_blank" rel="nofollow" class="linkTip">下厨房</a>  </li>
                 <li> <a href="http://www.lingshikong.com/" title="零食控是一个以少而精为特色，专注于优质品牌零食推荐的新媒体" target="_blank" rel="nofollow" class="linkTip">零食控</a>  </li>
@@ -1322,6 +1530,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li> <a href="http://www.meishichina.com/" title="中文美食网站与厨艺交流社区，拥有最多的美食做法、菜谱、食谱大全" target="_blank" rel="nofollow" class="linkTip">美食天下</a>  </li>
                 <li> <a href="http://www.lemo.me/" title="最优质的文化创意产业互动平台，为专业人才及专业机构提供展示与合作机会" target="_blank" rel="nofollow" class="linkTip">乐摩网</a>  </li>
                 <li> <a href="http://www.haodou.com/" title="提供最全、最优质的中文菜谱做法，分享与点评您最爱的美食" target="_blank" rel="nofollow" class="linkTip">好豆网</a>  </li>
+                <li> <a href="http://www.ufochn.com/" title="探寻外星人的足迹，寻求宇宙未解之谜" target="_blank" rel="nofollow" class="linkTip">UFO中文网</a>  </li>
                 <li> <a href="http://qng.im/" title="小众飞行员的精神燃料补给站" target="_blank" rel="nofollow" class="linkTip">青果</a>  </li>
                 <div style="clear:both;"></div>
             </ul>
@@ -1542,6 +1751,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li><a href="http://www.dsqndh.com/" title="争做福利导航第一站" target="_blank" rel="nofollow" class="linkTip">屌丝青年导航</a> </li>
                 <li><a href="http://www.neihan999.com/FQ/" title="收录了中国大陆不能正常访问的网址" target="_blank" rel="nofollow" class="linkTip">墙外世界导航</a> </li>
                 <li><a href="http://mwlmt.cc/d/" title="为用户提供门户、新闻、视频、游戏、小说、彩票等各种分类的优秀内容和网站入口" target="_blank" rel="nofollow" class="linkTip">五花八门导航</a>  </li>
+                <li><a href="http://www.29tee.com/dh/" title="这是一个有别于主流导航的网站，主打酷站，小众的站点，这里你可能找不到主流的大站" target="_blank" rel="nofollow" class="linkTip">依依印社小众导航</a>  </li>
                 <div style="clear:both;"></div>
             </ul>
         </div>
@@ -1575,7 +1785,7 @@ FaceBook·Youtube·Google一键到达" target="_blank" rel="nofollow" class="lin
                 <li><a class="notop" href="#ruanjian">软件应用</a></li>
                 <li><a class="notop" href="#program">编程</a></li>
                 <li><a class="notop" href="#study">学习</a></li>
-                <li><a class="notop" href="#cool">酷站</a></li>
+                <li><a class="notop" href="#zixun">资讯</a></li>
                 <li><a class="notop" href="#fuli">福利</a></li>
                 <li><a class="notop" href="#qiangwai">墙外世界</a></li>
                 <li><a class="notop" href="#daohang">导航</a></li>
