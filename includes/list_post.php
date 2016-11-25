@@ -25,7 +25,7 @@
                     	<span class="info_views info_ico"><?php echo getPostViews(get_the_ID());?></span>
                         <span class="info_comment info_ico"><?php comments_popup_link('0','1','%');?></span>
                         <span class="info_category info_ico"><?php the_category(', ')?></span> 
-                        <span class="info_website"><a href="/view.php?url=<?php echo get_post_meta($post->ID,"website",true);?>&name=<?php echo get_post_meta($post->ID,"webname",true);?>&go=<?php echo get_post_meta($post->ID,"go",true);?>" target="_blank" title="访问官方网站 <?php the_title(); ?>" rel="website" class="title">+View</a></span>
+                        <span class="info_website"><a href="/view.php?url=<?php echo get_post_meta($post->ID,"website",true);?>&name=<?php echo get_post_meta($post->ID,"webname",true);?>&go=<?php echo get_post_meta($post->ID,"go",true);?>" target="_blank" title="访问官方网站 <?php the_title(); ?>" rel="website" class="title">预览</a></span>
     				</div>
     		</li>
 	<?php endwhile;endif;?>
