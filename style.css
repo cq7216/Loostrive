@@ -126,7 +126,7 @@ a.mpause{display:none}
 .headroom--unpinned #search{top:18px;}
 .headroom--unpinned .logo .pic{width:90px;margin:7px 0 5px 0;display: block;}
 .headroom--unpinned .logo .text{width:110px;}
-#navOne {position:fixed;top:0; transition: all 500ms; -webkit-transition: all 500ms;z-index: 20;height:80px;width:100%; background: #000; font-family: 'Microsoft YaHei', 微软雅黑;font-size:16px; }
+#navOne {position:fixed;top:0; transition: all 500ms; -webkit-transition: all 500ms;z-index: 20;height:80px;width:100%; background: #2b2b2b; font-family: 'Microsoft YaHei', 微软雅黑;font-size:16px; }
 .logo .pic{width:130px;margin:10px 0 8px 0;display: block;transition: all 700ms; -webkit-transition: all 700ms;}
 .logo .text{width:130px;display: block;transition: all 700ms; -webkit-transition: all 700ms;}
 #loadbar{position:absolute;display:none;background:#ff0000;box-shadow:2px 0px 10px #ff0000;-moz-box-shadow:2px 0px 10px #000000;-webkit-box-shadow:2px 0px 10px #000000;height:5px;}
