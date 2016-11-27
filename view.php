@@ -2,6 +2,14 @@
     require_once($_SERVER['DOCUMENT_ROOT']. '/wp-load.php'); 
     $url = $_GET[url];
     $name=$_GET[name];
+    $go=$_GET[go];
+    // if ($go==true)  //如果$go=1，则跳转到该网页
+    if ($go==true or $go==false) // 不管$go=1还是0，都跳转到该网页
+    {
+        header("Location:$url"); 
+        //确保重定向后，后续代码不会被执行 
+        exit;
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,9 +44,9 @@
 </head>
 <body>
     <div class="windowBar">
-        <a class="wvTip" wvtip="淘小众" href="../" title="淘小众">
+        <a class="wvTip" wvtip="小众网站" href="../" title="小众网站">
             <img src="http://www.zm1z.com/img/siteWindow/star.png" width="50px" height="50px">
-        <div class="wvTipArea">淘小众</div></a>
+        <div class="wvTipArea">小众网站</div></a>
         <a class="wvTip" wvtip="点评网站" href="../" title="点评网站">
             <img src="http://www.zm1z.com/img/siteWindow/chat.png" width="50px" height="50px">
         <div class="wvTipArea">点评网站</div></a>
