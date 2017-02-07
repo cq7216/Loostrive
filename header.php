@@ -47,8 +47,8 @@
             <div class="txzlogo">
                 <a href="http://taoxiaozhong.com" class="logo">
                     <h1 class="hidden">淘小众-推荐优秀小众网站</h1>
-                    <img src="http://taoxiaozhong.com/wp-content/themes/Loostrive/images/taoxiaozhong.png" class="pic" alt="淘小众">
-                    <img src="http://taoxiaozhong.com/wp-content/themes/Loostrive/images/text.png" class="text" alt="推荐优秀小众网站">
+                    <img src="http://taoxiaozhong.com/wp-content/themes/Loostrive/images/taoxiaozhong0.png" class="pic" alt="淘小众">
+                    <img src="http://taoxiaozhong.com/wp-content/themes/Loostrive/images/text0.png" class="text" alt="推荐优秀小众网站">
                 </a>
             </div>
           <div id="navfenlei">
