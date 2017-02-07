@@ -67,7 +67,7 @@
 			
     <?php if (get_option('strive_aboutme') == 'Display') { ?>    
 		<div class="row box setanimate visible">
-			<div id="authorarea">
+			<div id="authorarea" class="ds-avatar">
 				<?php if (function_exists('get_avatar')) { echo get_avatar( get_the_author_email(), '100' ); }?>
                 <i class="author_arrow"></i>
             </div>
