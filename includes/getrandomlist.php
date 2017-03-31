@@ -31,7 +31,7 @@ $query_posts->query($args);
                     <div class="article">
                         <h2><a href="<?php the_permalink();?>" rel="bookmark" title="<?php the_title_attribute();?>"><?php echo the_title();?></a></h2>
                          <?php if (get_option('strive_summary') == 'Display') { ?>
-                            <div class="entry_post">
+                            <!-- <div class="entry_post">
                                 <p>
                                 <?php if (has_excerpt()) {
                                     echo $description = get_the_excerpt();
@@ -39,7 +39,7 @@ $query_posts->query($args);
                                     echo mb_strimwidth(strip_tags(apply_filters('the_content', $post->post_content)), 0, 150,"...","utf-8");
                                 } ?>
                                 </p>
-                            </div>
+                            </div> -->
                         <?php }?>
                     </div>
                     <div class="tags">

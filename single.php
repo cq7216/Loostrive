@@ -47,7 +47,7 @@
                 <div style="margin:0 auto;width:640px;">
                 </div>
                 <!-- 文末广告结束 -->
-                <div class="open-message"><i class="fa fa-bullhorn"></i><a href="/view.php?url=<?php echo get_post_meta($post->ID,"website",true);?>&name=<?php echo get_post_meta($post->ID,"webname",true);?>" target="_blank">快速访问网站：【<?php echo get_post_meta($post->ID,"webname",true);?>】</a><br>淘小众, 版权所有丨如未注明 , 均为原创<br>更多精品网站请进入<a href="../dh" title="小众实用导航">小众实用导航</a></div>
+                <div class="open-message"><i class="fa fa-bullhorn"></i><strong>快速访问网站：</strong><a href="/view.php?url=<?php echo get_post_meta($post->ID,"website",true);?>&name=<?php echo get_post_meta($post->ID,"webname",true);?>" target="_blank">【<?php echo get_post_meta($post->ID,"webname",true);?>】</a><br>「淘小众」版权所有丨如未注明 , 均为原创<br>更多精品网站请访问<a href="../dh" target="_blank" title="小众实用导航">【小众实用导航】</a></div>
                	<div class="clear"></div>
                 <?php if(function_exists('the_ratings')) { the_ratings(); } ?>
 
@@ -95,7 +95,7 @@
 	</div>
      <?php } ?>
     	<div class="clear"></div>
-	<div id="comments_box setanimate visible" class="box">
+	<div id="comments_box setanimate visible" class="box pinglun">
 		<?php comments_template('', true); ?>
     </div>
 	<?php endwhile;endif;?>

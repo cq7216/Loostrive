@@ -78,9 +78,10 @@ if( isset($_POST['tougao_form']) && $_POST['tougao_form'] == 'send'){
 	<?php get_sidebar()?>
     <div class="mainleft">
 		<div class="article_container row  box">
-			<h1 class="page_title"><?php the_title()?></h1>
+			<h1 class="page_title">在线快速投稿通道</h1>
         	<div class="context cont_none">
 				<?php the_content(); ?>
+                <p>如果您觉得某个网站不错，可通过在线快速投稿通道直接将网站推荐给我们，请务必填写您推荐网站的网址及推荐理由，谢谢！</p>
                 <form method="post" class="forms columnar" action="<?php echo $_SERVER["REQUEST_URI"]; ?>">
                 	<fieldset>
                     <ul>
@@ -125,6 +126,12 @@ if( isset($_POST['tougao_form']) && $_POST['tougao_form'] == 'send'){
                     </fieldset>
                     </form>
  				</div>
+                <h1 class="page_title">完整稿件电子邮箱投稿</h1>
+                <div class="context cont_none">
+                    <p>如果您的稿件比较完整，并包含图片等附件信息，建议通过电子邮箱方式投稿。</p>
+                    <p style="border: 1px dashed #ccc; padding: 20px; margin: 20px;">投稿邮箱：1457063@qq.com</p>
+                    <p style="color:red;">建议您采取「邮件投稿」方式，方便小编第一时间获取您的投稿信息，并及时作出反馈。</p>
+                </div>
             </div>
 	<?php endwhile;?><?php else: ;echo'';?><?php endif;?>
     </div>
