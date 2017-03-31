@@ -22,7 +22,44 @@
 <script src="http://7b1ff5.com1.z0.glb.clouddn.com/focus.js"></script> -->
 <!-- 滑动焦点图end -->
 <h1 style="display:none;">淘小众 | 推荐优秀小众网站</h1>
+<style text="text/css">
+    .nav-tags{margin: 20px 0 10px; border: 1px dashed #222; padding: 10px;border-radius: 3px;}
+    .nav-tags li {display: inline-block; font-size: 15px; line-height: 1.6em;}
+    .nav-tags li+li {margin-left: 10px; }
+    .nav-tags .nav-fenlei a {padding: 2px 4px; border-radius: 3px; font-size: 13px; color:#000;}
+    .nav-tags .nav-fenlei a:hover {background-color: #ccc; }
+    .nav-tags .nav-fenlei .tag_selected a{background: #000;color:#fff;}
+</style>
 <div class="container" id="content">
+    <div class="nav-tags">
+        <ul class="nav-fenlei">
+            <li class="tag_selected"><a href="./">全部网站</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/站长推荐">站长推荐</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/资源搜索">资源搜索</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/web前端">web前端</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/影视">影视</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/音乐">音乐</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/摄影">摄影</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/字体">字体</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/编程">编程</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/社区">社区</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/生活">生活</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/应用">应用</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/软件">软件</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/购物">购物</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/设计">设计</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/素材">素材</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/游戏">游戏</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/动漫">动漫</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/导航">导航</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/资讯">资讯</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/工具">工具</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/创意">创意</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/电台">电台</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/站长">站长</a></li>
+            <li><a href="http://taoxiaozhong.com/tag/国外网站">国外网站</a></li>
+            </ul>
+    </div>
 	<?php if (get_option('strive_gg') == 'Display') { ?>
 	<div class="subsidiary row box setanimate visible">
 		<div class="bulletin fourfifth">
